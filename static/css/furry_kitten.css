@@ -1,0 +1,562 @@
+#page0 {
+  background: url("../image/furry_kitten/page0_background.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 700px;
+  background-size: cover;
+}
+
+#page0 #content {
+  width: 1494px;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page0 .font1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 79.6px;
+  color: #1f1f1f;
+  font-weight: Bold;
+  position: absolute;
+  line-height:96.5px;
+}
+
+#page0 .font2 {
+  font-family: HelveticaNeue;
+  font-size: 28.8px;
+  color: #1f1f1f;
+  font-weight: Bold;
+  position: absolute;
+}
+
+#page0 .font3 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  color: #1f1f1f;
+  position: absolute;
+}
+
+#page1 {
+  background: url("../image/furry_kitten/page1_background.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 810.8px;
+  background-size: cover;
+}
+
+#page1 #content {
+  width: 1494px;
+  height: 810.8px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page1 .font1 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #ffffff;
+  width: 428px;
+  text-align: justify !important;
+}
+
+#page1 .font2 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #ffffff;
+  width: 316px;
+  text-align: justify !important;
+}
+
+#page1 .font3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 21.6px;
+  color: #ffc1c5;
+  font-weight: Regular;
+  position: absolute;
+}
+
+#page2 {
+  width: 1494px;
+  height: 714px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page2 .font1 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  width: 460px;
+  text-align: justify !important;
+}
+
+#page2 .font2 {
+  font-family: Helvetica;
+  font-size: 16.8px;
+  position: absolute;
+  color: #821d30;
+  font-weight: bold;
+  width: 129.6px;
+}
+
+#page2 .font3 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #3b3b3b;
+  width: 460px;
+}
+
+#page2 .font4 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #821d30;
+}
+
+#page2 .font5 {
+  font-family: HelveticaNeue;
+  font-size: 28.8px;
+  position: absolute;
+  color: #ffffff;
+  width: 228.8px;
+  font-weight: bold;
+}
+
+#page3 {
+  width: 1494px;
+  height: 688px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page3 .font1 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  width: 467.2px;
+  text-align: justify !important;
+}
+
+#page3 .font2 {
+  font-family: HelveticaNeue-Light;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+}
+
+#page3 .font3 {
+  font-family: HelveticaNeue-Light;
+  font-size: 14.4px;
+  position: absolute;
+  color: #3b3b3b;
+  width: 310px;
+  text-align: justify !important;
+}
+
+#page3 .font4 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #821d30;
+}
+
+#page4 {
+  width: 1494px;
+  height: 824px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page4 .font1 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  width: 430px;
+  text-align: justify !important;
+}
+
+#page4 .font2 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #5d5d5d;
+}
+
+#page4 .font3 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #4a4a4a;
+  font-weight: bold;
+}
+
+#page4 .font4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28.8px;
+  position: absolute;
+  color: #e199a1;
+  font-weight: bold;
+  width: 971.2px;
+  text-align: justify !important;
+}
+
+#page5 {
+  width: 1494px;
+  height: 384px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page5 .font1 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  width: 482.4px;
+  text-align: justify !important;
+}
+
+#page6 {
+  width: 1494px;
+  height: 636px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page6 .font1 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  width: 500px;
+  text-align: justify !important;
+}
+
+#page6 .font2 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  width: 468px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#page6 .font3 {
+  font-family: HelveticaNeue-Light;
+  font-size: 14.4px;
+  position: absolute;
+  color: #3b3b3b;
+  width: 468px;
+  text-align: justify !important;
+}
+
+#page7 {
+  background: url("../image/furry_kitten/page7_background.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 365.6px;
+  background-size: cover;
+}
+
+#page7 #content {
+  width: 1494px;
+  height: 365.6px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page7 .font1 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #821d30;
+  text-align: justify !important;
+}
+
+#page7 .font2 {
+  font-family: HelveticaNeue-Light;
+  font-size: 14.4px;
+  position: absolute;
+  color: #821d30;
+  width: 312px;
+  text-align: justify !important;
+}
+
+#page8 {
+  width: 1494px;
+  height: 688.8px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page8 .font1 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #1f1f1f;
+  font-weight: Bold;
+}
+
+#page8 .font2 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #3b3b3b;
+  width: 356px;
+  text-align: justify !important;
+}
+
+#page8 .font3 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #5d5d5d;
+}
+
+#page8 .font4 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #5d5d5d;
+  text-align: center;
+  width: 120px;
+}
+
+#page9 {
+  width: 1494px;
+  height: 494px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page9 .font1 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  text-align: center;
+  width: 104px;
+  font-weight: bold;
+}
+
+#page9 .font2 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  text-align: center;
+  width: 96px;
+}
+
+#page9 .font3 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #821d30;
+  text-align: center;
+  width: 116px;
+  font-weight: bold;
+}
+
+#page9 .font4 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #821d30;
+  text-align: center;
+  width: 420px;
+  font-weight: bold;
+}
+
+#page10 {
+  width: 1494px;
+  height: 748px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page10 .font1 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #1f1f1f;
+  font-weight: bold;
+}
+
+#page11 {
+  width: 1494px;
+  height: 835.2px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page11 .font1 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  width: 460px;
+  text-align: justify !important;
+}
+
+#page11 .font2 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  font-weight: bold;
+}
+
+#page11 .font3 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #3b3b3b;
+  width: 390.4px;
+  text-align: justify !important;
+}
+
+#page12 {
+  width: 100%;
+  min-width: 1494px;
+  height: 818.8px;
+  background-size: cover;
+}
+
+#page12 #content {
+  width: 1494px;
+  height: 818.8px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page12 .font1 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  font-weight: bold;
+}
+
+#page12 .font2 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #3b3b3b;
+  width: 497.6px;
+  text-align: justify !important;
+}
+
+#page13 {
+  width: 1494px;
+  height: 726.4px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page13 .font1 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  font-weight: bold;
+}
+
+#page13 .font2 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #3b3b3b;
+  width: 332px;
+  text-align: justify !important;
+}
+
+#page14 {
+  width: 1494px;
+  height: 512px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page14 .font1 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  font-weight: bold;
+}
+
+#page14 .font2 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #3b3b3b;
+  width: 354.8px;
+  text-align: justify !important;
+}
+
+#page15 {
+  width: 1494px;
+  height: 452.8px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page15 .font1 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  font-weight: bold;
+}
+
+#page16 {
+  width: 1494px;
+  height: 1266px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page16 .font1 {
+  font-family: Helvetica Neue;
+  font-size: 20.8px;
+  position: absolute;
+  color: #5D5D5D;
+  font-weight: Bold;
+  font-style: italic;
+}
+
+#page16 .font2 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #5D5D5D;
+}
+
+#page17 {
+  background: url("../image/furry_kitten/page17_last.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 969.2px;
+  background-size: cover;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 28.8px;
+  color: #1f1f1f;
+  font-weight: Bold;
+  position: absolute;
+}
+
+img {
+  position: absolute;
+}

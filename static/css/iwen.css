@@ -1,0 +1,657 @@
+#page0 {
+  background: url("../image/iwen/page0_background.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 700px;
+  background-size: cover;
+}
+
+#page0 #content {
+  width: 1494px;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page0 .font1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 79.6px;
+  color: #1f1f1f;
+  font-weight: Bold;
+  position: absolute;
+}
+
+#page0 img{
+  position: absolute;
+}
+
+#page0 .font2 {
+  font-family: HelveticaNeue;
+  font-size: 28.8px;
+  color: #1f1f1f;
+  font-weight: Bold;
+  position: absolute;
+}
+
+#page0 .font3 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  color: #1f1f1f;
+  position: absolute;
+}
+
+#page1 {
+  background: url("../image/iwen/page1_background.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 712px;
+  background-size: cover;
+}
+
+#page1 #content {
+  width: 1494px;
+  height: 712px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page1 .font1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 81.2px;
+  color: #6b81fd;
+  font-weight: 900;
+  opacity: 0.15;
+  position: absolute;
+}
+
+#page1 .font2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16.8px;
+  color: #6b81fd;
+  font-weight: Bold;
+  opacity: 0.5;
+  position: absolute;
+}
+
+#page1 .font3 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  width: 300px;
+  text-align: justify !important;
+  position: absolute;
+  color: #3b3b3b;
+  font-weight: light;
+}
+
+#page1 .font4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 57.2px;
+  position: absolute;
+  opacity: 0.15;
+  width: 530px;
+  font-weight: 1000;
+  color: #6b81fd;
+  text-align: center !important;
+  position: absolute;
+}
+
+#page2 {
+  width: 1494px;
+  height: 688px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page2 .font1 {
+  font-family: Helvetica Neue;
+  font-size: 24px;
+  font-weight: Bold;
+  position: absolute;
+  color: #3b3b3b;
+}
+
+#page2 .font2 {
+  font-family: Helvetica Neue;
+  font-size: 16.8px;
+  font-weight: Bold;
+  width: 468px;
+  position: absolute;
+  text-align: justify !important;
+  color: #3b3b3b;
+}
+
+#page2 .font3 {
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  font-weight: Bold;
+  position: absolute;
+  color: #3b3b3b;
+}
+
+#page2 .font4 {
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  width: 356px;
+  position: absolute;
+  text-align: justify !important;
+  font-weight: Regular;
+  color: #3b3b3b;
+}
+
+#page2 img {
+  width: 546.8px;
+  height: 480px;
+  margin: 144px 0 0 747.2px;
+  position: absolute;
+}
+
+#page3 {
+  background: linear-gradient(121deg, #6b81fd 20%, #986bfd 80%);
+  width: 100%;
+  min-width: 1494px;
+  height: 538px;
+  background-size: cover;
+}
+
+#page3 #content {
+  width: 1494px;
+  height: 538px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page3 .font1 {
+  font-family: Helvetica Neue;
+  font-size: 16.8px;
+  font-weight: Bold;
+  position: absolute;
+  color: white;
+}
+
+#page3 .font2 {
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  width: 279px;
+  text-align: justify !important;
+  position: absolute;
+  color: white;
+  font-weight: Regular;
+}
+
+#page3 img {
+  position: absolute;
+}
+
+#page4 {
+  width: 1494px;
+  height: 1161.6px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page4 .font1 {
+  font-family: Helvetica Neue;
+  font-size: 16.8px;
+  font-weight: Bold;
+  position: absolute;
+}
+
+#page4 .font2 {
+  font-family: Helvetica Neue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  font-weight: Regular;
+}
+
+#page4 .font3 {
+  font-family: Helvetica Neue;
+  font-size: 16.8px;
+  color: #6b81fd;
+  font-weight: Bold;
+  position: absolute;
+}
+
+#page4 .font4 {
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  color: #acacac;
+  position: absolute;
+}
+
+#page4 .font5 {
+  font-family: Helvetica Neue;
+  font-size: 28.8px;
+  color: black;
+  font-weight: Bold;
+  position: absolute;
+}
+
+#page4 img {
+  position: absolute;
+}
+
+#page5 {
+  width: 1494px;
+  height: 407.2px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page5 .font1 {
+  font-family: Helvetica Neue;
+  font-size: 16.8px;
+  font-weight: Bold;
+  position: absolute;
+  color: #3b3b3b;
+}
+
+#page5 .font2 {
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  width: 249px;
+  text-align: justify !important;
+  position: absolute;
+  color: #5d5d5d;
+  font-weight: Regular;
+}
+
+#page5 img {
+  position: absolute;
+}
+
+#page6 {
+  background: #f0f0f0;
+  width: 100%;
+  min-width: 1494px;
+  height: 660px;
+  background-size: cover;
+}
+
+#page6 #content {
+  width: 1494px;
+  height: 660px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page6 .font1 {
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  width: 300px;
+  text-align: justify !important;
+  position: absolute;
+  color: #3b3b3b;
+}
+
+#page6 img {
+  position: absolute;
+}
+
+#page7 {
+  width: 1494px;
+  height: 539.2px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page7 .font1 {
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  width: 410px;
+  text-align: justify !important;
+  position: absolute;
+  color: #3b3b3b;
+}
+
+#page7 .font2 {
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  text-align: justify !important;
+  color: #acacac;
+  position: absolute;
+  line-height: 23px;
+}
+
+#page7 img {
+  position: absolute;
+}
+
+#page8 {
+  background: url("../image/iwen/page8_sketch.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 711.6px;
+  background-size: cover;
+}
+
+#page8 #content {
+  width: 1494px;
+  height: 711.6px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page8 .font1 {
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  text-align: justify !important;
+  width: 320px;
+  color: white;
+  position: absolute;
+  font-weight: Regular;
+}
+
+#page8 img {
+  position: absolute;
+}
+
+#page9 {
+  background: url("../image/iwen/page9_sq.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 436px;
+  background-size: cover;
+}
+
+#page9 #content {
+  width: 1494px;
+  height: 436px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page9 img {
+  position: absolute;
+}
+
+#page10 {
+  width: 100%;
+  min-width: 1494px;
+  height: 450px;
+  background-size: cover;
+}
+
+#page10 #logo {
+  width: 1494px;
+  height: 450px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page10 img {
+  position: absolute;
+}
+
+#page11 {
+  width: 1494px;
+  height: 1462.4px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page11 .font1 {
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  text-align: justify !important;
+  width: 314px;
+  position: absolute;
+  color: #3b3b3b;
+  font-weight: Regular;
+}
+
+#page12 {
+  width: 1494px;
+  height: 1464px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page12 .font1 {
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  text-align: justify !important;
+  width: 315px;
+  position: absolute;
+  color: #3b3b3b;
+  font-weight: Regular;
+}
+
+#page12 .font2 {
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  text-align: justify !important;
+  position: absolute;
+  color: #acacac;
+}
+
+#page12 img {
+  position: absolute;
+}
+
+#page13 {
+  background: url("../image/iwen/page13_background.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 832px;
+  background-size: cover;
+  margin-bottom: 64px;
+}
+
+#page13 #content {
+  width: 1494px;
+  height: 832px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page13 img {
+  position: absolute;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel.pointer-event {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-inner::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-item {
+    transition: none;
+  }
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: block;
+}
+
+.active.carousel-item-right,
+.carousel-item-next:not(.carousel-item-left) {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.active.carousel-item-left,
+.carousel-item-prev:not(.carousel-item-right) {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-property: opacity;
+  -webkit-transform: none;
+  transform: none;
+}
+
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right,
+.carousel-fade .carousel-item.active {
+  z-index: 1;
+  opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0s 0.6s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-fade .active.carousel-item-left,
+  .carousel-fade .active.carousel-item-right {
+    transition: none;
+  }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    transition: none;
+  }
+}
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0.9;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: no-repeat 50%/100% 100%;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-indicators li {
+    transition: none;
+  }
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 28.8px;
+  color: #1f1f1f;
+  font-weight: Bold;
+  position: absolute;
+}

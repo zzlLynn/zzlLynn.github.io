@@ -1,0 +1,40 @@
+.work {
+  width: 1494px;
+  height: 524.0px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.work .font1 {
+  font-size: 79.6px;
+  font-weight: Bold;
+  position: absolute;
+  color: #1f1f1f;
+}
+
+.work .font2 {
+  font-family: Helvetica Neue;
+  font-size: 28.8px;
+  font-weight: Bold;
+  position: absolute;
+  color: #1f1f1f;
+}
+
+.work .font3 {
+  font-family: Helvetica Neue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #5d5d5d;
+  width: 542px;
+}
+
+.work .font4 {
+  font-family: Helvetica Neue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #ACACAC;
+}
+
+img {
+  position: absolute;
+}
