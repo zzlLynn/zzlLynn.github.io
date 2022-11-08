@@ -59,7 +59,6 @@
   width: 416px;
   text-align: justify !important;
   color: #ffffff;
-  font-weight: Light;
 }
 
 #page1 .font2 {
@@ -74,7 +73,6 @@
   font-size: 14.4px;
   position: absolute;
   color: #ffffff;
-  font-weight: Light;
 }
 
 #page2 {
@@ -99,7 +97,6 @@
   width: 355px;
   text-align: justify !important;
   color: #1f1f1f;
-  font-weight: Light;
 }
 
 #page2 .font3 {
@@ -133,7 +130,6 @@
   width: 509.2px;
   text-align: justify !important;
   color: #1f1f1f;
-  font-weight: Light;
 }
 
 #page3 .font2 {
@@ -167,7 +163,6 @@
   font-size: 14.4px;
   position: absolute;
   color: #4f52cc;
-  font-weight: Medium;
   text-decoration: underline;
 }
 
@@ -200,7 +195,6 @@
   width: 310px;
   text-align: justify !important;
   color: #ffffff;
-  font-weight: Light;
 }
 
 #page5 {
@@ -242,7 +236,6 @@
   position: absolute;
   text-align: justify !important;
   color: #3b3b3b;
-  font-weight: Light;
 }
 
 #page5 .font5 {
@@ -250,7 +243,6 @@
   font-size: 14.4px;
   position: absolute;
   color: #4f52cc;
-  font-weight: Medium;
 }
 
 #page5 .font6 {
@@ -258,7 +250,6 @@
   font-size: 14.4px;
   position: absolute;
   color: #3b3b3b;
-  font-weight: Light;
 }
 
 #page6 {
@@ -448,7 +439,6 @@
   position: absolute;
   color: #000000;
   line-height: 20px;
-  font-weight: light;
 }
 
 #page10 {
@@ -481,7 +471,6 @@
   font-size: 14.4px;
   position: absolute;
   color: #1f1f1f;
-  font-weight: light;
 }
 
 #page10 .font4 {
@@ -489,7 +478,6 @@
   font-size: 16.8px;
   position: absolute;
   color: #3b3b3b;
-  font-weight: light;
 }
 
 #page10 .font5 {
@@ -497,7 +485,6 @@
   font-size: 16.8px;
   position: absolute;
   color: #3b3b3b;
-  font-weight: light;
   text-align: center;
 }
 
@@ -544,7 +531,6 @@
   font-size: 14.4px;
   position: absolute;
   color: white;
-  font-weight: light;
   width: 354px;
   text-align: justify !important;
 }
