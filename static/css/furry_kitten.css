@@ -19,7 +19,7 @@
   color: #1f1f1f;
   font-weight: Bold;
   position: absolute;
-  line-height:96.5px;
+  line-height: 96.5px;
 }
 
 #page0 .font2 {
@@ -74,7 +74,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 21.6px;
   color: #ffc1c5;
-  font-weight: Regular;
   position: absolute;
 }
 
@@ -529,7 +528,7 @@
   font-family: Helvetica Neue;
   font-size: 20.8px;
   position: absolute;
-  color: #5D5D5D;
+  color: #5d5d5d;
   font-weight: Bold;
   font-style: italic;
 }
@@ -538,7 +537,7 @@
   font-family: HelveticaNeue;
   font-size: 14.4px;
   position: absolute;
-  color: #5D5D5D;
+  color: #5d5d5d;
 }
 
 #page17 {
