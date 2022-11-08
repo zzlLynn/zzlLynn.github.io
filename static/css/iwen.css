@@ -6,7 +6,7 @@
   background-size: cover;
 }
 
-#page0 #content {
+#page0 .content {
   width: 1494px;
   height: 700px;
   margin: 0 auto;
@@ -48,7 +48,7 @@
   background-size: cover;
 }
 
-#page1 #content {
+#page1 .content {
   width: 1494px;
   height: 712px;
   margin: 0 auto;
@@ -154,7 +154,7 @@
   background-size: cover;
 }
 
-#page3 #content {
+#page3 .content {
   width: 1494px;
   height: 538px;
   margin: 0 auto;
@@ -269,7 +269,7 @@
   background-size: cover;
 }
 
-#page6 #content {
+#page6 .content {
   width: 1494px;
   height: 660px;
   margin: 0 auto;
@@ -326,7 +326,7 @@
   background-size: cover;
 }
 
-#page8 #content {
+#page8 .content {
   width: 1494px;
   height: 711.6px;
   margin: 0 auto;
@@ -355,7 +355,7 @@
   background-size: cover;
 }
 
-#page9 #content {
+#page9 .content {
   width: 1494px;
   height: 436px;
   margin: 0 auto;
@@ -439,7 +439,7 @@
   margin-bottom: 64px;
 }
 
-#page13 #content {
+#page13 .content {
   width: 1494px;
   height: 832px;
   margin: 0 auto;
