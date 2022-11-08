@@ -6,7 +6,7 @@
   background-size: cover;
 }
 
-#page0 #content {
+#page0 .content {
   width: 1494px;
   height: 700px;
   margin: 0 auto;
@@ -45,7 +45,7 @@
   background-size: cover;
 }
 
-#page1 #content {
+#page1 .content {
   width: 1494px;
   height: 810.8px;
   margin: 0 auto;
@@ -266,7 +266,7 @@
   background-size: cover;
 }
 
-#page7 #content {
+#page7 .content {
   width: 1494px;
   height: 365.6px;
   margin: 0 auto;
@@ -431,7 +431,7 @@
   background-size: cover;
 }
 
-#page12 #content {
+#page12 .content {
   width: 1494px;
   height: 818.8px;
   margin: 0 auto;
