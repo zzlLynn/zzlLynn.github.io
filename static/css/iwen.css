@@ -647,3 +647,30 @@
   font-weight: Bold;
   position: absolute;
 }
+
+#process {
+  width: 1494px;
+  height: 728.0px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#process .font1 {
+  font-family: Helvetica Neue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3B3B3B;
+  font-weight: bold;
+}
+
+#process .font2 {
+  font-family: Helvetica Neue;
+  font-size: 9.6px;
+  position: absolute;
+  color: #CAC9FE;
+  font-weight: bold;
+}
+
+#process img{
+  position: absolute;
+}

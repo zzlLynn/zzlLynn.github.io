@@ -124,3 +124,8 @@ $(function () {
         }
     });
 });
+
+
+$("#next0").click(function(){
+    change();
+});

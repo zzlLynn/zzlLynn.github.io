@@ -437,7 +437,7 @@
   font-family: HelveticaNeue-Light;
   font-size: 14.4px;
   position: absolute;
-  color: #000000;
+  color: #1f1f1f;
   line-height: 20px;
 }
 
@@ -603,4 +603,19 @@
 
 img {
   position: absolute;
+}
+
+#process {
+  width: 1494px;
+  height: 728.0px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#process .font1 {
+  font-family: Helvetica Neue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3B3B3B;
+  font-weight: bold;
 }

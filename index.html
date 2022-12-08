@@ -5,18 +5,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link href="https://fonts.cdnfonts.com/css/skia" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="./static/css/portfolio.css" rel="stylesheet">
     <link href="./static/css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
     <link href="./static/css/home.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="nav">
-        <a href="./index.html"><img alt="pic" src="./static/image/common/logo.png"
-                style="width:44.0px;height:44.0px;margin:52.0px 0 0 116.0px"></a>
+        <a href="#" id="sy0">
+            <img alt="pic" src="./static/image/common/logo.png"
+                style="width:44.0px;height:44.0px;margin:52.0px 0 0 116.0px;position: fixed;z-index:9999;opacity:1;">
+        </a>
         <img alt="pic" src="./static/image/common/click.png" style="width:66.8px;height:4px;margin:87.6px 0 0 982.4px">
         <a href="./index.html">
             <p class="font1" style="margin:53.6px 0 0 198.2px">Lynn Z</p>
@@ -24,11 +30,11 @@
         <a href="./index.html">
             <p class="font2" style="margin:58.0px 0 0 982.4px">Home</p>
         </a>
-        <a href="./portfolio.html">
-            <p class="font3" style="margin:58.0px 0 0 1097.2px">Work</p>
-        </a>
-        <a href="./resume.html">
-            <p class="font3" style="margin:58.0px 0 0 1202.8px">Resume</p>
+        <!-- <a href="./blog.html">
+            <p class="font3" style="margin:58.0px 0 0 1110.2px">Blog</p>
+        </a> -->
+        <a href="./about.html">
+            <p class="font3" style="margin:58.0px 0 0 1225.8px">About</p>
         </a>
     </div>
     <div id="page1">
@@ -44,24 +50,202 @@
                 id="i21" style="width:28.8px;height:28.4px;margin:430px 0 0 785.2px;opacity: 0;">
             <img alt="pic" src="./static/image/common/ins.png" id="i11"
                 style="width:28.8px;height:28.4px;margin:430px 0 0 785.2px;opacity: 1;"></a>
-        <a href="mailto:zzlin1224@gmail.com" id="email1"><img alt="pic" src="./static/image/common/email_click.png"
+        <a href="mailto:zhenglin.zhang.lynn@gmail.com" id="email1"><img alt="pic" src="./static/image/common/email_click.png"
                 id="e21" style="width:28.4px;height:28.4px;margin:430px 0 0 822.0px;opacity: 0;"><img alt="pic"
                 src="./static/image/common/email.png" id="e11"
                 style="width:28.4px;height:28.4px;margin:430px 0 0 822.0px;opacity: 1;"></a>
-
+        <p class="title" style="margin:700px 0 0 198.2px;">Selected Works</p>
+    </div>
+    <div class="work" style="margin-top:60.0px;">
+        <a href="moos.html"><img alt="pic" src="./static/image/cover/moos.png" id="moos_cover"
+                style="width:532.0px;height:480.0px;margin:0px 0 0 172.4px"></a>
+        <img alt="pic" src="./static/image/cover/moos_square.png" id="moos_highlight"
+            style="width:0;height:19.2px;margin:166.8px 0 0 752.0px">
+        <img alt="pic" src="./static/image/cover/moos_1.png"
+            style="width:133.2px;height:27.6px;margin:346.4px 0 0 752.0px">
+        <img alt="pic" src="./static/image/cover/moos_2.png"
+            style="width:120.8px;height:27.6px;margin:346.4px 0 0 895.2px">
+        <a href="moos.html">
+            <p class="font1" style="margin:95.6px 0 0 747.2px" id="moos_font">MOOS</p>
+        </a>
+        <p class="font2" style="margin:214.4px 0 0 751.2px">A Better Mask Recycling System</p>
+        <p class="font3" style="margin:256.8px 0 0 752.0px">The project explores opportunities around a more sustainable
+            and effective way of disposing of masks in Shanghai. The nft has been created as an incentive to attract
+            users.</p>
+        <p class="font4" style="margin:348.2px 0 0 764.0px">Service Design</p>
+        <p class="font4" style="margin:348.2px 0 0 906.2px">Sustainability</p>
+    </div>
+    <div class="work">
+        <a href="fireworks.html"><img alt="pic" src="./static/image/cover/fireworks.png" id="fireworks_cover"
+                style="width:532.0px;height:480.0px;margin:0px 0 0 172.4px"></a>
+        <img alt="pic" src="./static/image/cover/fireworks_square.png" id="fireworks_highlight"
+            style="width:0;height:19.2px;margin:166.8px 0 0 752.0px">
+        <img alt="pic" src="./static/image/cover/fireworks_1.png"
+            style="width:158.4px;height:27.6px;margin:346.4px 0 0 752.0px">
+        <img alt="pic" src="./static/image/cover/fireworks_2.png"
+            style="width:73.6px;height:27.6px;margin:346.4px 0 0 920.4px">
+        <img alt="pic" src="./static/image/cover/fireworks_3.png"
+            style="width:164.0px;height:27.6px;margin:346.4px 0 0 1004.0px">
+        <a href="fireworks.html">
+            <p class="font1" style="margin:95.6px 0 0 747.2px" id="fireworks_font">My Fireworks</p>
+        </a>
+        <p class="font2" style="margin:214.4px 0 0 751.2px">A Better Viewing Experience at SSTM</p>
+        <p class="font3" style="margin:256.8px 0 0 752.0px">The project is based on the concept of STEAM education,
+            combined with AR technology to provide an innovative solution for visiting the Shanghai Science and
+            Technology Museum.</p>
+        <p class="font4" style="margin:348.2px 0 0 764.0px">Interaction Design</p>
+        <p class="font4" style="margin:348.2px 0 0 929.2px">STEAM</p>
+        <p class="font4" style="margin:348.2px 0 0 1015px">Augmented Reality</p>
+    </div>
+    <div class="work">
+        <a href="driven.html"><img alt="pic" src="./static/image/cover/driven.png" id="driven_cover"
+                style="width:532.0px;height:480.0px;margin:0px 0 0 172.4px"></a>
+        <img alt="pic" src="./static/image/cover/driven_square.png" id="driven_highlight"
+            style="width:0;height:19.2px;margin:166.8px 0 0 752.0px">
+        <img alt="pic" src="./static/image/cover/driven_1.png"
+            style="width:158.4px;height:27.6px;margin:346.4px 0 0 752.0px">
+        <img alt="pic" src="./static/image/cover/driven_2.png"
+            style="width:166.4px;height:27.6px;margin:346.4px 0 0 920.4px">
+        <a href="driven.html">
+            <p class="font1" style="margin:95.6px 0 0 747.2px" id="driven_font">Driven Drizzle</p>
+        </a>
+        <p class="font2" style="margin:214.4px 0 0 751.2px">An Immersive Visual Interaction Design</p>
+        <p class="font3" style="margin:256.8px 0 0 752.0px">The project aims to experiment with digital technology,
+            combining auditory, visual, and tactile experiences to stimulate audiences to think about the entropy
+            reduction of life.</p>
+        <p class="font4" style="margin:348.2px 0 0 764.0px">Interaction Design</p>
+        <p class="font4" style="margin:348.2px 0 0 932px">Speculative Design</p>
+    </div>
+    <div class="work">
+        <a href="iwen.html"><img alt="pic" src="./static/image/cover/iwen.png" id="iwen_cover"
+                style="width:532.0px;height:480.0px;margin:0px 0 0 172.4px"></a>
+        <img alt="pic" src="./static/image/cover/iwen_square.png" id="iwen_highlight"
+            style="width:0;height:19.2px;margin:166.8px 0 0 752.0px">
+        <a href="iwen.html">
+            <p class="font1" style="margin:95.6px 0 0 747.2px" id="iwen_font">Iwen</p>
+        </a>
+        <p class="font2" style="margin:214.4px 0 0 751.2px">Redesign for the English Reading App</p>
+        <p class="font3" style="margin:256.8px 0 0 752.0px">The project redesigns an app for English learners that
+            focuses more on English reading. The redesign includes the brand identity, user interface, and information
+            architecture.</p>
+        <p class="font4" style="margin:348.2px 0 0 762.5px">UX Design</p>
+        <p class="font4" style="margin:348.2px 0 0 869.0px">Branding</p>
+        <img alt="pic" src="./static/image/cover/iwen_1.png"
+            style="width:98.0px;height:27.6px;margin:346.4px 0 0 752.0px">
+        <img alt="pic" src="./static/image/cover/iwen_2.png"
+            style="width:86.8px;height:27.6px;margin:346.4px 0 0 860.0px">
+    </div>
+    <div class="work">
+        <a href="furry_kitten.html"><img alt="pic" src="./static/image/cover/furry.png" id="furry_cover"
+                style="width:532.0px;height:480.0px;margin:0px 0 0 172.4px"></a>
+        <img alt="pic" src="./static/image/cover/furry_square.png" id="furry_highlight"
+            style="width:0;height:19.2px;margin:166.8px 0 0 752.0px">
+        <a href="furry_kitten.html">
+            <p class="font1" style="margin:95.6px 0 0 747.2px" id="furry_font">Furry Kitten</p>
+        </a>
+        <p class="font2" style="margin:214.4px 0 0 751.2px">Game Design for Depressed Female</p>
+        <p class="font3" style="margin:256.8px 0 0 752.0px">This project focuses on women of different ages who suffer
+            from depression. It is dedicated to helping them ease the depression that comes with daily life through play
+            therapy.</p>
+        <p class="font4" style="margin:348.2px 0 0 762.5px">Game Design</p>
+        <p class="font4" style="margin:348.2px 0 0 893px">Play Therapy</p>
+        <p class="font4" style="margin:348.2px 0 0 1021.2px">Female Care</p>
+        <img alt="pic" src="./static/image/cover/furry_1.png"
+            style="width:121.6px;height:27.6px;margin:346.4px 0 0 752.0px">
+        <img alt="pic" src="./static/image/cover/furry_2.png"
+            style="width:117.6px;height:27.6px;margin:346.4px 0 0 883.6px">
+        <img alt="pic" src="./static/image/cover/furry_3.png"
+            style="width:114.4px;height:27.6px;margin:346.4px 0 0 1011.2px">
+    </div>
+    <div class="otherworks">
+        <p class="title" style="margin:10px 0 0 198.2px;">Other Works</p>
+        <div style="opacity: 1;" id="work1">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                style="width:1093.0px;height:620.0px;margin:82.8px 0 0 200.4px;position: absolute;">
+                <div class="carousel-indicators" style="bottom:59px;margin-left:780px;margin-right: 0px;">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="./static/image/cover/OW1-1@2x.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="./static/image/cover/OW1-2@2x.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <img alt="pic" src="./static/image/cover/k.png"
+                style="width:317.6px;height:456.0px;margin:133.6px 0 0 976.4px;position: absolute;opacity: 0.85;">
+            <p class="font1" style="margin:165.0px 0 0 1016.4px">Book Design</p>
+            <p class="font2" style="margin:220.0px 0 0 1016.4px">Reflection of body shame in the weight loss recipe book
+            </p>
+            <p class="font3" style="margin:300.0px 0 0 1016.4px">This book introduces ingredients commonly used for
+                weight
+                loss to motivate people who are overly dieting to focus on figure issues from a health perspective. It
+                also
+                calls for no body anxiety and shame.</p>
+        </div>
+        <div style="opacity: 0;" id="work2">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                style="width:1093.0px;height:620.0px;margin:82.8px 0 0 200.4px;position: absolute;">
+                <div class="carousel-indicators" style="bottom:59px;margin-left:780px;margin-right: 0px;">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="./static/image/cover/OW1@2x.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="./static/image/cover/OW2@2x.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="./static/image/cover/OW3@2x.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="./static/image/cover/OW4@2x.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <img alt="pic" src="./static/image/cover/k.png"
+                style="width:317.6px;height:456.0px;margin:133.6px 0 0 976.4px;position: absolute;opacity: 0.85;">
+            <p class="font1" style="margin:165.0px 0 0 1016.4px">Graphic Design</p>
+            <p class="font2" style="margin:220.0px 0 0 1016.4px">Coffee socialization on the chessboards
+            </p>
+            <p class="font3" style="margin:300.0px 0 0 1016.4px">This project explores the impact of coffee on social
+                interaction through the redesign of ground coffee packaging. The innovative design of the packaging for
+                different sizes of gift boxes is created as different games on a board, thus building social
+                relationships.</p>
+        </div>
+        <a href="javascript:next_project()" id="next0">
+            <img alt="pic" src="./static/image/cover/next_hover.png" id="next1"
+                style="width:128.0px;height:28.4px;margin:533.6px 0 0 1129.6px;position: absolute;opacity: 0;">
+            <img alt="pic" src="./static/image/cover/next.png" id="next2"
+                style="width:128.0px;height:28.4px;margin:533.6px 0 0 1129.6px;position: absolute;opacity: 1;">
+        </a>
     </div>
     <div class="footer">
         <img alt="pic" src="./static/image/common/square.png"
             style="width:1094.0px;height:44.0px;margin:64.0px 0 0 200.0px">
         <p class="font1" style="margin:176.0px 0 0 198.2px">Hi there!</p>
-        <p class="font2" style="margin:234.4px 0 0 200px;width:435.0px;">Thanks for reaching the end of the page. If you
+        <p class="font2" style="margin:234.4px 0 0 200px;width:435.0px;line-height: 21px;">Thanks for reaching the end
+            of the page. If you
             want to learn more about me or what I'm working on, feel free to contact me!</p>
         <p class="font2" style="margin:234.4px 0 0 850.8px;">Contact Me</p>
         <p class="font2" style="margin:234.4px 0 0 1178.0px;">Let's Connect</p>
         <p class="font3" style="margin:316.4px 0 0 200.0px;">@ 2022 Lynn Zhang</p>
         <p class="font4" style="margin:258.0px 0 0 850.8px;width:50px;">Email:
             Phone:</p>
-        <p class="font4" style="margin:258.0px 0 0 925.8px;width:150px;">zzlin1224@gmail.com
+        <p class="font4" style="margin:258.0px 0 0 925.8px;width:150px;">zhenglin.zhang.lynn@gmail.com
             551-689-9116</p>
         <a href="https://www.linkedin.com/in/lynnzhang-049590249/?locale=en_US" id="linkedin"><img alt="pic"
                 src="./static/image/common/linkedin_click.png" id="l2"
@@ -72,17 +256,18 @@
                 id="i2" style="width:28.8px;height:28.4px;margin:264.4px 0 0 1211.6px;opacity: 0;">
             <img alt="pic" src="./static/image/common/ins.png" id="i1"
                 style="width:28.8px;height:28.4px;margin:264.4px 0 0 1211.6px;opacity: 1;"></a>
-        <a href="mailto:zzlin1224@gmail.com" id="email"><img alt="pic" src="./static/image/common/email_click.png"
+        <a href="mailto:zhenglin.zhang.lynn@gmail.com" id="email"><img alt="pic" src="./static/image/common/email_click.png"
                 id="e2" style="width:28.4px;height:28.4px;margin:264.4px 0 0 1248.4px;opacity: 0;"><img alt="pic"
                 src="./static/image/common/email.png" id="e1"
                 style="width:28.4px;height:28.4px;margin:264.4px 0 0 1248.4px;opacity: 1;"></a>
     </div>
+    <script src="https://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="static/js/common.js"></script>
+    <script src="static/js/portfolio.js"></script>
     <script src="static/js/libraries/p5.js"></script>
     <script src="static/js/libraries/p5.dom.js"></script>
     <script src="static/js/about_me.js"></script>
-    <script src="https://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="static/js/common.js"></script>
     <script src="static/js/home.js"></script>
 </body>
 
