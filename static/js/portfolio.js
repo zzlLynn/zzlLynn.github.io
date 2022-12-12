@@ -1,3 +1,42 @@
+let ia_cover = document.getElementById("ia_cover")
+$(function () {
+    $(ia_cover).on({
+        mouseover: function () {
+            let l1 = document.getElementById("ia_highlight")
+            $(l1).animate({
+                width: "519px"
+            }, 500);
+        },
+    });
+    $(ia_cover).on({
+        mouseout: function () {
+            let l1 = document.getElementById("ia_highlight")
+            $(l1).animate({
+                width: "0px"
+            }, 500);
+        },
+    });
+});
+let ia_font = document.getElementById("ia_font")
+$(function () {
+    $(ia_font).on({
+        mouseover: function () {
+            let l1 = document.getElementById("ia_highlight")
+            $(l1).animate({
+                width: "519px"
+            }, 500);
+        },
+    });
+    $(ia_font).on({
+        mouseout: function () {
+            let l1 = document.getElementById("ia_highlight")
+            $(l1).animate({
+                width: "0px"
+            }, 500);
+        },
+    });
+});
+
 let moos_cover = document.getElementById("moos_cover")
 $(function () {
     $(moos_cover).on({
