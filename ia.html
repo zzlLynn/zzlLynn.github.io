@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IA</title>
+    <title>New York Transit Museum Website Redesign</title>
+    <link rel="shortcut icon" href="static/image/cover/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -127,13 +128,9 @@
     <div id="page4">
         <p class="title" style="margin:53.6px 0 0 198px;">User Interview</p>
         <p class="font5" style="margin:98.0px 0 0 198px;">an intuitive and user-friendly website is expected</p>
-        <img alt="pic" src="./static/image/ia/page4.png" style="height:282.8px;margin:181.6px 0 0 834.0px">
-        <p class="font3" style="margin:302.0px 0 0 834.0px;width:460.0px;text-align: center;color:white">Affinity Map
-        </p>
-        <a href="https://miro.com/app/board/uXjVPRJ362U=/?share_link_id=200925936694">
-            <p class="font2" style="margin:327.2px 0 0 834.0px;width:460.0px;text-align: center;color:white">View in
-                Miro
-            </p>
+        <a href="https://miro.com/app/board/uXjVPRJ362U=/?share_link_id=200925936694" id="ccc1">
+            <img alt="pic" id="ccc12" src="./static/image/ia/page4.png" style="height:282.8px;margin:181.6px 0 0 834.0px;opacity: 0;">
+            <img alt="pic" id="ccc11" src="./static/image/ia/page4_1_h.png" style="height:282.8px;margin:181.6px 0 0 834.0px;opacity: 1;">
         </a>
         <div class="font4" style="margin:177.6px 0 0 200.0px;width:554.0px">We kicked off by conducting user interviews
             with potential museum visitors from art and design backgrounds with diverse interests in museums, to better
@@ -242,14 +239,9 @@
         <p class="font3" style="margin:1107.8px 0 0 998.0px;">Legend</p>
         <p class="font2" style="margin:443.8px 0 0 862.8px;">Try our card sort</p>
         <p class="font2" style="margin:473.8px 0 0 862.8px;">Try our tree test</p>
-        <img alt="pic" src="./static/image/ia/page8_1.png" style="height:228.0px;margin:183.6px 0 0 834.0px">
-        <p class="font3" style="margin:276.8px 0 0 834.0px;width:460.0px;text-align: center;color:white">Card
-            Sorting
-        </p>
-        <a href="https://miro.com/app/board/uXjVPLWskbc=/?share_link_id=765265675662">
-            <p class="font2" style="margin:302.0px 0 0 834.0px;width:460.0px;text-align: center;color:white">View in
-                Miro
-            </p>
+        <a href="https://miro.com/app/board/uXjVPLWskbc=/?share_link_id=765265675662" id="ccc2">
+            <img alt="pic" id="ccc21" src="./static/image/ia/page8_1.png" style="height:228.0px;margin:183.6px 0 0 834.0px;opacity:1;">
+            <img alt="pic" id="ccc22" src="./static/image/ia/page8_1_h.png" style="height:228.0px;margin:183.6px 0 0 834.0px;opacity: 0;">
         </a>
     </div>
     <div id="page9">
@@ -647,6 +639,58 @@
         document.getElementById("p_i").onmousedown = function () {
             toPage(12);
         }
+
+        let ccc1 = document.getElementById("ccc1")
+        $(function () {
+            $(ccc1).on({
+                mouseover: function () {
+                    let l1 = document.getElementById("ccc11")
+                    let l2 = document.getElementById("ccc12")
+                    $(l1).animate({
+                        opacity: 0
+                    }, 0);
+                    $(l2).animate({
+                        opacity: 1
+                    }, 0);
+                },
+                mouseout: function () {
+                    let l1 = document.getElementById("ccc11")
+                    let l2 = document.getElementById("ccc12")
+                    $(l1).animate({
+                        opacity: 1
+                    }, 0);
+                    $(l2).animate({
+                        opacity: 0
+                    }, 0);
+                }
+            });
+        });
+
+        let ccc2 = document.getElementById("ccc2")
+        $(function () {
+            $(ccc2).on({
+                mouseover: function () {
+                    let l1 = document.getElementById("ccc21")
+                    let l2 = document.getElementById("ccc22")
+                    $(l1).animate({
+                        opacity: 0
+                    }, 0);
+                    $(l2).animate({
+                        opacity: 1
+                    }, 0);
+                },
+                mouseout: function () {
+                    let l1 = document.getElementById("ccc21")
+                    let l2 = document.getElementById("ccc22")
+                    $(l1).animate({
+                        opacity: 1
+                    }, 0);
+                    $(l2).animate({
+                        opacity: 0
+                    }, 0);
+                }
+            });
+        });
     </script>
 </body>
 
