@@ -272,6 +272,15 @@
   text-align: justify !important;
 }
 
+
+.font399 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  color: #3b3b3b;
+  position: absolute;
+  line-height: 20px;
+}
+
 .font4 {
   font-family: HelveticaNeue;
   font-size: 14.4px;
