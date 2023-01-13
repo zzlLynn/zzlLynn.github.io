@@ -56,12 +56,12 @@
             improve the navigation and organization of the existing New York Transit Museum website while keeping the
             web responsive across devices.</p>
 
-            <a href="NYTransitMusuem.html" id="next0">
-        <img alt="pic" src="./static/image/cover/view_hover.png" id="next1"
-            style="width:118.8px;margin:480.0px 0 0 1016.4px;position: absolute;opacity: 0;">
-        <img alt="pic" src="./static/image/cover/view.png" id="next2"
-            style="width:118.8px;margin:480.0px 0 0 1016.4px;position: absolute;opacity: 1;">
-    </a>
+        <a href="NYTransitMusuem.html" id="next0">
+            <img alt="pic" src="./static/image/cover/view_hover.png" id="next1"
+                style="width:118.8px;margin:480.0px 0 0 1016.4px;position: absolute;opacity: 0;">
+            <img alt="pic" src="./static/image/cover/view.png" id="next2"
+                style="width:118.8px;margin:480.0px 0 0 1016.4px;position: absolute;opacity: 1;">
+        </a>
     </div>
     <div class="otherworks">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
@@ -82,7 +82,8 @@
         </p>
         <p class="font3" style="margin:260.2px 0 0 1016.4px"><a
                 href="https://dl.acm.org/doi/abs/10.1145/3526114.3558722"
-                style="display: inline;font-family: HelveticaNeue-Light;">This paper</a> is based on augmented reality
+                style="display: inline;font-family: HelveticaNeue-Light;" id="azx">This paper</a> is based on augmented
+            reality
             technology that
             combines fireworks experiments with AR models. Multiple interaction methods including mobile user interface,
             hand gestures and voice are adopted to create a multi-sensory product. This paper promotes the understanding
@@ -189,6 +190,19 @@
     <script src="static/js/portfolio.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="static/js/home.js"></script>
+    <script>
+        let azx = document.getElementById("azx")
+        $(function () {
+            $(azx).on({
+                mouseover: function () {
+                    azx.setAttribute("style", "color:#acacac")
+                },
+                mouseout: function () {
+                    azx.setAttribute("style", "color:#3b3b3b")
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

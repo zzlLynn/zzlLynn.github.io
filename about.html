@@ -43,10 +43,10 @@
         <img alt="pic" src="./static/image/about/icon4.png"
             style="height:30.0px;width:30.0px;margin:524.8px 0 0 750.0px">
         <p class="font1" style="margin:108.4px 0 0 785.0px">I'm studying Information Experience Design at <a
-                href="https://www.pratt.edu/">Pratt Institute</a> in </p>
+                href="https://www.pratt.edu/" id="amm1">Pratt Institute</a> in </p>
         <p class="font1" style="margin:138.4px 0 0 752.0px">New York. I was born and raised in Shanghai, China, and came
             to the United State after completing my undergraduate studies in Visual Communication Design at <a
-                href="https://en.sjtu.edu.cn/about">Shanghai Jiao Tong University</a>.</p>
+                href="https://en.sjtu.edu.cn/about" id="amm2">Shanghai Jiao Tong University</a>.</p>
         <p class="font1" style="margin:257.6px 0 0 785.0px">Hi there! My name is Lynn. I'm an interdisciplinary designer
             with </p>
         <p class="font1" style="margin:287.6px 0 0 752.0px">a background in UX design, creative technology, and
@@ -55,7 +55,8 @@
         <p class="font1" style="margin:436.8px 0 0 785.0px">When I'm not designing, you can find me cooking Chinese
             food, </p>
         <p class="font1" style="margin:466.8px 0 0 752.0px">to podcasts, and shooting to capture my life.</p>
-        <p class="font1" style="margin:526.0px 0 0 785.0px"><a href="/static/pdf/resume.pdf">View Resume</a></p>
+        <p class="font1" style="margin:526.0px 0 0 785.0px"><a href="/static/pdf/resume.pdf" id="amm3">View Resume</a>
+        </p>
         <img alt="pic" src="./static/image/about/click1.png" style="height:2px;width:105.6px;margin:133.4px 0 0 1151px">
         <img alt="pic" src="./static/image/about/click2.png"
             style="height:2px;width:234.8px;margin:223.4px 0 0 958.4px">
@@ -83,14 +84,50 @@
                 id="i2" style="width:28.8px;height:28.4px;margin:264.4px 0 0 1211.6px;opacity: 0;">
             <img alt="pic" src="./static/image/common/ins.png" id="i1"
                 style="width:28.8px;height:28.4px;margin:264.4px 0 0 1211.6px;opacity: 1;"></a>
-        <a href="mailto:zhenglin.zhang.lynn@gmail.com" id="email"><img alt="pic" src="./static/image/common/email_click.png"
-                id="e2" style="width:28.4px;height:28.4px;margin:264.4px 0 0 1248.4px;opacity: 0;"><img alt="pic"
+        <a href="mailto:zhenglin.zhang.lynn@gmail.com" id="email"><img alt="pic"
+                src="./static/image/common/email_click.png" id="e2"
+                style="width:28.4px;height:28.4px;margin:264.4px 0 0 1248.4px;opacity: 0;"><img alt="pic"
                 src="./static/image/common/email.png" id="e1"
                 style="width:28.4px;height:28.4px;margin:264.4px 0 0 1248.4px;opacity: 1;"></a>
     </div>
     <script src="https://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="static/js/common.js"></script>
+    <script>
+        let amm2 = document.getElementById("amm2")
+        $(function () {
+            $(amm2).on({
+                mouseover: function () {
+                    amm2.setAttribute("style", "color:#acacac")
+                },
+                mouseout: function () {
+                    amm2.setAttribute("style", "color:#3b3b3b")
+                }
+            });
+        });
+        let amm1 = document.getElementById("amm1")
+        $(function () {
+            $(amm1).on({
+                mouseover: function () {
+                    amm1.setAttribute("style", "color:#acacac")
+                },
+                mouseout: function () {
+                    amm1.setAttribute("style", "color:#3b3b3b")
+                }
+            });
+        });
+        let amm3 = document.getElementById("amm3")
+        $(function () {
+            $(amm3).on({
+                mouseover: function () {
+                    amm3.setAttribute("style", "color:#acacac")
+                },
+                mouseout: function () {
+                    amm3.setAttribute("style", "color:#3b3b3b")
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

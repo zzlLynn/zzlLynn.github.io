@@ -1,299 +1,368 @@
 #page0 {
-    background: url("../image/ia/page0_background.png") no-repeat;
-    width: 100%;
-    min-width: 1494px;
-    height: 700px;
-    background-size: cover;
-  }
-  
-  #page0 .content {
-    width: 1494px;
-    height: 700px;
-    margin: 0 auto;
-    position: relative;
-  }
-  
-  #page0 .font1 {
-    font-family: "Poppins", sans-serif;
-    font-size: 28.8px;
-    color: #F49024;
-    font-weight: Bold;
-    position: absolute;
-    line-height: 43.2px;
-    width:523.2px;
-  }
-  
-  #page0 .font3 {
-    font-family: HelveticaNeue;
-    font-size: 16.8px;
-    color: #FFB565;
-    position: absolute;
-  }
+  background: url("../image/ia/page0_background.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 700px;
+  background-size: cover;
+}
 
-  #page_0 {
-    width: 1494px;
-    height: 548.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page0 .content {
+  width: 1494px;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page3 {
-    background: url("../image/ia/page3.png") no-repeat;
-    width: 100%;
-    min-width: 1494px;
-    height: 390.0px;
-    background-size: cover;
-  }
-  
-  #page3 .content {
-    width: 1494px;
-    height: 390.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page0 .font1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28.8px;
+  color: #f49024;
+  font-weight: Bold;
+  position: absolute;
+  line-height: 43.2px;
+  width: 523.2px;
+}
 
-  #page4 {
-    width: 1494px;
-    height: 544.4px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page0 .font3 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  color: #ffb565;
+  position: absolute;
+}
 
-  #page41 {
-    background: url("../image/ia/page4_3.png") no-repeat;
-    width: 100%;
-    min-width: 1494px;
-    height: 816.0px;
-    background-size: cover;
-  }
-  
-  #page41 .content {
-    width: 1494px;
-    height: 816.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page_0 {
+  width: 1494px;
+  height: 548px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page5 {
-    background: url("../image/ia/page5.png") no-repeat;
-    width: 100%;
-    min-width: 1494px;
-    height: 390.0px;
-    background-size: cover;
-  }
+#page3 {
+  background: url("../image/ia/page3.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 390px;
+  background-size: cover;
+}
 
-  #page5 .content {
-    width: 1494px;
-    height: 390.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page3 .content {
+  width: 1494px;
+  height: 390px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page6 {
-    width: 1494px;
-    height: 1539.6px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page4 {
+  width: 1494px;
+  height: 573.2px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page7 {
-    background: url("../image/ia/page7.png") no-repeat;
-    width: 100%;
-    min-width: 1494px;
-    height: 390.0px;
-    background-size: cover;
-  }
+#page41 {
+  background: url("../image/ia/page4_3.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 836px;
+  background-size: cover;
+}
 
-  #page7 .content {
-    width: 1494px;
-    height: 390.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page41 .content {
+  width: 1494px;
+  height: 836px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page8 {
-    width: 1494px;
-    height: 1402.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page5 {
+  background: url("../image/ia/page5.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 390px;
+  background-size: cover;
+}
 
-  #page9 {
-    background: url("../image/ia/page9.png") no-repeat;
-    width: 100%;
-    min-width: 1494px;
-    height: 390.0px;
-    background-size: cover;
-  }
+#page5 .content {
+  width: 1494px;
+  height: 390px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page9 .content {
-    width: 1494px;
-    height: 390.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page6 {
+  width: 1494px;
+  height: 1240.6px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page10 {
-    width: 1494px;
-    height: 720.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page7 {
+  background: url("../image/ia/page7.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 390px;
+  background-size: cover;
+}
 
-  #page11 {
-    width: 1494px;
-    height: 526.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page7 .content {
+  width: 1494px;
+  height: 390px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page12 {
-    background: url("../image/ia/page12.png") no-repeat;
-    width: 100%;
-    min-width: 1494px;
-    height: 390.0px;
-    background-size: cover;
-  }
+#page8 {
+  width: 1494px;
+  height: 980px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page12 .content {
-    width: 1494px;
-    height: 390.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page9 {
+  background: url("../image/ia/page9.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 390px;
+  background-size: cover;
+}
 
-  #page13 {
-    width: 1494px;
-    height: 830.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page9 .content {
+  width: 1494px;
+  height: 390px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page14 {
-    width: 1494px;
-    height: 527.2px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page10 {
+  width: 1494px;
+  height: 720px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page15 {
-    width: 1494px;
-    height: 762.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page11 {
+  width: 1494px;
+  height: 526px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page16 {
-    width: 1494px;
-    height: 762.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page12 {
+  background: url("../image/ia/page12.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 390px;
+  background-size: cover;
+}
 
-  #page17 {
-    width: 1494px;
-    height: 1368.8px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page12 .content {
+  width: 1494px;
+  height: 390px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page18 {
-    width: 1494px;
-    height: 722.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page13 {
+  width: 1494px;
+  height: 830px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  .font1 {
-    font-family: HelveticaNeue;
-    font-size: 14.4px;
-    color: #1f1f1f;
-    position: absolute;
-    font-weight: Bold;
-  }
+#page14 {
+  width: 1494px;
+  height: 527.2px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  .font2 {
-    font-family: HelveticaNeue;
-    font-size: 14.4px;
-    color: #3B3B3B;
-    position: absolute;
-  }
+#page15 {
+  width: 1494px;
+  height: 762px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  .font3 {
-    font-family: HelveticaNeue;
-    font-size: 16.8px;
-    color: #1f1f1f;
-    position: absolute;
-    font-weight: Bold;
-  }
+#page16 {
+  width: 1494px;
+  height: 762px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  .font4 {
-    font-family: HelveticaNeue;
-    font-size: 16.8px;
-    color: #3B3B3B;
-    position: absolute;
-    line-height:22.4px;
-  }
+#page17 {
+  width: 1494px;
+  height: 1368.8px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  .font5 {
-    font-family: "Poppins", sans-serif;
-    font-size: 16.8px;
-    color: #1f1f1f;
-    font-weight: Bold;
-    position: absolute;
-  }
+#page18 {
+  width: 1494px;
+  height: 722px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  .title {
-    font-family: "Poppins", sans-serif;
-    font-size: 28.8px;
-    color: #1f1f1f;
-    font-weight: Bold;
-    position: absolute;
-  }
-  
-  img {
-    position: absolute;
-  }
+#page19 {
+  width: 100%;
+  min-width: 1494px;
+  height: 730.8px;
+  background-size: cover;
+}
 
+#page19 .content {
+  width: 1494px;
+  height: 730.8px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.font000 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16.8px;
+  color: #FFB565;
+  font-weight: Bold;
+  position: absolute;
+}
+
+.font001 {
+  font-family: HelveticaNeue-Light;
+  font-size: 16.8px;
+  color: #FFFFFF;
+  position: absolute;
+  line-height: 22.4px;
+  width: 516.0px;
+  letter-spacing:0.5px
+}
+
+.font1 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  color: #1f1f1f;
+  position: absolute;
+  font-weight: Bold;
+}
+
+.font2 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  color: #3b3b3b;
+  position: absolute;
+}
+
+.font3 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  color: #1f1f1f;
+  position: absolute;
+  font-weight: Bold;
+}
+
+.font4 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  color: #3b3b3b;
+  position: absolute;
+  line-height: 22.4px;
+}
+
+.font5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16.8px;
+  color: #1f1f1f;
+  font-weight: Bold;
+  position: absolute;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 28.8px;
+  color: #1f1f1f;
+  font-weight: Bold;
+  position: absolute;
+}
+
+img {
+  position: absolute;
+}
 
 #process {
-    width: 1494px;
-    height: 728px;
-    margin: 0 auto;
-    position: relative;
-  }
-  
-  #process .font1 {
-      font-family: Helvetica Neue;
-      font-size: 16.8px;
-      position: absolute;
-      color: #3B3B3B;
-      font-weight: bold;
-    }
-  
-    #process .font30 {
-      font-family: Helvetica Neue;
-      font-size: 9.6px;
-      position: absolute;
-      color: #EA7E15;
-      font-weight: bold;
-    }
+  width: 1494px;
+  height: 728px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#process .font1 {
+  font-family: Helvetica Neue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  font-weight: bold;
+}
+
+#process .font30 {
+  font-family: Helvetica Neue;
+  font-size: 9.6px;
+  position: absolute;
+  color: #ea7e15;
+  font-weight: bold;
+}
 
 .font111 {
-    font-size: 28.8px;
-    font-weight: Bold;
-    position: absolute;
-    color: #1f1f1f;
-  }
-  
+  font-size: 28.8px;
+  font-weight: Bold;
+  position: absolute;
+  color: #1f1f1f;
+}
+
 .font112 {
-    font-size: 22.4px;
-    position: absolute;
-    color: #1f1f1f;
+  font-size: 22.4px;
+  position: absolute;
+  color: #1f1f1f;
+}
+
+.font113 {
+  font-size: 22.4px;
+  position: absolute;
+  color: #acacac;
+}
+
+canvas {
+  display: block;
+  margin-top: 50px;
+}
+
+@media all and (max-width: 1050px) {
+  canvas {
+    margin-top: 100px;
   }
-  
- .font113 {
-    font-size: 22.4px;
-    position: absolute;
-    color: #acacac;
+}
+
+.intro {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column wrap;
+  list-style: none;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.intro p {
+  color: #4c4c4c;
+}
+
+.intro .description {
+  font-size: 20px;
+  width: 650px;
+  text-align: justify;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+
+@media all and (max-width: 700px) {
+  .intro .description {
+    width: 400px;
   }
+}
