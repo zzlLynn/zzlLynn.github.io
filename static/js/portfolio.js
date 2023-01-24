@@ -1,3 +1,42 @@
+let hive_cover = document.getElementById("hive_cover")
+$(function () {
+    $(hive_cover).on({
+        mouseover: function () {
+            let l1 = document.getElementById("hive_highlight")
+            $(l1).animate({
+                width: "175px"
+            }, 500);
+        },
+    });
+    $(hive_cover).on({
+        mouseout: function () {
+            let l1 = document.getElementById("hive_highlight")
+            $(l1).animate({
+                width: "0px"
+            }, 500);
+        },
+    });
+});
+let hive_font = document.getElementById("hive_font")
+$(function () {
+    $(hive_font).on({
+        mouseover: function () {
+            let l1 = document.getElementById("hive_highlight")
+            $(l1).animate({
+                width: "175px"
+            }, 500);
+        },
+    });
+    $(hive_font).on({
+        mouseout: function () {
+            let l1 = document.getElementById("hive_highlight")
+            $(l1).animate({
+                width: "0px"
+            }, 500);
+        },
+    });
+});
+
 let ia_cover = document.getElementById("ia_cover")
 $(function () {
     $(ia_cover).on({

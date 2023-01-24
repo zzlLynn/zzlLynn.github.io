@@ -53,18 +53,18 @@
 }
 
 #page2 {
-    width: 100%;
-    min-width: 1494px;
-    height: 1827.2px;
-    background-size: cover;
-  }
-  
-  #page2 .content {
-    width: 1494px;
-    height: 1827.2px;
-    margin: 0 auto;
-    position: relative;
-  }
+  width: 100%;
+  min-width: 1494px;
+  height: 1827.2px;
+  background-size: cover;
+}
+
+#page2 .content {
+  width: 1494px;
+  height: 1827.2px;
+  margin: 0 auto;
+  position: relative;
+}
 
 #page3 {
   width: 1494px;
@@ -138,89 +138,89 @@
 }
 
 #page12_1 {
-    width: 1494px;
-    height: 737.6px;
-    margin: 0 auto;
-    position: relative;
-  }
+  width: 1494px;
+  height: 737.6px;
+  margin: 0 auto;
+  position: relative;
+}
 
 #page12_2 {
-    width: 1494px;
-    height: 737.6px;
-    margin: 0 auto;
-    position: relative;
-  }
+  width: 1494px;
+  height: 737.6px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page12_3 {
-    width: 1494px;
-    height: 610px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page12_3 {
+  width: 1494px;
+  height: 610px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page12 {
-    width: 100%;
-    min-width: 1494px;
-    height: 2812.0px;
-    background-size: cover;
-  }
-  
-  #page12 .content {
-    width: 1494px;
-    height: 2812.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page12 {
+  width: 100%;
+  min-width: 1494px;
+  height: 2812px;
+  background-size: cover;
+}
 
-  #page13 {
-    background: url("../image/moos/page13_background.png") no-repeat;
-    width: 100%;
-    min-width: 1494px;
-    height: 1040.0px;
-    background-size: cover;
-  }
-  
-  #page13 .content {
-    width: 1494px;
-    height: 1040.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page12 .content {
+  width: 1494px;
+  height: 2812px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page13 {
+  background: url("../image/moos/page13_background.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 1040px;
+  background-size: cover;
+}
+
+#page13 .content {
+  width: 1494px;
+  height: 1040px;
+  margin: 0 auto;
+  position: relative;
+}
 
 #page14 {
-    width: 1494px;
-    height: 898.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+  width: 1494px;
+  height: 898px;
+  margin: 0 auto;
+  position: relative;
+}
 
 #page15 {
-    width: 1494px;
-    height: 808.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+  width: 1494px;
+  height: 808px;
+  margin: 0 auto;
+  position: relative;
+}
 
 #page16 {
-    width: 1494px;
-    height: 871.6px;
-    margin: 0 auto;
-    position: relative;
-  }
+  width: 1494px;
+  height: 871.6px;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #page17 {
-    width: 100%;
-    min-width: 1494px;
-    height: 1960.0px;
-    background-size: cover;
-  }
-  
-  #page17 .content {
-    width: 1494px;
-    height: 1960.0px;
-    margin: 0 auto;
-    position: relative;
-  }
+#page17 {
+  width: 100%;
+  min-width: 1494px;
+  height: 1960px;
+  background-size: cover;
+}
+
+#page17 .content {
+  width: 1494px;
+  height: 1960px;
+  margin: 0 auto;
+  position: relative;
+}
 
 .font1 {
   font-family: HelveticaNeue;
@@ -271,7 +271,6 @@
   line-height: 20px;
   text-align: justify !important;
 }
-
 
 .font399 {
   font-family: HelveticaNeue;
@@ -369,36 +368,36 @@ img {
 }
 
 #process .font1 {
-    font-family: Helvetica Neue;
-    font-size: 16.8px;
-    position: absolute;
-    color: #3B3B3B;
-    font-weight: bold;
-  }
+  font-family: Helvetica Neue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  font-weight: bold;
+}
 
-  #process .font30 {
-    font-family: Helvetica Neue;
-    font-size: 9.6px;
-    position: absolute;
-    color: #5FE5D6;
-    font-weight: bold;
-  }
+#process .font30 {
+  font-family: Helvetica Neue;
+  font-size: 9.6px;
+  position: absolute;
+  color: #5fe5d6;
+  font-weight: bold;
+}
 
 .font111 {
-    font-size: 28.8px;
-    font-weight: Bold;
-    position: absolute;
-    color: #1f1f1f;
-  }
-  
+  font-size: 28.8px;
+  font-weight: Bold;
+  position: absolute;
+  color: #1f1f1f;
+}
+
 .font112 {
-    font-size: 22.4px;
-    position: absolute;
-    color: #1f1f1f;
-  }
-  
- .font113 {
-    font-size: 22.4px;
-    position: absolute;
-    color: #acacac;
-  }
+  font-size: 22.4px;
+  position: absolute;
+  color: #1f1f1f;
+}
+
+.font113 {
+  font-size: 22.4px;
+  position: absolute;
+  color: #acacac;
+}

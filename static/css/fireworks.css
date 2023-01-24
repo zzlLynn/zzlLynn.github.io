@@ -619,3 +619,55 @@ img {
   color: #3B3B3B;
   font-weight: bold;
 }
+
+#footer1 {
+  background: url("../image/fireworks/page12_background.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 436px;
+  background-size: cover;
+}
+
+#footer1 .content {
+  width: 1494px;
+  height: 436px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#footer1 .font1 {
+  font-size: 28.8px;
+  font-weight: Bold;
+  position: absolute;
+  color: #FFFFFF;
+}
+
+#footer1 .font2 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  font-weight: Bold;
+  position: absolute;
+  color: #FFFFFF;
+  text-align: justify !important;
+}
+
+#footer1 .font3 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+#footer1 .font4 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: white;
+  line-height:20px;
+  opacity: 0.75;
+}
+
+#footer1 img {
+  position: absolute;
+}

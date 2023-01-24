@@ -1,0 +1,368 @@
+#page0 {
+  background: url("../image/hive/page0_background.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 700px;
+  background-size: cover;
+}
+
+#page0 .content {
+  width: 1494px;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page0 .font1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 79.6px;
+  color: #1f1f1f;
+  font-weight: Bold;
+  position: absolute;
+  line-height: 96.5px;
+}
+
+#page0 .font2 {
+  font-family: HelveticaNeue;
+  font-size: 28.8px;
+  color: #1f1f1f;
+  font-weight: Bold;
+  position: absolute;
+}
+
+#page0 .font3 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  color: #1f1f1f;
+  position: absolute;
+}
+
+#page1 {
+  width: 1494px;
+  height: 868.8px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page2 {
+  width: 1494px;
+  height: 1378px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page3 {
+  width: 1494px;
+  height: 811.2px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page4 {
+  width: 1494px;
+  height: 416.8px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page5 {
+  width: 1494px;
+  height: 572px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page6 {
+  width: 100%;
+  min-width: 1494px;
+  height: 2320.8px;
+  background-size: cover;
+}
+
+#page6 .content {
+  width: 1494px;
+  height: 2320.8px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page7 {
+  width: 1494px;
+  height: 908.8px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page8-1 {
+  width: 1494px;
+  height: 573.6px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page8-2 {
+  width: 1494px;
+  height: 874.4px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page8-3 {
+  width: 1494px;
+  height: 886.0px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page9 {
+  width: 1494px;
+  height: 797.6px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page10 {
+  width: 1494px;
+  height: 908.8px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page11 {
+  width: 1494px;
+  height: 1258.4px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page12 {
+  background: url("../image/hive/page12_background.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 2358.4px;
+  background-size: cover;
+}
+
+#page12 .content {
+  width: 1494px;
+  height: 2358.4px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page13 {
+    width: 1494px;
+    height: 931.2px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+#page14 {
+    width: 1494px;
+    height: 1048.0px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+.font1 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  color: #1f1f1f;
+  position: absolute;
+  line-height: 16.4px;
+}
+
+.font2 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  color: #1f1f1f;
+  position: absolute;
+}
+
+.font21 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  color: #f8b10e;
+  position: absolute;
+  font-weight: bold;
+}
+
+.font3 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  color: #3b3b3b;
+  position: absolute;
+  line-height: 20px;
+  text-align: justify !important;
+}
+
+.font31 {
+  font-family: HelveticaNeue;
+  font-size: 28.8px;
+  color: #fe9476;
+  position: absolute;
+  line-height: 20px;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.font32 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  color: #3b3b3b;
+  position: absolute;
+  line-height: 24px;
+  text-align: justify !important;
+}
+
+.font4 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  color: #5d5d5d;
+  position: absolute;
+  line-height: 16.4px;
+  text-align: justify !important;
+}
+
+.font5 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  color: #05ceb8;
+  position: absolute;
+  font-weight: 540;
+}
+
+.font6 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  color: #3b3b3b;
+  position: absolute;
+  line-height: 16.8px;
+  text-align: justify !important;
+}
+
+.font61 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  color: #3b3b3b;
+  position: absolute;
+  line-height: 20px;
+  text-align: justify !important;
+  font-weight: bold;
+}
+
+.font7 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  color: #3b3b3b;
+  position: absolute;
+  font-style: italic;
+  line-height: 16.8px;
+}
+
+.font8 {
+  font-family: HelveticaNeue-Light;
+  font-size: 16.8px;
+  color: #1f1f1f;
+  position: absolute;
+  line-height: 20px;
+  text-align: justify !important;
+}
+
+.font9 {
+  font-family: HelveticaNeue-Light;
+  font-size: 14.4px;
+  color: #3b3b3b;
+  position: absolute;
+  line-height: 16.8px;
+  text-align: justify !important;
+}
+
+.font91 {
+  font-family: HelveticaNeue-Light;
+  font-size: 14.4px;
+  color: #5d5d5d;
+  position: absolute;
+  line-height: 16.8px;
+  text-align: justify !important;
+}
+
+.font92 {
+  font-family: HelveticaNeue-Light;
+  font-size: 14.4px;
+  color: #1f1f1f;
+  position: absolute;
+  line-height: 16.8px;
+  text-align: center;
+}
+
+.font10 {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  color: #5d5d5d;
+  position: absolute;
+  line-height: 17.6px;
+}
+
+.font11 {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  color: #5d5d5d;
+  position: absolute;
+  line-height: 20px;
+  text-align: justify !important;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 28.8px;
+  color: #1f1f1f;
+  font-weight: Bold;
+  position: absolute;
+}
+
+img {
+  position: absolute;
+}
+
+#process {
+  width: 1494px;
+  height: 728px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#process .font1 {
+  font-family: Helvetica Neue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3b3b3b;
+  font-weight: bold;
+}
+
+#process .font30 {
+  font-family: Helvetica Neue;
+  font-size: 9.6px;
+  position: absolute;
+  color: #5fe5d6;
+  font-weight: bold;
+}
+
+.font111 {
+  font-size: 28.8px;
+  font-weight: Bold;
+  position: absolute;
+  color: #1f1f1f;
+}
+
+.font112 {
+  font-size: 22.4px;
+  position: absolute;
+  color: #1f1f1f;
+}
+
+.font113 {
+  font-size: 22.4px;
+  position: absolute;
+  color: #acacac;
+}
