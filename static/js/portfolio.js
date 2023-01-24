@@ -2,9 +2,13 @@ let hive_cover = document.getElementById("hive_cover")
 $(function () {
     $(hive_cover).on({
         mouseover: function () {
-            let l1 = document.getElementById("hive_highlight")
-            $(l1).animate({
-                width: "175px"
+            setTimeout(() => {
+                if ($(hive_cover).is(':hover')) {
+                    let l1 = document.getElementById("hive_highlight")
+                    $(l1).animate({
+                        width: "175px"
+                    }, 500);
+                }
             }, 500);
         },
     });
@@ -21,9 +25,13 @@ let hive_font = document.getElementById("hive_font")
 $(function () {
     $(hive_font).on({
         mouseover: function () {
-            let l1 = document.getElementById("hive_highlight")
-            $(l1).animate({
-                width: "175px"
+            setTimeout(() => {
+                if ($(hive_font).is(':hover')) {
+                    let l1 = document.getElementById("hive_highlight")
+                    $(l1).animate({
+                        width: "175px"
+                    }, 500);
+                }
             }, 500);
         },
     });
@@ -41,9 +49,13 @@ let ia_cover = document.getElementById("ia_cover")
 $(function () {
     $(ia_cover).on({
         mouseover: function () {
-            let l1 = document.getElementById("ia_highlight")
-            $(l1).animate({
-                width: "519px"
+            setTimeout(() => {
+                if ($(ia_cover).is(':hover')) {
+                    let l1 = document.getElementById("ia_highlight")
+                    $(l1).animate({
+                        width: "519px"
+                    }, 500);
+                }
             }, 500);
         },
     });
@@ -60,9 +72,13 @@ let ia_font = document.getElementById("ia_font")
 $(function () {
     $(ia_font).on({
         mouseover: function () {
-            let l1 = document.getElementById("ia_highlight")
-            $(l1).animate({
-                width: "519px"
+            setTimeout(() => {
+                if ($(ia_font).is(':hover')) {
+                    let l1 = document.getElementById("ia_highlight")
+                    $(l1).animate({
+                        width: "519px"
+                    }, 500);
+                }
             }, 500);
         },
     });
@@ -80,9 +96,13 @@ let moos_cover = document.getElementById("moos_cover")
 $(function () {
     $(moos_cover).on({
         mouseover: function () {
-            let l1 = document.getElementById("moos_highlight")
-            $(l1).animate({
-                width: "239.0px"
+            setTimeout(() => {
+                if ($(moos_cover).is(':hover')) {
+                    let l1 = document.getElementById("moos_highlight")
+                    $(l1).animate({
+                        width: "239.0px"
+                    }, 500);
+                }
             }, 500);
         },
     });
@@ -99,9 +119,13 @@ let moos_font = document.getElementById("moos_font")
 $(function () {
     $(moos_font).on({
         mouseover: function () {
-            let l1 = document.getElementById("moos_highlight")
-            $(l1).animate({
-                width: "239.0px"
+            setTimeout(() => {
+                if ($(moos_font).is(':hover')) {
+                    let l1 = document.getElementById("moos_highlight")
+                    $(l1).animate({
+                        width: "239.0px"
+                    }, 500);
+                }
             }, 500);
         },
     });
@@ -119,9 +143,13 @@ let fireworks_cover = document.getElementById("fireworks_cover")
 $(function () {
     $(fireworks_cover).on({
         mouseover: function () {
-            let l1 = document.getElementById("fireworks_highlight")
-            $(l1).animate({
-                width: "529.6px"
+            setTimeout(() => {
+                if ($(fireworks_cover).is(':hover')) {
+                    let l1 = document.getElementById("fireworks_highlight")
+                    $(l1).animate({
+                        width: "529.6px"
+                    }, 500);
+                }
             }, 500);
         },
     });
@@ -138,9 +166,13 @@ let fireworks_font = document.getElementById("fireworks_font")
 $(function () {
     $(fireworks_font).on({
         mouseover: function () {
-            let l1 = document.getElementById("fireworks_highlight")
-            $(l1).animate({
-                width: "529.6px"
+            setTimeout(() => {
+                if ($(fireworks_font).is(':hover')) {
+                    let l1 = document.getElementById("fireworks_highlight")
+                    $(l1).animate({
+                        width: "529.6px"
+                    }, 500);
+                }
             }, 500);
         },
     });
@@ -153,13 +185,18 @@ $(function () {
         },
     });
 });
+
 let furry_cover = document.getElementById("furry_cover")
 $(function () {
     $(furry_cover).on({
         mouseover: function () {
-            let l1 = document.getElementById("furry_highlight")
-            $(l1).animate({
-                width: "469.7px"
+            setTimeout(() => {
+                if ($(furry_cover).is(':hover')) {
+                    let l1 = document.getElementById("furry_highlight")
+                    $(l1).animate({
+                        width: "469.7px"
+                    }, 500);
+                }
             }, 500);
         },
     });
@@ -176,9 +213,13 @@ let furry_font = document.getElementById("furry_font")
 $(function () {
     $(furry_font).on({
         mouseover: function () {
-            let l1 = document.getElementById("furry_highlight")
-            $(l1).animate({
-                width: "469.7px"
+            setTimeout(() => {
+                if ($(furry_font).is(':hover')) {
+                    let l1 = document.getElementById("furry_highlight")
+                    $(l1).animate({
+                        width: "469.7px"
+                    }, 500);
+                }
             }, 500);
         },
     });
@@ -191,14 +232,19 @@ $(function () {
         },
     });
 });
+
 let iwen_cover = document.getElementById("iwen_cover")
 $(function () {
     $(iwen_cover).on({
         mouseover: function () {
-            let l1 = document.getElementById("iwen_highlight")
-            $(l1).animate({
-                width: "186.1px"
-            }, 200);
+            setTimeout(() => {
+                if ($(iwen_cover).is(':hover')) {
+                    let l1 = document.getElementById("iwen_highlight")
+                    $(l1).animate({
+                        width: "186.1px"
+                    }, 500);
+                }
+            }, 500);
         },
     });
     $(iwen_cover).on({
@@ -206,7 +252,7 @@ $(function () {
             let l1 = document.getElementById("iwen_highlight")
             $(l1).animate({
                 width: "0px"
-            }, 200);
+            }, 500);
         },
     });
 });
@@ -214,10 +260,14 @@ let iwen_font = document.getElementById("iwen_font")
 $(function () {
     $(iwen_font).on({
         mouseover: function () {
-            let l1 = document.getElementById("iwen_highlight")
-            $(l1).animate({
-                width: "186.1px"
-            }, 300);
+            setTimeout(() => {
+                if ($(iwen_font).is(':hover')) {
+                    let l1 = document.getElementById("iwen_highlight")
+                    $(l1).animate({
+                        width: "186.1px"
+                    }, 500);
+                }
+            }, 500);
         },
     });
     $(iwen_font).on({
@@ -225,17 +275,22 @@ $(function () {
             let l1 = document.getElementById("iwen_highlight")
             $(l1).animate({
                 width: "0px"
-            }, 300);
+            }, 500);
         },
     });
 });
+
 let driven_cover = document.getElementById("driven_cover")
 $(function () {
     $(driven_cover).on({
         mouseover: function () {
-            let l1 = document.getElementById("driven_highlight")
-            $(l1).animate({
-                width: "544.0px"
+            setTimeout(() => {
+                if ($(driven_cover).is(':hover')) {
+                    let l1 = document.getElementById("driven_highlight")
+                    $(l1).animate({
+                        width: "544.0px"
+                    }, 500);
+                }
             }, 500);
         },
     });
@@ -252,9 +307,13 @@ let driven_font = document.getElementById("driven_font")
 $(function () {
     $(driven_font).on({
         mouseover: function () {
-            let l1 = document.getElementById("driven_highlight")
-            $(l1).animate({
-                width: "544.0px"
+            setTimeout(() => {
+                if ($(driven_font).is(':hover')) {
+                    let l1 = document.getElementById("driven_highlight")
+                    $(l1).animate({
+                        width: "544.0px"
+                    }, 500);
+                }
             }, 500);
         },
     });
