@@ -152,8 +152,33 @@
     </div>
     <div id="page41">
         <div class="content">
-            <img alt="pic" src="./static/image/ia/page4_1.png" style="height:618.8px;margin:128.2px 0 0 199.4px">
-            <img alt="pic" src="./static/image/ia/page4_2.png" style="height:618.8px;margin:128.2px 0 0 199.4px">
+            <img alt="pic" src="./static/image/ia/page4_1.png" style="height:618.8px;margin:128.2px 0 0 199.4px;position: absolute;">
+            <!-- <img alt="pic" src="./static/image/ia/page4_2.png" style="height:618.8px;margin:128.2px 0 0 199.4px;position: absolute;"> -->
+            <div id="indicators" class="carousel slide" data-ride="carousel"
+            style="height:618.8px;width:1094.0px;margin:128.2px 0 0 199.4px;position: absolute;">
+            <ol class="carousel-indicators">
+                <li data-target="#indicators" data-slide-to="0" class="active"></li>
+                <li data-target="#indicators" data-slide-to="1"></li>
+                <li data-target="#indicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img alt="pic" src="./static/image/ia/persona1.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img alt="pic" src="./static/image/ia/persona2.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img alt="pic" src="./static/image/ia/persona3.png" class="d-block w-100">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#indicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#indicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
             <div class="font4" style="margin:32.0px 0 0 200.0px;width:554.0px;color:white">
                 We analyzed and created three personas: <p
                     style="display: inline;font-weight:bold;color:#fea653;font-family: HelveticaNeue;">Museum Lovers</p>
