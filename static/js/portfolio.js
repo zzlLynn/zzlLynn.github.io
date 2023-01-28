@@ -8,11 +8,7 @@ $(function () {
                     $(l1).animate({
                         width: "175px"
                     }, 500);
-                    $(hive_cover).animate({
-                        width: "558.6px",
-                        height: "504px",
-                        margin:"-12px 0 0 159.1px"
-                    }, 500);
+                    hive_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
@@ -23,11 +19,7 @@ $(function () {
             $(l1).animate({
                 width: "0px"
             }, 500);
-            $(hive_cover).animate({
-                width:"532.0px",
-                height:"480.0px",
-                margin:"0px 0 0 172.4px"
-            }, 500);
+            hive_cover.style.transform = "scale(1)";
         },
     });
 });
@@ -41,11 +33,7 @@ $(function () {
                     $(l1).animate({
                         width: "175px"
                     }, 500);
-                    $(hive_cover).animate({
-                        width: "558.6px",
-                        height: "504px",
-                        margin:"-12px 0 0 159.1px"
-                    }, 500);
+                    hive_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
@@ -56,78 +44,7 @@ $(function () {
             $(l1).animate({
                 width: "0px"
             }, 500);
-            $(hive_cover).animate({
-                width:"532.0px",
-                height:"480.0px",
-                margin:"0px 0 0 172.4px"
-            }, 500);
-        },
-    });
-});
-
-let ia_cover = document.getElementById("ia_cover")
-$(function () {
-    $(ia_cover).on({
-        mouseover: function () {
-            setTimeout(() => {
-                if ($(ia_cover).is(':hover')) {
-                    let l1 = document.getElementById("ia_highlight")
-                    $(l1).animate({
-                        width: "519px"
-                    }, 500);
-                    $(ia_cover).animate({
-                        width: "558.6px",
-                        height: "504px",
-                        margin:"-12px 0 0 159.1px"
-                    }, 500);
-                }
-            }, 500);
-        },
-    });
-    $(ia_cover).on({
-        mouseout: function () {
-            let l1 = document.getElementById("ia_highlight")
-            $(l1).animate({
-                width: "0px"
-            }, 500);
-            $(ia_cover).animate({
-                width:"532.0px",
-                height:"480.0px",
-                margin:"0px 0 0 172.4px"
-            }, 500);
-        },
-    });
-});
-let ia_font = document.getElementById("ia_font")
-$(function () {
-    $(ia_font).on({
-        mouseover: function () {
-            setTimeout(() => {
-                if ($(ia_font).is(':hover')) {
-                    let l1 = document.getElementById("ia_highlight")
-                    $(l1).animate({
-                        width: "519px"
-                    }, 500);
-                    $(ia_cover).animate({
-                        width: "558.6px",
-                        height: "504px",
-                        margin:"-12px 0 0 159.1px"
-                    }, 500);
-                }
-            }, 500);
-        },
-    });
-    $(ia_font).on({
-        mouseout: function () {
-            let l1 = document.getElementById("ia_highlight")
-            $(l1).animate({
-                width: "0px"
-            }, 500);
-            $(ia_cover).animate({
-                width:"532.0px",
-                height:"480.0px",
-                margin:"0px 0 0 172.4px"
-            }, 500);
+            hive_cover.style.transform = "scale(1)";
         },
     });
 });
@@ -142,11 +59,7 @@ $(function () {
                     $(l1).animate({
                         width: "239.0px"
                     }, 500);
-                    $(moos_cover).animate({
-                        width: "558.6px",
-                        height: "504px",
-                        margin:"-12px 0 0 159.1px"
-                    }, 500);
+                    moos_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
@@ -157,11 +70,7 @@ $(function () {
             $(l1).animate({
                 width: "0px"
             }, 500);
-            $(moos_cover).animate({
-                width:"532.0px",
-                height:"480.0px",
-                margin:"0px 0 0 172.4px"
-            }, 500);
+            moos_cover.style.transform = "scale(1)";
         },
     });
 });
@@ -175,11 +84,7 @@ $(function () {
                     $(l1).animate({
                         width: "239.0px"
                     }, 500);
-                    $(moos_cover).animate({
-                        width: "558.6px",
-                        height: "504px",
-                        margin:"-12px 0 0 159.1px"
-                    }, 500);
+                    moos_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
@@ -190,11 +95,7 @@ $(function () {
             $(l1).animate({
                 width: "0px"
             }, 500);
-            $(moos_cover).animate({
-                width:"532.0px",
-                height:"480.0px",
-                margin:"0px 0 0 172.4px"
-            }, 500);
+            moos_cover.style.transform = "scale(1)";
         },
     });
 });
@@ -209,11 +110,7 @@ $(function () {
                     $(l1).animate({
                         width: "529.6px"
                     }, 500);
-                    $(fireworks_cover).animate({
-                        width: "558.6px",
-                        height: "504px",
-                        margin:"-12px 0 0 159.1px"
-                    }, 500);
+                    fireworks_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
@@ -224,11 +121,7 @@ $(function () {
             $(l1).animate({
                 width: "0px"
             }, 500);
-            $(fireworks_cover).animate({
-                width:"532.0px",
-                height:"480.0px",
-                margin:"0px 0 0 172.4px"
-            }, 500);
+            fireworks_cover.style.transform = "scale(1)";
         },
     });
 });
@@ -242,11 +135,7 @@ $(function () {
                     $(l1).animate({
                         width: "529.6px"
                     }, 500);
-                    $(fireworks_cover).animate({
-                        width: "558.6px",
-                        height: "504px",
-                        margin:"-12px 0 0 159.1px"
-                    }, 500);
+                    fireworks_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
@@ -257,11 +146,7 @@ $(function () {
             $(l1).animate({
                 width: "0px"
             }, 500);
-            $(fireworks_cover).animate({
-                width:"532.0px",
-                height:"480.0px",
-                margin:"0px 0 0 172.4px"
-            }, 500);
+            fireworks_cover.style.transform = "scale(1)";
         },
     });
 });
@@ -276,11 +161,7 @@ $(function () {
                     $(l1).animate({
                         width: "469.7px"
                     }, 500);
-                    $(furry_cover).animate({
-                        width: "558.6px",
-                        height: "504px",
-                        margin:"-12px 0 0 159.1px"
-                    }, 500);
+                    furry_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
@@ -291,11 +172,7 @@ $(function () {
             $(l1).animate({
                 width: "0px"
             }, 500);
-            $(furry_cover).animate({
-                width:"532.0px",
-                height:"480.0px",
-                margin:"0px 0 0 172.4px"
-            }, 500);
+            furry_cover.style.transform = "scale(1)";
         },
     });
 });
@@ -309,11 +186,7 @@ $(function () {
                     $(l1).animate({
                         width: "469.7px"
                     }, 500);
-                    $(furry_cover).animate({
-                        width: "558.6px",
-                        height: "504px",
-                        margin:"-12px 0 0 159.1px"
-                    }, 500);
+                    furry_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
@@ -324,11 +197,7 @@ $(function () {
             $(l1).animate({
                 width: "0px"
             }, 500);
-            $(furry_cover).animate({
-                width:"532.0px",
-                height:"480.0px",
-                margin:"0px 0 0 172.4px"
-            }, 500);
+            furry_cover.style.transform = "scale(1)";
         },
     });
 });
@@ -343,11 +212,7 @@ $(function () {
                     $(l1).animate({
                         width: "186.1px"
                     }, 500);
-                    $(iwen_cover).animate({
-                        width: "558.6px",
-                        height: "504px",
-                        margin:"-12px 0 0 159.1px"
-                    }, 500);
+                    iwen_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
@@ -358,11 +223,7 @@ $(function () {
             $(l1).animate({
                 width: "0px"
             }, 500);
-            $(iwen_cover).animate({
-                width:"532.0px",
-                height:"480.0px",
-                margin:"0px 0 0 172.4px"
-            }, 500);
+            iwen_cover.style.transform = "scale(1)";
         },
     });
 });
@@ -376,11 +237,7 @@ $(function () {
                     $(l1).animate({
                         width: "186.1px"
                     }, 500);
-                    $(iwen_cover).animate({
-                        width: "558.6px",
-                        height: "504px",
-                        margin:"-12px 0 0 159.1px"
-                    }, 500);
+                    iwen_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
@@ -391,11 +248,7 @@ $(function () {
             $(l1).animate({
                 width: "0px"
             }, 500);
-            $(iwen_cover).animate({
-                width:"532.0px",
-                height:"480.0px",
-                margin:"0px 0 0 172.4px"
-            }, 500);
+            iwen_cover.style.transform = "scale(1)";
         },
     });
 });
@@ -410,11 +263,7 @@ $(function () {
                     $(l1).animate({
                         width: "544.0px"
                     }, 500);
-                    $(driven_cover).animate({
-                        width: "558.6px",
-                        height: "504px",
-                        margin:"-12px 0 0 159.1px"
-                    }, 500);
+                    driven_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
@@ -425,11 +274,7 @@ $(function () {
             $(l1).animate({
                 width: "0px"
             }, 500);
-            $(driven_cover).animate({
-                width:"532.0px",
-                height:"480.0px",
-                margin:"0px 0 0 172.4px"
-            }, 500);
+            driven_cover.style.transform = "scale(1)";
         },
     });
 });
@@ -443,11 +288,7 @@ $(function () {
                     $(l1).animate({
                         width: "544.0px"
                     }, 500);
-                    $(driven_cover).animate({
-                        width: "558.6px",
-                        height: "504px",
-                        margin:"-12px 0 0 159.1px"
-                    }, 500);
+                    driven_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
@@ -458,11 +299,7 @@ $(function () {
             $(l1).animate({
                 width: "0px"
             }, 500);
-            $(driven_cover).animate({
-                width:"532.0px",
-                height:"480.0px",
-                margin:"0px 0 0 172.4px"
-            }, 500);
+            driven_cover.style.transform = "scale(1)";
         },
     });
 });
