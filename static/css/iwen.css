@@ -380,7 +380,7 @@
 
 #page11 {
   width: 1494px;
-  height: 1462.4px;
+  height: 597.4px;
   margin: 0 auto;
   position: relative;
 }
@@ -394,9 +394,25 @@
   color: #3b3b3b;
 }
 
+#page11-1 {
+  width: 1494px;
+  height: 865px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page11-1 .font1 {
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  text-align: justify !important;
+  width: 314px;
+  position: absolute;
+  color: #3b3b3b;
+}
+
 #page12 {
   width: 1494px;
-  height: 1464px;
+  height: 630px;
   margin: 0 auto;
   position: relative;
 }
@@ -419,6 +435,34 @@
 }
 
 #page12 img {
+  position: absolute;
+}
+
+#page12-1 {
+  width: 1494px;
+  height: 834px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page12-1 .font1 {
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  text-align: justify !important;
+  width: 315px;
+  position: absolute;
+  color: #3b3b3b;
+}
+
+#page12-1 .font2 {
+  font-family: Helvetica Neue;
+  font-size: 14.4px;
+  text-align: justify !important;
+  position: absolute;
+  color: #acacac;
+}
+
+#page12-1 img {
   position: absolute;
 }
 
