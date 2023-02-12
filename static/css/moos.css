@@ -55,13 +55,20 @@
 #page2 {
   width: 100%;
   min-width: 1494px;
-  height: 1827.2px;
+  height: 587.2px;
   background-size: cover;
 }
 
 #page2 .content {
   width: 1494px;
-  height: 1827.2px;
+  height: 587.2px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page2-1 {
+  width: 1494px;
+  height: 1240px;
   margin: 0 auto;
   position: relative;
 }
@@ -158,16 +165,30 @@
   position: relative;
 }
 
+#page12_x {
+  width: 1494px;
+  height: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
 #page12 {
   width: 100%;
   min-width: 1494px;
-  height: 2812px;
+  height: 1100px;
   background-size: cover;
 }
 
 #page12 .content {
   width: 1494px;
-  height: 2812px;
+  height: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page12_y {
+  width: 1494px;
+  height:900px;
   margin: 0 auto;
   position: relative;
 }
@@ -211,13 +232,27 @@
 #page17 {
   width: 100%;
   min-width: 1494px;
-  height: 1960px;
+  height: 900px;
   background-size: cover;
 }
 
 #page17 .content {
   width: 1494px;
-  height: 1960px;
+  height: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page17-1 {
+  width: 1494px;
+  height: 630px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page17-2 {
+  width: 1494px;
+  height: 460px;
   margin: 0 auto;
   position: relative;
 }
