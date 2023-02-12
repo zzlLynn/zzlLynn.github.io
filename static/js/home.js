@@ -48,6 +48,31 @@ $(function () {
         }
     });
 });
+let behance1 = document.getElementById("behance1")
+$(function () {
+    $(behance1).on({
+        mouseover: function () {
+            let l1 = document.getElementById("b11")
+            let l2 = document.getElementById("b21")
+            $(l1).animate({
+                opacity: 0
+            }, 200);
+            $(l2).animate({
+                opacity: 1
+            }, 200);
+        },
+        mouseout: function () {
+            let l1 = document.getElementById("b11")
+            let l2 = document.getElementById("b21")
+            $(l1).animate({
+                opacity: 1
+            }, 200);
+            $(l2).animate({
+                opacity: 0
+            }, 200);
+        }
+    });
+});
 let email1 = document.getElementById("email1")
 $(function () {
     $(email1).on({
