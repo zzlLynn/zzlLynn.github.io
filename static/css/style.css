@@ -102,3 +102,46 @@ p {
   width: 100%;
   height: 64px;
 }
+
+.brief {
+  width: 1494px;
+  height: 455.2px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.brief .font1z {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #1F1F1F;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+}
+
+.brief .font2z {
+  font-family: HelveticaNeue;
+  font-size: 14.4px;
+  position: absolute;
+  color: #3B3B3B;
+  letter-spacing: 0.3px;
+}
+
+.brief .font3z {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #1F1F1F;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+}
+
+.brief .font4z {
+  font-family: HelveticaNeue;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3B3B3B;
+  line-height: 22.4px;
+  width: 654.0px;
+  letter-spacing: 0.4px;
+}
