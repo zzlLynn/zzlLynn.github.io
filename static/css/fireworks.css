@@ -539,13 +539,13 @@
   background: url("../image/fireworks/page12_background.png") no-repeat;
   width: 100%;
   min-width: 1494px;
-  height: 711.2px;
+  height: 400px;
   background-size: cover;
 }
 
 #page12 .content {
   width: 1494px;
-  height: 711.2px;
+  height: 400px;
   margin: 0 auto;
   position: relative;
 }
@@ -584,6 +584,64 @@
 }
 
 #page12 .font5 {
+  font-family: HelveticaNeue-Light;
+  font-size: 14.4px;
+  position: absolute;
+  color: white;
+  width: 234.0px;
+  text-align: justify !important;
+  opacity: 70%;
+}
+
+#page12-1 {
+  background: url("../image/fireworks/page12_background.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 311.2px;
+  background-size: cover;
+}
+
+#page12-1 .content {
+  width: 1494px;
+  height: 311.2px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page12-1 .font1 {
+  font-family: HelveticaNeue-Light;
+  font-size: 16.8px;
+  position: absolute;
+  color: white;
+  width: 379.2px;
+  text-align: justify !important;
+}
+
+#page12-1 .font2 {
+  font-family: Helvetica Neue;
+  font-size: 80px;
+  position: absolute;
+  color: white;
+  opacity: 8%;
+}
+
+#page12-1 .font3 {
+  font-family: Helvetica Neue;
+  font-size: 16.8px;
+  position: absolute;
+  color: white;
+}
+
+#page12-1 .font4 {
+  font-family: HelveticaNeue-Light;
+  font-size: 14.4px;
+  position: absolute;
+  color: white;
+  font-style: italic;
+  width: 104.8px;
+}
+
+#page12-1 .font5 {
   font-family: HelveticaNeue-Light;
   font-size: 14.4px;
   position: absolute;
