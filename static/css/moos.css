@@ -47,7 +47,21 @@
 
 #page1 .content {
   width: 1494px;
-  height: 2307.2px;
+  height: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page1 .content1 {
+  width: 1494px;
+  height: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page1 .content2 {
+  width: 1494px;
+  height: 307.2px;
   margin: 0 auto;
   position: relative;
 }
@@ -139,7 +153,14 @@
 
 #page11 .content {
   width: 1494px;
-  height: 1590px;
+  height: 850px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page11 .content1 {
+  width: 1494px;
+  height: 740px;
   margin: 0 auto;
   position: relative;
 }
