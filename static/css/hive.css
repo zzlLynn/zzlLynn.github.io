@@ -145,7 +145,14 @@
 
 #page12 .content {
   width: 1494px;
-  height: 2358.4px;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page12 .content1 {
+  width: 1494px;
+  height: 1658.4px;
   margin: 0 auto;
   position: relative;
 }
