@@ -498,7 +498,14 @@
 
 #page11 .content {
   width: 1494px;
-  height: 2389.2px;
+  height: 929.2px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page11 .content1 {
+  width: 1494px;
+  height: 1460px;
   margin: 0 auto;
   position: relative;
 }
