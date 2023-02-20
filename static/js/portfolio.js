@@ -253,53 +253,53 @@ $(function () {
     });
 });
 
-let driven_cover = document.getElementById("driven_cover")
+let ia_cover = document.getElementById("ia_cover")
 $(function () {
-    $(driven_cover).on({
+    $(ia_cover).on({
         mouseover: function () {
             setTimeout(() => {
-                if ($(driven_cover).is(':hover')) {
-                    let l1 = document.getElementById("driven_highlight")
+                if ($(ia_cover).is(':hover')) {
+                    let l1 = document.getElementById("ia_highlight")
                     $(l1).animate({
-                        width: "544.0px"
+                        width: "540.0px"
                     }, 500);
-                    driven_cover.style.transform = "scale(1.2)";
+                    ia_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
     });
-    $(driven_cover).on({
+    $(ia_cover).on({
         mouseout: function () {
-            let l1 = document.getElementById("driven_highlight")
+            let l1 = document.getElementById("ia_highlight")
             $(l1).animate({
                 width: "0px"
             }, 500);
-            driven_cover.style.transform = "scale(1)";
+            ia_cover.style.transform = "scale(1)";
         },
     });
 });
-let driven_font = document.getElementById("driven_font")
+let ia_font = document.getElementById("ia_font")
 $(function () {
-    $(driven_font).on({
+    $(ia_font).on({
         mouseover: function () {
             setTimeout(() => {
-                if ($(driven_font).is(':hover')) {
-                    let l1 = document.getElementById("driven_highlight")
+                if ($(ia_font).is(':hover')) {
+                    let l1 = document.getElementById("ia_highlight")
                     $(l1).animate({
-                        width: "544.0px"
+                        width: "540.0px"
                     }, 500);
-                    driven_cover.style.transform = "scale(1.2)";
+                    ia_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
     });
-    $(driven_font).on({
+    $(ia_font).on({
         mouseout: function () {
-            let l1 = document.getElementById("driven_highlight")
+            let l1 = document.getElementById("ia_highlight")
             $(l1).animate({
                 width: "0px"
             }, 500);
-            driven_cover.style.transform = "scale(1)";
+            ia_cover.style.transform = "scale(1)";
         },
     });
 });
