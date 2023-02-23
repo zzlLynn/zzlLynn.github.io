@@ -251,7 +251,7 @@
 }
 
 .font001 {
-  font-family: HelveticaNeue-Light;
+  font-family: 'Helvetica Neue Light', sans-serif;;
   font-size: 16.8px;
   color: #FFFFFF;
   position: absolute;
@@ -261,11 +261,10 @@
 }
 
 .font1 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 14.4px;
   color: #1f1f1f;
   position: absolute;
-  font-weight: Bold;
 }
 
 .font2 {
@@ -276,11 +275,10 @@
 }
 
 .font3 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 16.8px;
   color: #1f1f1f;
   position: absolute;
-  font-weight: Bold;
 }
 
 .font4 {
@@ -315,19 +313,17 @@
 }
 
 #process .font1 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 16.8px;
   position: absolute;
   color: #3b3b3b;
-  font-weight: bold;
 }
 
 #process .font30 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 9.6px;
   position: absolute;
   color: #ea7e15;
-  font-weight: bold;
 }
 
 .font111 {

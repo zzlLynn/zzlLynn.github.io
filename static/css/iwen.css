@@ -26,10 +26,9 @@
 }
 
 #page0 .font2 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 28.8px;
   color: #1f1f1f;
-  font-weight: Bold;
   position: absolute;
 }
 
@@ -103,17 +102,15 @@
 }
 
 #page2 .font1 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 24px;
-  font-weight: Bold;
   position: absolute;
   color: #3b3b3b;
 }
 
 #page2 .font2 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 16.8px;
-  font-weight: Bold;
   width: 468px;
   position: absolute;
   text-align: justify !important;
@@ -121,9 +118,8 @@
 }
 
 #page2 .font3 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 14.4px;
-  font-weight: Bold;
   position: absolute;
   color: #3b3b3b;
 }
@@ -160,9 +156,8 @@
 }
 
 #page3 .font1 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 16.8px;
-  font-weight: Bold;
   position: absolute;
   color: white;
 }
@@ -188,9 +183,8 @@
 }
 
 #page4 .font1 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 16.8px;
-  font-weight: Bold;
   position: absolute;
 }
 
@@ -202,10 +196,9 @@
 }
 
 #page4 .font3 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 16.8px;
   color: #6b81fd;
-  font-weight: Bold;
   position: absolute;
 }
 
@@ -217,10 +210,9 @@
 }
 
 #page4 .font5 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 28.8px;
   color: black;
-  font-weight: Bold;
   position: absolute;
 }
 
@@ -236,9 +228,8 @@
 }
 
 #page5 .font1 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 16.8px;
-  font-weight: Bold;
   position: absolute;
   color: #3b3b3b;
 }
@@ -700,19 +691,17 @@
 }
 
 #process .font1 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 16.8px;
   position: absolute;
   color: #3B3B3B;
-  font-weight: bold;
 }
 
 #process .font2 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 9.6px;
   position: absolute;
   color: #CAC9FE;
-  font-weight: bold;
 }
 
 #process img{

@@ -23,10 +23,9 @@
 }
 
 #page0 .font2 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 28.8px;
   color: #1f1f1f;
-  font-weight: Bold;
   position: absolute;
 }
 
@@ -187,11 +186,10 @@
 }
 
 .font21 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 16.8px;
   color: #f8b10e;
   position: absolute;
-  font-weight: bold;
 }
 
 .font3 {
@@ -204,13 +202,12 @@
 }
 
 .font31 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 28.8px;
   color: #fe9476;
   position: absolute;
   line-height: 20px;
   opacity: 0.5;
-  font-weight: bold;
 }
 
 .font32 {
@@ -249,13 +246,12 @@
 }
 
 .font61 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 14.4px;
   color: #3b3b3b;
   position: absolute;
   line-height: 20px;
   text-align: justify !important;
-  font-weight: bold;
 }
 
 .font7 {
@@ -268,7 +264,7 @@
 }
 
 .font8 {
-  font-family: HelveticaNeue-Light;
+  font-family: 'Helvetica Neue Light', sans-serif;;
   font-size: 16.8px;
   color: #1f1f1f;
   position: absolute;
@@ -277,7 +273,7 @@
 }
 
 .font9 {
-  font-family: HelveticaNeue-Light;
+  font-family: 'Helvetica Neue Light', sans-serif;;
   font-size: 14.4px;
   color: #3b3b3b;
   position: absolute;
@@ -286,7 +282,7 @@
 }
 
 .font91 {
-  font-family: HelveticaNeue-Light;
+  font-family: 'Helvetica Neue Light', sans-serif;;
   font-size: 14.4px;
   color: #5d5d5d;
   position: absolute;
@@ -295,7 +291,7 @@
 }
 
 .font92 {
-  font-family: HelveticaNeue-Light;
+  font-family: 'Helvetica Neue Light', sans-serif;;
   font-size: 14.4px;
   color: #1f1f1f;
   position: absolute;
@@ -340,19 +336,17 @@ img {
 }
 
 #process .font1 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 16.8px;
   position: absolute;
   color: #3b3b3b;
-  font-weight: bold;
 }
 
 #process .font30 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 9.6px;
   position: absolute;
   color: #5fe5d6;
-  font-weight: bold;
 }
 
 .font111 {
