@@ -52,7 +52,7 @@ canvas {
 }
 
 #page1 .font2 {
-  font-family: Helvetica Neue;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 28.8px;
   font-weight: Bold;
   position: absolute;

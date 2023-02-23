@@ -13,7 +13,7 @@
 }
 
 .work .font2 {
-  font-family: Helvetica Neue;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 28.8px;
   font-weight: Bold;
   position: absolute;
@@ -21,7 +21,7 @@
 }
 
 .work .font3 {
-  font-family: Helvetica Neue;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 16.8px;
   position: absolute;
   color: #5d5d5d;
@@ -30,7 +30,7 @@
 }
 
 .work .font4 {
-  font-family: Helvetica Neue;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 16.8px;
   position: absolute;
   color: #ACACAC;
@@ -56,7 +56,7 @@
 }
 
 .otherworks .font2 {
-  font-family: Helvetica Neue;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 16.8px;
   font-weight: 500;
   position: absolute;
@@ -67,7 +67,7 @@
 }
 
 .otherworks .font3 {
-  font-family: Helvetica Neue;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 14.4px;
   position: absolute;
   color: #5D5D5D;

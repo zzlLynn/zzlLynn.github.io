@@ -52,7 +52,7 @@ body {
 }
 
 .footer .font2 {
-  font-family: Helvetica Neue;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 16.8px;
   font-weight: Bold;
   position: absolute;
@@ -61,14 +61,14 @@ body {
 }
 
 .footer .font3 {
-  font-family: Helvetica Neue;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 14.4px;
   position: absolute;
   color: #ACACAC;
 }
 
 .footer .font4 {
-  font-family: Helvetica Neue;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 14.4px;
   position: absolute;
   color: #5D5D5D;
@@ -111,7 +111,7 @@ p {
 }
 
 .brief .font1z {
-  font-family: Helvetica Neue;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 14.4px;
   position: absolute;
   color: #1F1F1F;
@@ -120,7 +120,7 @@ p {
 }
 
 .brief .font2z {
-  font-family: Helvetica Neue;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 14.4px;
   position: absolute;
   color: #3B3B3B;
@@ -128,7 +128,7 @@ p {
 }
 
 .brief .font3z {
-  font-family: Helvetica Neue;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 16.8px;
   position: absolute;
   color: #1F1F1F;
@@ -137,7 +137,7 @@ p {
 }
 
 .brief .font4z {
-  font-family: Helvetica Neue;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 16.8px;
   position: absolute;
   color: #3B3B3B;
