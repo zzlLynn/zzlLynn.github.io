@@ -125,6 +125,78 @@ $(function () {
     });
 });
 
+let lig11 = document.getElementById("lig11")
+$(function () {
+    $(lig11).on({
+        mouseover: function () {
+            let l1 = document.getElementById("lig1")
+            $(l1).animate({
+                opacity: 1
+            }, 0);
+        },
+        mouseout: function () {
+            let l1 = document.getElementById("lig1")
+            $(l1).animate({
+                opacity: 0
+            }, 0);
+        }
+    });
+});
+
+let lig22 = document.getElementById("lig22")
+$(function () {
+    $(lig22).on({
+        mouseover: function () {
+            let l1 = document.getElementById("lig2")
+            $(l1).animate({
+                opacity: 1
+            }, 0);
+        },
+        mouseout: function () {
+            let l1 = document.getElementById("lig2")
+            $(l1).animate({
+                opacity: 0
+            }, 0);
+        }
+    });
+});
+
+let lig33 = document.getElementById("lig33")
+$(function () {
+    $(lig33).on({
+        mouseover: function () {
+            let l1 = document.getElementById("lig3")
+            $(l1).animate({
+                opacity: 1
+            }, 0);
+        },
+        mouseout: function () {
+            let l1 = document.getElementById("lig3")
+            $(l1).animate({
+                opacity: 0
+            }, 0);
+        }
+    });
+});
+
+let lig44 = document.getElementById("lig44")
+$(function () {
+    $(lig44).on({
+        mouseover: function () {
+            let l1 = document.getElementById("lig4")
+            $(l1).animate({
+                opacity: 1
+            }, 0);
+        },
+        mouseout: function () {
+            let l1 = document.getElementById("lig4")
+            $(l1).animate({
+                opacity: 0
+            }, 0);
+        }
+    });
+});
+
 
 $("#next0").click(function(){
     change();
