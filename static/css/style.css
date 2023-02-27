@@ -14,6 +14,13 @@ body {
   position: relative;
 }
 
+.nav_block {
+  width: 1494px;
+  height: 148px;
+  margin: 0 auto;
+  position: relative;
+}
+
 .nav img {
   position: absolute;
 }
@@ -141,4 +148,82 @@ p {
   line-height: 22.4px;
   width: 654.0px;
   letter-spacing: 0.4px;
+}
+
+.nav_work {
+  width: 100%;
+  min-width: 1494px;
+  height: 132px;
+  background-size: cover;
+  margin: 0 auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.nav_work .content {
+  width: 1494px;
+  height: 132px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav_work_block {
+  width: 1494px;
+  height: 12px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav_work img {
+  position: absolute;
+}
+
+.nav_work .font1 {
+  font-size: 28.8px;
+  font-weight: Bold;
+  position: absolute;
+  color: #1f1f1f;
+}
+
+.nav_work .font2 {
+  font-size: 22.4px;
+  position: absolute;
+  color: #1f1f1f;
+}
+
+.nav_work .font3 {
+  font-size: 22.4px;
+  position: absolute;
+  color: #acacac;
+}
+
+.ps {
+  width: 100%;
+  min-width: 1494px;
+  height: 132px;
+  background-size: cover;
+  margin: 0 auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.ps .content {
+  width: 1494px;
+  height: 132px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ps .font1 {
+  font-family: 'Helvetica Neue Bold', sans-serif;
+  font-size: 22.4px;
+  position: absolute;
+  color: #ACACAC;
+  letter-spacing: -0.1px;
 }

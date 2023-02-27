@@ -125,6 +125,32 @@ $(function () {
     });
 });
 
+let sl = document.getElementById("sl0")
+$(function () {
+    $(sl).on({
+        mouseover: function () {
+            let l1 = document.getElementById("sl1")
+            let l2 = document.getElementById("sl2")
+            $(l1).animate({
+                opacity: 0
+            }, 0);
+            $(l2).animate({
+                opacity: 1
+            }, 0);
+        },
+        mouseout: function () {
+            let l1 = document.getElementById("sl1")
+            let l2 = document.getElementById("sl2")
+            $(l1).animate({
+                opacity: 1
+            }, 0);
+            $(l2).animate({
+                opacity: 0
+            }, 0);
+        }
+    });
+});
+
 let lig11 = document.getElementById("lig11")
 $(function () {
     $(lig11).on({
