@@ -129,9 +129,15 @@
         <img alt="pic" src="./static/image/common/line.png"
             style="height:1px;width:100%;margin:120.0px 0 0 0;opacity: 0.6;">
         <div class="content">
-            <p class="font1" style="margin:60.4px 0 0 324.4px;" id="dis">DISCOVER</p>
-            <p class="font1" style="margin:60.4px 0 0 704.4px;" id="des">DESIGN</p>
-            <p class="font1" style="margin:60.4px 0 0 1064.4px;" id="del">DELIVER</p>
+            <a href="javascript:void(0);" onclick="discover()">
+                <p class="font1" style="margin:60.4px 0 0 324.4px;" id="dis">DISCOVER</p>
+            </a>
+            <a href="javascript:void(0);" onclick="design()">
+                <p class="font1" style="margin:60.4px 0 0 704.4px;" id="des">DESIGN</p>
+            </a>
+            <a href="javascript:void(0);" onclick="deliver()">
+                <p class="font1" style="margin:60.4px 0 0 1064.4px;" id="del">DELIVER</p>
+            </a>
             <a href="./index.html" id="sl0">
                 <img alt="pic" src="./static/image/common/logo.png" id="sl1"
                     style="width:44.0px;height:44.0px;margin:52.0px 0 0 116.0px;position: absolute;z-index:9999;opacity:1;">
@@ -1336,6 +1342,18 @@
 
         document.getElementById("p_f").onmousedown = function () {
             toPage(12);
+        }
+
+        function discover() {
+            toPage(1);
+        }
+
+        function design() {
+            toPage(5);
+        }
+
+        function deliver() {
+            toPage(10);
         }
 
         var process1 = document.getElementById("process").offsetTop + 110;
