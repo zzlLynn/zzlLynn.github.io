@@ -80,3 +80,18 @@ canvas {
   height: 425.8646617px;
   transition: all 0.75s;
 }
+
+#bar_etc {
+  width: 1494px;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.bar_etc_font {
+  font-family: "Poppins", sans-serif;
+  font-size: 28.8px;
+  color: #1F1F1F;
+  font-weight: Bold;
+  position: absolute;
+}
