@@ -59,7 +59,7 @@ $(function () {
                     $(l1).animate({
                         width: "186.0px"
                     }, 500);
-                    beke_cover.style.transform = "scale(1.2)";
+                    beke_cover.style.transform = "scale(1.13)";
                 }
             }, 500);
         },
@@ -84,7 +84,7 @@ $(function () {
                     $(l1).animate({
                         width: "186.0px"
                     }, 500);
-                    beke_cover.style.transform = "scale(1.2)";
+                    beke_cover.style.transform = "scale(1.13)";
                 }
             }, 500);
         },
