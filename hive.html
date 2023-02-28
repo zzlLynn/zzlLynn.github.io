@@ -31,7 +31,8 @@
 </head>
 
 <body>
-    <div class="nav">
+    <div class="nav_work" id="nnn1">
+        <div class="content">
         <a href="./index.html" id="sy0">
             <img alt="pic" src="./static/image/common/logo.png" id="sy1"
                 style="width:44.0px;height:44.0px;margin:52.0px 0 0 116.0px;position: fixed;z-index:9999;opacity:1;">
@@ -62,6 +63,8 @@
             <p class="font113" style="margin:58.0px 0 0 1226.4px" id="lig44">About</p>
         </a>
     </div>
+</div>
+<div class="nav_work_block"></div>
     <div id="page0">
         <div class="content">
             <img alt="pic" src="./static/image/hive/page0_di.png" style="height:700.0px;margin:0 0 0 718.8px;">
@@ -108,6 +111,33 @@
                 attention to self-needs</p>
             <p class="font4z" style="margin:401.2px 0 0 655.6px;width: 638.4px;">Build social connections among Lao Piao
                 themselves without being affected by the scope and timing of their activities</p>
+        </div>
+    </div>
+    <div class="ps" style="display: none;" id="nnn2">
+        <img alt="pic" src="./static/image/common/line.png"
+            style="height:1px;width:100%;margin:120.0px 0 0 0;opacity: 0.6;position: absolute;">
+        <div class="content">
+            <a href="javascript:void(0);" onclick="discover()">
+                <p class="font1" style="margin:60.4px 0 0 324.4px;" id="dis">DISCOVER</p>
+            </a>
+            <a href="javascript:void(0);" onclick="design()">
+                <p class="font1" style="margin:60.4px 0 0 704.4px;" id="des">DESIGN</p>
+            </a>
+            <a href="javascript:void(0);" onclick="deliver()">
+                <p class="font1" style="margin:60.4px 0 0 1064.4px;" id="del">DELIVER</p>
+            </a>
+            <a href="./index.html" id="sl0">
+                <img alt="pic" src="./static/image/common/logo.png" id="sl1"
+                    style="width:44.0px;height:44.0px;margin:52.0px 0 0 116.0px;position: absolute;z-index:9999;opacity:1;">
+                <img alt="pic" src="./static/image/ia/logo.png" id="sl2"
+                    style="width:44.0px;height:44.0px;margin:52.0px 0 0 116.0px;position: absolute;z-index:9999;opacity:0;">
+            </a>
+            <img alt="pic" src="./static/image/fireworks/lll.png" id="lll3"
+                style="height:2px;width:364.8px;margin:118.5px 0 0 929.4px;opacity: 0;position: absolute;">
+            <img alt="pic" src="./static/image/fireworks/lll.png" id="lll2"
+                style="height:2px;width:364.8px;margin:118.5px 0 0 564.6px;opacity: 0;position: absolute;">
+            <img alt="pic" src="./static/image/fireworks/lll.png" id="lll1"
+                style="height:2px;width:364.8px;margin:118.5px 0 0 199.8px;opacity: 0;position: absolute;">
         </div>
     </div>
     <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="100">
@@ -1295,7 +1325,7 @@
 
         function toPage(index) {
             $("html,body").animate({
-                scrollTop: $("#page" + index).eq(0).offset().top
+                scrollTop: $("#page" + index).eq(0).offset().top - 132
             }, 500);
         }
 
@@ -1322,6 +1352,58 @@
         document.getElementById("p_f").onmousedown = function () {
             toPage(14);
         }
+
+
+
+        function discover() {
+            toPage(1);
+        }
+
+        function design() {
+            toPage(10);
+        }
+
+        function deliver() {
+            toPage(12);
+        }
+
+        var process1 = document.getElementById("process").offsetTop + 110;
+        var page5 = document.getElementById("page10").offsetTop - 133;
+        var page10 = document.getElementById("page12").offsetTop - 133;
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > process1) {
+                    document.getElementById("nnn1").style.display = "none";
+                    document.getElementById("nnn2").style.display = "block";
+                    if ($(window).scrollTop() < page5) {
+                        document.getElementById("dis").style.color = "#3B3B3B";
+                        document.getElementById("des").style.color = "#acacac";
+                        document.getElementById("del").style.color = "#acacac";
+                        document.getElementById("lll1").style.opacity = 1;
+                        document.getElementById("lll2").style.opacity = 0;
+                        document.getElementById("lll3").style.opacity = 0;
+                    } else if ($(window).scrollTop() > page10) {
+                        document.getElementById("dis").style.color = "#acacac";
+                        document.getElementById("des").style.color = "#acacac";
+                        document.getElementById("del").style.color = "#3B3B3B";
+                        document.getElementById("lll1").style.opacity = 0;
+                        document.getElementById("lll2").style.opacity = 0;
+                        document.getElementById("lll3").style.opacity = 1;
+                    } else {
+                        document.getElementById("dis").style.color = "#acacac";
+                        document.getElementById("des").style.color = "#3B3B3B";
+                        document.getElementById("del").style.color = "#acacac";
+                        document.getElementById("lll1").style.opacity = 0;
+                        document.getElementById("lll2").style.opacity = 1;
+                        document.getElementById("lll3").style.opacity = 0;
+                    }
+                } else {
+                    document.getElementById("nnn1").style.display = "block";
+                    document.getElementById("nnn2").style.display = "none";
+                }
+            });
+        });
     </script>
 </body>
 
