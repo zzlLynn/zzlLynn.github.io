@@ -49,53 +49,53 @@ $(function () {
     });
 });
 
-let moos_cover = document.getElementById("moos_cover")
+let beke_cover = document.getElementById("beke_cover")
 $(function () {
-    $(moos_cover).on({
+    $(beke_cover).on({
         mouseover: function () {
             setTimeout(() => {
-                if ($(moos_cover).is(':hover')) {
-                    let l1 = document.getElementById("moos_highlight")
+                if ($(beke_cover).is(':hover')) {
+                    let l1 = document.getElementById("beke_highlight")
                     $(l1).animate({
-                        width: "239.0px"
+                        width: "186.0px"
                     }, 500);
-                    moos_cover.style.transform = "scale(1.2)";
+                    beke_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
     });
-    $(moos_cover).on({
+    $(beke_cover).on({
         mouseout: function () {
-            let l1 = document.getElementById("moos_highlight")
+            let l1 = document.getElementById("beke_highlight")
             $(l1).animate({
                 width: "0px"
             }, 500);
-            moos_cover.style.transform = "scale(1)";
+            beke_cover.style.transform = "scale(1)";
         },
     });
 });
-let moos_font = document.getElementById("moos_font")
+let beke_font = document.getElementById("beke_font")
 $(function () {
-    $(moos_font).on({
+    $(beke_font).on({
         mouseover: function () {
             setTimeout(() => {
-                if ($(moos_font).is(':hover')) {
-                    let l1 = document.getElementById("moos_highlight")
+                if ($(beke_font).is(':hover')) {
+                    let l1 = document.getElementById("beke_highlight")
                     $(l1).animate({
-                        width: "239.0px"
+                        width: "186.0px"
                     }, 500);
-                    moos_cover.style.transform = "scale(1.2)";
+                    beke_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
     });
-    $(moos_font).on({
+    $(beke_font).on({
         mouseout: function () {
-            let l1 = document.getElementById("moos_highlight")
+            let l1 = document.getElementById("beke_highlight")
             $(l1).animate({
                 width: "0px"
             }, 500);
-            moos_cover.style.transform = "scale(1)";
+            beke_cover.style.transform = "scale(1)";
         },
     });
 });
