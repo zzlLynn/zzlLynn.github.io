@@ -263,7 +263,7 @@ $(function () {
                     $(l1).animate({
                         width: "540.0px"
                     }, 500);
-                    ia_cover.style.transform = "scale(1.2)";
+                    ia_cover.style.transform = "scale(1.13)";
                 }
             }, 500);
         },
@@ -288,7 +288,7 @@ $(function () {
                     $(l1).animate({
                         width: "540.0px"
                     }, 500);
-                    ia_cover.style.transform = "scale(1.2)";
+                    ia_cover.style.transform = "scale(1.13)";
                 }
             }, 500);
         },
