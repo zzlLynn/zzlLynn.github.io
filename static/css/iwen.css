@@ -401,6 +401,46 @@
   color: #3b3b3b;
 }
 
+#page11-2 {
+  width: 1494px;
+  height: 860.0px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page11-2 .font1 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14.4px;
+  width: 405.6px;
+  position: absolute;
+  color: #3b3b3b;
+  letter-spacing: 0.5px;
+}
+
+#page11-3 {
+  width: 1494px;
+  height: 1120.0px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page11-3 .font1 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14.4px;
+  width: 405.6px;
+  position: absolute;
+  color: #3b3b3b;
+  letter-spacing: 0.5px;
+}
+
+#page11-3 .font2 {
+  font-family: 'Helvetica Neue Bold', sans-serif;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3B3B3B;
+  letter-spacing: 0.3px;
+}
+
 #page12 {
   width: 1494px;
   height: 630px;
