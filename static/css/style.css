@@ -9,14 +9,14 @@ body {
 
 .nav {
   width: 1494px;
-  height: 148px;
+  height: 112px;
   margin: 0 auto;
   position: relative;
 }
 
 .nav_block {
   width: 1494px;
-  height: 148px;
+  height: 112px;
   margin: 0 auto;
   position: relative;
 }
@@ -153,7 +153,7 @@ p {
 .nav_work {
   width: 100%;
   min-width: 1494px;
-  height: 132px;
+  height: 112px;
   background-size: cover;
   margin: 0 auto;
   position: -webkit-sticky;
@@ -165,7 +165,7 @@ p {
 
 .nav_work .content {
   width: 1494px;
-  height: 132px;
+  height: 112px;
   margin: 0 auto;
   position: relative;
 }
@@ -203,7 +203,7 @@ p {
 .ps {
   width: 100%;
   min-width: 1494px;
-  height: 132px;
+  height: 112px;
   background-size: cover;
   margin: 0 auto;
   position: -webkit-sticky;
@@ -215,7 +215,7 @@ p {
 
 .ps .content {
   width: 1494px;
-  height: 132px;
+  height: 112px;
   margin: 0 auto;
   position: relative;
 }
