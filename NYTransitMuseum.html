@@ -104,7 +104,9 @@
             <p class="font3z" style="margin:60.0px 0 0 640.0px;">Overview</p>
             <p class="font3z" style="margin:236.0px 0 0 640.0px;">Problem</p>
             <p class="font3z" style="margin:389.6px 0 0 640.0px;">Goals</p>
-            <p class="font4z" style="margin:86.8px 0 0 640.0px;">New York Transit Museum is dedicated to telling and
+            <p class="font4z" style="margin:86.8px 0 0 640.0px;"><a
+                href="https://www.nytransitmuseum.org/" target="_blank" id="amm1"
+                style="text-decoration:underline;text-decoration-color: #3B3B3B;">New York Transit Museum</a> is dedicated to telling and
                 preserving the stories of mass transportation. The New York Transit Museum is looking to redesign its
                 website to better serve the visitors' needs. Our team leveraged insights to improve the navigation and
                 organization of the existing website while keeping the web responsive across devices thus making the
@@ -1099,6 +1101,18 @@
                 } else {
                     document.getElementById("nnn1").style.display = "block";
                     document.getElementById("nnn2").style.display = "none";
+                }
+            });
+        });
+
+        let amm1 = document.getElementById("amm1")
+        $(function () {
+            $(amm1).on({
+                mouseover: function () {
+                    amm1.setAttribute("style", "color:#acacac;text-decoration:underline;text-decoration-color: #acacac;")
+                },
+                mouseout: function () {
+                    amm1.setAttribute("style", "color:#3b3b3b;text-decoration:underline;text-decoration-color: #acacac;")
                 }
             });
         });
