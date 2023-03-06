@@ -115,6 +115,47 @@
                 core competencies, highlight the brand identity according to the user conceptual model</p>
         </div>
     </div>
+    <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="100">
+        <div id="page_pre">
+            <p class="title" style="margin:53.6px 0 0 198.4px">Solution Preview</p>
+            <p class="font1" style="margin:60.4px 0 0 746.8px">By reorganizing the information architecture to
+                streamline the user flow, creating a reading community to enhance user motivation, and adding word books
+                and quizzes to strengthen user reading ability, the design goal is to make users more focused on English
+                reading and improve English learning.</p>
+            <img alt="pic" src="./static/image/iwen/pre.png"
+                style="width:1094.0px;margin:197.6px 0 0 200px;position: absolute;">
+            <a href="#" id="pre_res">
+                <img alt="pic"  id="pre_res1" src="./static/image/iwen/pre_res.png"
+                    style="height:27.6px;margin:803.2px 0 0 200.0px;opacity:1">
+                <img alt="pic"  id="pre_res2" src="./static/image/iwen/pre_res_h.png"
+                    style="height:27.6px;margin:803.2px 0 0 200.0px;opacity:0">
+            </a>
+            <a href="#" id="pre_inf">
+                <img alt="pic" id="pre_inf1" src="./static/image/iwen/pre_inf.png"
+                    style="height:27.6px;margin:803.2px 0 0 422.0px;opacity:1">
+                <img alt="pic" id="pre_inf2" src="./static/image/iwen/pre_inf_h.png"
+                    style="height:27.6px;margin:803.2px 0 0 422.0px;opacity:0">
+            </a>
+            <a href="#" id="pre_bra">
+                <img alt="pic" id="pre_bra1" src="./static/image/iwen/pre_bra.png"
+                    style="height:27.6px;margin:803.2px 0 0 644.0px;opacity:1">
+                <img alt="pic" id="pre_bra2" src="./static/image/iwen/pre_bra_h.png"
+                    style="height:27.6px;margin:803.2px 0 0 644.0px;opacity:0">
+            </a>
+            <a href="#" id="pre_hi">
+                <img alt="pic" id="pre_hi1" src="./static/image/iwen/pre_hi.png"
+                    style="height:27.6px;margin:803.2px 0 0 866.0px;opacity:1">
+                <img alt="pic" id="pre_hi2" src="./static/image/iwen/pre_hi_h.png"
+                    style="height:27.6px;margin:803.2px 0 0 866.0px;opacity:0">
+            </a>
+            <a href="#" id="pre_des">
+                <img alt="pic" id="pre_des1" src="./static/image/iwen/pre_des.png"
+                    style="height:27.6px;margin:803.2px 0 0 1088.0px;opacity:1">
+                <img alt="pic" id="pre_des2" src="./static/image/iwen/pre_des_h.png"
+                    style="height:27.6px;margin:803.2px 0 0 1088.0px;opacity:0">
+            </a>
+        </div>
+    </div>
     <div class="ps" style="display: none;" id="nnn2">
         <img alt="pic" src="./static/image/common/line.png"
             style="height:1px;width:100%;margin:100.0px 0 0 0;opacity: 0.6;position: absolute;">
@@ -1113,6 +1154,26 @@
             toPage(12);
         }
 
+        document.getElementById("pre_res").onmousedown = function () {
+            toPage(1);
+        }
+
+        document.getElementById("pre_inf").onmousedown = function () {
+            toPage(4);
+        }
+
+        document.getElementById("pre_bra").onmousedown = function () {
+            toPage(6);
+        }
+
+        document.getElementById("pre_hi").onmousedown = function () {
+            toPage(20);
+        }
+
+        document.getElementById("pre_des").onmousedown = function () {
+            toPage(12);
+        }
+
 
         function discover() {
             toPage(1);
@@ -1169,6 +1230,97 @@
                 } else {
                     document.getElementById("nnn1").style.display = "block";
                     document.getElementById("nnn2").style.display = "none";
+                }
+            });
+        });
+
+
+        let p111 = document.getElementById("pre_res")
+        $(function () {
+            $(p111).on({
+                mouseover: function () {
+                    let l2 = document.getElementById("pre_res2")
+                    $(l2).animate({
+                        opacity: 1
+                    }, 200);
+                },
+                mouseout: function () {
+                    let l2 = document.getElementById("pre_res2")
+                    $(l2).animate({
+                        opacity: 0
+                    }, 100);
+                }
+            });
+        });
+
+        let p222 = document.getElementById("pre_inf")
+        $(function () {
+            $(p222).on({
+                mouseover: function () {
+                    let l2 = document.getElementById("pre_inf2")
+                    $(l2).animate({
+                        opacity: 1
+                    }, 200);
+                },
+                mouseout: function () {
+                    let l2 = document.getElementById("pre_inf2")
+                    $(l2).animate({
+                        opacity: 0
+                    }, 100);
+                }
+            });
+        });
+
+        let p333 = document.getElementById("pre_bra")
+        $(function () {
+            $(p333).on({
+                mouseover: function () {
+                    let l2 = document.getElementById("pre_bra2")
+                    $(l2).animate({
+                        opacity: 1
+                    }, 200);
+                },
+                mouseout: function () {
+                    let l2 = document.getElementById("pre_bra2")
+                    $(l2).animate({
+                        opacity: 0
+                    }, 100);
+                }
+            });
+        });
+
+        let p444 = document.getElementById("pre_hi")
+        $(function () {
+            $(p444).on({
+                mouseover: function () {
+                    let l2 = document.getElementById("pre_hi2")
+                    $(l2).animate({
+                        opacity: 1
+                    }, 200);
+                },
+                mouseout: function () {
+                    let l2 = document.getElementById("pre_hi2")
+                    $(l2).animate({
+                        opacity: 0
+                    }, 100);
+                }
+            });
+        });
+
+        let p555 = document.getElementById("pre_des")
+        $(function () {
+            $(p555).on({
+                mouseover: function () {
+                    let l2 = document.getElementById("pre_des2")
+                    $(l2).animate({
+                        opacity: 1
+                    }, 200);
+                },
+                mouseout: function () {
+                    let l2 = document.getElementById("pre_des2")
+                    $(l2).animate({
+                        opacity: 0
+                    }, 100);
                 }
             });
         });
