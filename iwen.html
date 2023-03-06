@@ -116,9 +116,9 @@
         </div>
     </div>
     <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="100">
-        <div id="page_pre">
-            <p class="title" style="margin:53.6px 0 0 198.4px">Solution Preview</p>
-            <p class="font1" style="margin:60.4px 0 0 746.8px">By reorganizing the information architecture to
+        <div id="page_pre" style="margin-top:10px">
+            <p class="title" style="margin:43.6px 0 0 198.4px">Solution Preview</p>
+            <p class="font1" style="margin:50.4px 0 0 746.8px">By reorganizing the information architecture to
                 streamline the user flow, creating a reading community to enhance user motivation, and adding word books
                 and quizzes to strengthen user reading ability, the design goal is to make users more focused on English
                 reading and improve English learning.</p>
@@ -205,17 +205,17 @@
             <div style="position:absolute;height:35.2px;width:0;margin:312.4px 0 0 258.8px;overflow: hidden;" id="pp1">
                 <a href="#" id="p_r">
                     <img alt="pic" id="p_r1" src="./static/image/iwen/process_re.png"
-                        style="height:35.2px;width:435.6px;margin:0 0 0 0;opacity:0">
+                        style="height:35.2px;width:428.4px;margin:0 0 0 0;opacity:0">
                     <img alt="pic" id="p_r2" src="./static/image/iwen/process_re_h.png"
-                        style="height:35.2px;width:435.6px;margin:0 0 0 0;opacity:0">
+                        style="height:35.2px;width:428.4px;margin:0 0 0 0;opacity:0">
                 </a>
             </div>
-            <div style="position:absolute;height:35.2px;width:0;margin:348.4px 0 0 368.8px;overflow: hidden;" id="pp2">
+            <div style="position:absolute;height:35.2px;width:0;margin:348.4px 0 0 324.8px;overflow: hidden;" id="pp2">
                 <a href="#" id="p_e">
                     <img alt="pic" id="p_e1" src="./static/image/iwen/process_exp.png"
-                        style="height:35.2px;width:415.2px;margin:0 0 0 0;opacity:0">
+                        style="height:35.2px;width:320.0px;margin:0 0 0 0;opacity:0">
                     <img alt="pic" id="p_e2" src="./static/image/iwen/process_exp_h.png"
-                        style="height:35.2px;width:415.2px;margin:0 0 0 0;opacity:0">
+                        style="height:35.2px;width:320.0px;margin:0 0 0 0;opacity:0">
                 </a>
             </div>
             <div style="position:absolute;height:35.2px;width:0;margin:384.4px 0 0 573.2px;overflow: hidden;" id="pp3">
@@ -828,14 +828,14 @@
             <div class="font2" style="margin:486px 0 0 1020.4px">Text Inputs</div>
         </div>
     </div>
-    <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="100">
+    <!-- <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="100">
         <div id="page13">
             <div class="content">
                 <img alt="pic" src="./static/image/iwen/page13_ui.png"
                     style="width:1494.0px;height:832.0px;margin:0px 0 0 0px">
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="footer">
         <div id="end"
             style="width:1094.0px;height:44.0px;margin:64.0px 0 0 200.0px;background-color: #9c9c9c;position: absolute;">
@@ -975,7 +975,7 @@
                 if ($(window).scrollTop() > process & flag == 1) {
                     let pp1 = document.getElementById("pp1")
                     $(pp1).animate({
-                        width: "435.6px"
+                        width: "428.4px"
                     }, 1000);
                     let l1 = document.getElementById("p_r1")
                     $(l1).animate({
@@ -985,7 +985,7 @@
                     setTimeout(() => {
                         let pp2 = document.getElementById("pp2")
                         $(pp2).animate({
-                            width: "415.2px"
+                            width: "320.0px"
                         }, 2000);
                         let l2 = document.getElementById("p_e1")
                         $(l2).animate({
@@ -1124,11 +1124,11 @@
         function toPage(index) {
             if (index !== 12) {
                 $("html,body").animate({
-                    scrollTop: $("#page" + index).eq(0).offset().top - 132
+                    scrollTop: $("#page" + index).eq(0).offset().top - 120
                 }, 500);
             } else {
                 $("html,body").animate({
-                    scrollTop: $("#page" + index).eq(0).offset().top + 627 - 132
+                    scrollTop: $("#page" + index).eq(0).offset().top + 627 - 120
                 }, 500);
             }
 
