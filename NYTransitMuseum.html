@@ -29,6 +29,7 @@
     <link href="./static/css/ia.css" rel="stylesheet">
     <link rel="stylesheet" href="./static/css/animate.css" />
     <link rel="stylesheet" href="./static/css/lightbox.min.css" />
+    <link rel="stylesheet" href="./static/css/bar.css" />
 </head>
 
 <body>
@@ -127,12 +128,17 @@
     <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="100">
         <div id="page_pre" style="margin-top:10px">
             <p class="title" style="margin:43.6px 0 0 198.4px">Solution Preview</p>
-            <p class="font1" style="margin:50.4px 0 0 640.0px;letter-spacing: 0.3px;width: 640.0px;">Our team leveraged insights to improve the navigation and
+            <p class="font1" style="margin:50.4px 0 0 640.0px;letter-spacing: 0.3px;width: 640.0px;">Our team leveraged
+                insights to improve the navigation and
                 organization of the existing website thus making the site more intuitive. We constructed a new
                 information architecture and mid-fi prototypes for the homepage, ticketing page, and membership page.
             </p>
-            <img alt="pic" src="./static/image/ia/pre_old.png"
-                style="width:1094.0px;margin:197.6px 0 0 200px;position: absolute;">
+            <div class='container'>
+                    <div class='img background-img'></div>
+                    <div class='img foreground-img'></div>
+                    <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider">
+                    <div class='slider-button'></div>
+                </div>
             <a href="#" id="pre_res">
                 <img alt="pic" id="pre_res1" src="./static/image/ia/pre_res.png"
                     style="height:27.6px;margin:803.2px 0 0 200.0px;opacity:1">
@@ -715,6 +721,15 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         new WOW().init();
+    </script>
+    <script>
+        $("#slider").on("input change", (e) => {
+            const sliderPos = e.target.value;
+            // Update the width of the foreground image
+            $('.foreground-img').css('width', `${sliderPos}%`)
+            // Update the position of the slider button
+            $('.slider-button').css('left', `calc(${sliderPos}% - 18px)`)
+        });
     </script>
     <script>
         lightbox.option({
