@@ -83,7 +83,7 @@ canvas {
 
 #bar_etc {
   width: 1494px;
-  height: 50px;
+  height: 120px;
   margin: 0 auto;
   position: relative;
 }
@@ -94,4 +94,14 @@ canvas {
   color: #1F1F1F;
   font-weight: Bold;
   position: absolute;
+  letter-spacing: 0.9px;
+}
+
+.bar_etc_font_1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22.4px;
+  color: #1F1F1F;
+  font-weight: 500;
+  position: absolute;
+  letter-spacing: -0.1px;
 }

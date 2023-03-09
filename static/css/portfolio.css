@@ -82,3 +82,22 @@
   font-weight: Bold;
   position: absolute;
 }
+
+#photo {
+  width: 1494px;
+  height: 10838.4px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#photo .img1 {
+  position: absolute;
+  width: 520.0px;
+  margin-left: 200px;
+}
+
+#photo .img2 {
+  position: absolute;
+  width: 520.0px;
+  margin-left: 774.0px;
+}
