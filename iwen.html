@@ -902,8 +902,20 @@
             });
         });
 
+        function getPosition(element) {
+            var xPosition = 0;
+            var yPosition = 0;
+
+            while (element) {
+                yPosition += (element.offsetTop - element.scrollTop + element.clientTop);
+                element = element.offsetParent;
+            }
+
+            return yPosition;
+        }
+
         window.addEventListener('resize', () => {
-            let end = document.getElementById("end").getBoundingClientRect().top - document.getElementById("nnn1").getBoundingClientRect().top
+            let end = getPosition(document.getElementById("end")) - getPosition(document.getElementById("top"))
             let height = $(window).scrollTop() + document.documentElement.clientHeight - 22;
             if (document.body.clientWidth > 1422.4 && height < end) {
                 let l1 = document.getElementById("progress")
@@ -924,7 +936,7 @@
         });
 
         $(document).ready(function () {
-            let end = document.getElementById("end").getBoundingClientRect().top - document.getElementById("nnn1").getBoundingClientRect().top
+            let end = getPosition(document.getElementById("end")) - getPosition(document.getElementById("top"))
             let height = $(window).scrollTop() + document.documentElement.clientHeight - 22;
             if (document.body.clientWidth > 1422.4 && height < end) {
                 let l1 = document.getElementById("progress")
@@ -946,7 +958,7 @@
 
         $(function () {
             $(window).scroll(function () {
-                let end = document.getElementById("end").getBoundingClientRect().top - document.getElementById("nnn1").getBoundingClientRect().top
+                let end = getPosition(document.getElementById("end")) - getPosition(document.getElementById("top"))
                 let height = $(window).scrollTop() + document.documentElement.clientHeight - 22;
                 if (document.body.clientWidth > 1422.4 && height < end) {
                     let l1 = document.getElementById("progress")
