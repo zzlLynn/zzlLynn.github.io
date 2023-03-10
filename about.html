@@ -70,30 +70,30 @@
             style="height:30.0px;width:30.0px;margin:435.6px 0 0 750.0px">
         <img alt="pic" src="./static/image/about/icon4.png"
             style="height:30.0px;width:30.0px;margin:524.8px 0 0 750.0px">
-        <img alt="pic" src="./static/image/about/icon5.png"
-            style="height:30.0px;width:30.0px;margin:524.8px 0 0 965.6px">
-        <p class="font1" style="margin:108.4px 0 0 785.0px">I'm studying Information Experience Design at <a
-                href="https://www.pratt.edu/" target="_blank" id="amm1"
-                style="text-decoration:underline;text-decoration-color: #acacac;">Pratt Institute</a> in </p>
-        <p class="font1" style="margin:138.4px 0 0 752.0px">New York. I was born and raised in Shanghai, China, and came
-            to the United State after completing my undergraduate studies in Visual Communication Design at <a
-                href="https://en.sjtu.edu.cn/about" target="_blank" id="amm2"
-                style="text-decoration:underline;text-decoration-color: #acacac;">Shanghai Jiao Tong University</a>.</p>
-        <p class="font1" style="margin:257.6px 0 0 785.0px">Hi there! My name is Lynn. I'm an interdisciplinary designer
-            with </p>
-        <p class="font1" style="margin:287.6px 0 0 752.0px">a background in UX design, creative technology, and
-            management. I research, design, and sometimes code. I'm inspired by the community and care about equality. I
-            want to use design as a tool to help foster a culture of equality and sustainability in our society.</p>
+        <p class="font1" style="margin:108.4px 0 0 785.0px;letter-spacing: 0.3px;">Hey, I'm Lynn. I'm studying
+            Information Experience Design at </p>
+        <p class="font1" style="margin:138.4px 0 0 752.0px;letter-spacing: 0.3px;"><a href="https://www.pratt.edu/"
+                target="_blank" id="amm1" style="text-decoration:underline;text-decoration-color: #acacac;">Pratt
+                Institute</a> in New York. I was born and raised in Shanghai, China, and came to the US after completing
+            my undergraduate studies in Visual Communication Design at <a href="https://en.sjtu.edu.cn/about"
+                target="_blank" id="amm2" style="text-decoration:underline;text-decoration-color: #acacac;">Shanghai
+                Jiao Tong University</a>.</p>
+        <p class="font1" style="margin:257.6px 0 0 785.0px;letter-spacing: 0px;">I like to perceive life and explore the
+            integration of real-world</p>
+        <p class="font1" style="margin:287.6px 0 0 752.0px;letter-spacing: 0px;"> experience with information design. In
+            terms of what I have explicitly achieved, I have utilized AR to enhance the original museum visit and
+            published a <a href="https://dl.acm.org/doi/abs/10.1145/3526114.3558722" target="_blank" id="amm5"
+                style="text-decoration:underline;text-decoration-color: #acacac;">UIST Poster</a> on this topic. A <a
+                href="https://drive.google.com/file/d/1-bYhm9RO2wMIb-9vIaVjMfFys_VR-feV/view?usp=share_link"
+                target="_blank" id="amm4" style="text-decoration:underline;text-decoration-color: #acacac;">Japan
+                patent</a> was awarded to me for an ergonomic design of elevator
+            buttons.</p>
         <p class="font1" style="margin:436.8px 0 0 785.0px">When I'm not designing, you can find me cooking Chinese
             food, </p>
         <p class="font1" style="margin:466.8px 0 0 752.0px">to podcasts, and shooting to capture my life.</p>
         <p class="font1" style="margin:526.0px 0 0 785.0px"><a target="_blank"
                 href="https://drive.google.com/file/d/1e7c9kYIOxck2wgjKnP9k3L5jlBCTjoKo/view?usp=share_link" id="amm3"
                 style="text-decoration:underline;text-decoration-color: #acacac;">View My Resume</a>
-        </p>
-        <p class="font1" style="margin:526.0px 0 0 999.6px"><a target="_blank"
-                href="https://drive.google.com/file/d/1-bYhm9RO2wMIb-9vIaVjMfFys_VR-feV/view?usp=share_link" id="amm4"
-                style="text-decoration:underline;text-decoration-color: #acacac;">View My Patent</a>
         </p>
         <!-- <img alt="pic" src="./static/image/about/click1.png" style="height:2px;width:105.6px;margin:133.4px 0 0 1151px">
         <img alt="pic" src="./static/image/about/click2.png"
@@ -175,6 +175,17 @@
                 },
                 mouseout: function () {
                     amm4.setAttribute("style", "color:#3b3b3b;text-decoration:underline;text-decoration-color: #acacac;")
+                }
+            });
+        });
+        let amm5 = document.getElementById("amm5")
+        $(function () {
+            $(amm5).on({
+                mouseover: function () {
+                    amm5.setAttribute("style", "color:#acacac;text-decoration:underline;text-decoration-color: #acacac;")
+                },
+                mouseout: function () {
+                    amm5.setAttribute("style", "color:#3b3b3b;text-decoration:underline;text-decoration-color: #acacac;")
                 }
             });
         });
