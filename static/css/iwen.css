@@ -248,16 +248,16 @@
 }
 
 #page6 {
-  background: #f0f0f0;
+  /* background: #f0f0f0; */
   width: 100%;
   min-width: 1494px;
-  height: 660px;
+  height: 533.6px;
   background-size: cover;
 }
 
 #page6 .content {
   width: 1494px;
-  height: 660px;
+  height: 533.6px;
   margin: 0 auto;
   position: relative;
 }
@@ -269,6 +269,24 @@
   text-align: justify !important;
   position: absolute;
   color: #3b3b3b;
+}
+
+#page6 .font2 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14.4px;
+  width: 478.4px;
+  position: absolute;
+  color: #3B3B3B;
+  letter-spacing: 0.2px;
+  line-height: 20.0px;
+}
+
+#page6 .font3 {
+  font-family: 'Helvetica Neue Light', sans-serif;
+  font-size: 14.4px;
+  position: absolute;
+  color: #FFFFFF;
+  letter-spacing: 0.3px;
 }
 
 #page6 img {
@@ -336,15 +354,25 @@
   background: url("../image/iwen/page9_sq.png") no-repeat;
   width: 100%;
   min-width: 1494px;
-  height: 436px;
+  height: 334.8px;
   background-size: cover;
 }
 
 #page9 .content {
   width: 1494px;
-  height: 436px;
+  height: 334.8px;
   margin: 0 auto;
   position: relative;
+}
+
+#page9 .font1 {
+  font-family: 'Helvetica Neue Light', sans-serif;
+  font-size: 14.4px;
+  width: 548.4px;
+  position: absolute;
+  color: #FFFFFF;
+  /* letter-spacing: -0.2px; */
+  line-height: 20.0px;
 }
 
 #page9 img {
@@ -401,6 +429,13 @@
   color: #3b3b3b;
 }
 
+#page21 {
+  width: 1494px;
+  height: 717.2px;
+  margin: 0 auto;
+  position: relative;
+}
+
 #page20 {
   width: 1494px;
   height: 860.0px;
@@ -434,6 +469,23 @@
 }
 
 #page11-3 .font2 {
+  font-family: 'Helvetica Neue Bold', sans-serif;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3B3B3B;
+  letter-spacing: 0.3px;
+}
+
+#page21 .font1 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14.4px;
+  width: 405.6px;
+  position: absolute;
+  color: #3b3b3b;
+  letter-spacing: 0.5px;
+}
+
+#page21 .font2 {
   font-family: 'Helvetica Neue Bold', sans-serif;
   font-size: 16.8px;
   position: absolute;

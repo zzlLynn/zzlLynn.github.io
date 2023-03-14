@@ -33,9 +33,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 26px;
 }
 .container .slider:hover {
-  background: rgba(242, 242, 242, 0);
+  background: rgba(47, 47, 47, 0.5);
+  border-radius: 26px;
 }
 .container .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
