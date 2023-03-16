@@ -140,10 +140,10 @@
                 <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider">
                 <div class='slider-button'></div>
                 <div id="be"
-                    style="position: absolute;width: 81.2px;height: 47.6px;margin: 271.2px 0 0 32.0px;background-color: #3B3B3B;border-radius: 2px;color: #FFFFFF;font-family: 'Helvetica Neue', sans-serif;font-size: 16.8px;text-align:center;line-height: 47.6px;opacity: 0;">
+                    style="position: absolute;width: 81.2px;height: 47.6px;margin: 271.2px 0 0 32.0px;background-color: #3B3B3B;border-radius: 2px;color: #FFFFFF;font-family: 'Helvetica Neue', sans-serif;font-size: 16.8px;text-align:center;line-height: 47.6px;opacity: 0.8;display: none;">
                     Before</div>
                 <div id="af"
-                    style="position: absolute;width: 81.2px;height: 47.6px;margin: 271.2px 0 0 980.8px;background-color: #3B3B3B;border-radius: 2px;color: #FFFFFF;font-family: 'Helvetica Neue', sans-serif;font-size: 16.8px;text-align:center;line-height: 47.6px;opacity: 0;">
+                    style="position: absolute;width: 81.2px;height: 47.6px;margin: 271.2px 0 0 980.8px;background-color: #3B3B3B;border-radius: 2px;color: #FFFFFF;font-family: 'Helvetica Neue', sans-serif;font-size: 16.8px;text-align:center;line-height: 47.6px;opacity: 0.8;display: none;">
                     After</div>
             </div>
             <a href="#" id="pre_res">
@@ -733,26 +733,14 @@
         $("#slider").on("input change", (e) => {
             const sliderPos = e.target.value;
             if (sliderPos < 13) {
-                let l1 = document.getElementById("be")
-                $(l1).animate({
-                    opacity: 0
-                }, 0);
+                document.getElementById("be").style.display = "none";
             } else {
-                let l1 = document.getElementById("be")
-                $(l1).animate({
-                    opacity: 0.8
-                }, 0);
+                document.getElementById("be").style.display = "block";
             }
             if (sliderPos > 88) {
-                let l1 = document.getElementById("af")
-                $(l1).animate({
-                    opacity: 0
-                }, 0);
+                document.getElementById("af").style.display = "none";
             } else {
-                let l1 = document.getElementById("af")
-                $(l1).animate({
-                    opacity: 0.8
-                }, 0);
+                document.getElementById("af").style.display = "block";
             }
             // Update the width of the foreground image
             $('.foreground-img').css('width', `${sliderPos}%`)
@@ -1134,24 +1122,23 @@
         $(function () {
             $(con).on({
                 mouseover: function () {
-                    let l1 = document.getElementById("be")
-                    let l2 = document.getElementById("af")
-                    $(l1).animate({
-                        opacity: 0.8
-                    }, 0);
-                    $(l2).animate({
-                        opacity: 0.8
-                    }, 0);
+                    const s = Number($("#slider")[0].value)
+                    if (s < 13) {
+                        document.getElementById("be").style.display = "none";
+                        document.getElementById("af").style.display = "block";
+                    } else if (s > 88) {
+                        document.getElementById("be").style.display = "block";
+                        document.getElementById("af").style.display = "none";
+                    } else {
+                        document.getElementById("be").style.display = "block";
+                        document.getElementById("af").style.display = "block";
+                    }
                 },
                 mouseout: function () {
                     let l1 = document.getElementById("be")
                     let l2 = document.getElementById("af")
-                    $(l1).animate({
-                        opacity: 0
-                    }, 0);
-                    $(l2).animate({
-                        opacity: 0
-                    }, 0);
+                    document.getElementById("be").style.display = "none";
+                    document.getElementById("af").style.display = "none";
                 }
             });
         });
