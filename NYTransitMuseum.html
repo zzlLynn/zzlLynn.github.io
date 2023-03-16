@@ -134,12 +134,18 @@
                 organization of the existing website thus making the site more intuitive. We constructed a new
                 information architecture and mid-fi prototypes for the homepage, ticketing page, and membership page.
             </p>
-            <div class='container'>
-                    <div class='img background-img'></div>
-                    <div class='img foreground-img'></div>
-                    <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider">
-                    <div class='slider-button'></div>
-                </div>
+            <div class='container' id="con">
+                <div class='img background-img'></div>
+                <div class='img foreground-img'></div>
+                <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider">
+                <div class='slider-button'></div>
+                <div id="be"
+                    style="position: absolute;width: 81.2px;height: 47.6px;margin: 271.2px 0 0 32.0px;background-color: #3B3B3B;border-radius: 2px;color: #FFFFFF;font-family: 'Helvetica Neue', sans-serif;font-size: 16.8px;text-align:center;line-height: 47.6px;opacity: 0;">
+                    Before</div>
+                <div id="af"
+                    style="position: absolute;width: 81.2px;height: 47.6px;margin: 271.2px 0 0 980.8px;background-color: #3B3B3B;border-radius: 2px;color: #FFFFFF;font-family: 'Helvetica Neue', sans-serif;font-size: 16.8px;text-align:center;line-height: 47.6px;opacity: 0;">
+                    After</div>
+            </div>
             <a href="#" id="pre_res">
                 <img alt="pic" id="pre_res1" src="./static/image/ia/pre_res.png"
                     style="height:27.6px;margin:803.2px 0 0 200.0px;opacity:1">
@@ -726,10 +732,32 @@
     <script>
         $("#slider").on("input change", (e) => {
             const sliderPos = e.target.value;
+            if (sliderPos < 13) {
+                let l1 = document.getElementById("be")
+                $(l1).animate({
+                    opacity: 0
+                }, 0);
+            } else {
+                let l1 = document.getElementById("be")
+                $(l1).animate({
+                    opacity: 0.8
+                }, 0);
+            }
+            if (sliderPos > 88) {
+                let l1 = document.getElementById("af")
+                $(l1).animate({
+                    opacity: 0
+                }, 0);
+            } else {
+                let l1 = document.getElementById("af")
+                $(l1).animate({
+                    opacity: 0.8
+                }, 0);
+            }
             // Update the width of the foreground image
             $('.foreground-img').css('width', `${sliderPos}%`)
             // Update the position of the slider button
-            $('.slider-button').css('left', `calc(${sliderPos}% - 18px)`)
+            $('.slider-button').css('left', `calc(${sliderPos}% - 20px)`)
         });
     </script>
     <script>
@@ -1094,6 +1122,32 @@
                     let l2 = document.getElementById("ccc42")
                     $(l1).animate({
                         opacity: 1
+                    }, 0);
+                    $(l2).animate({
+                        opacity: 0
+                    }, 0);
+                }
+            });
+        });
+
+        let con = document.getElementById("con")
+        $(function () {
+            $(con).on({
+                mouseover: function () {
+                    let l1 = document.getElementById("be")
+                    let l2 = document.getElementById("af")
+                    $(l1).animate({
+                        opacity: 0.8
+                    }, 0);
+                    $(l2).animate({
+                        opacity: 0.8
+                    }, 0);
+                },
+                mouseout: function () {
+                    let l1 = document.getElementById("be")
+                    let l2 = document.getElementById("af")
+                    $(l1).animate({
+                        opacity: 0
                     }, 0);
                     $(l2).animate({
                         opacity: 0

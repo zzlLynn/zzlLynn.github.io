@@ -60,7 +60,7 @@
   height: 30px;
   border-radius: 50%;
   background-color: white;
-  left: calc(50% - 18px);
+  left: calc(50% - 20px);
   top: calc(50% - 18px);
   display: flex;
   justify-content: center;
