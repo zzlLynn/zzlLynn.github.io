@@ -18,7 +18,7 @@
 }
 .container .foreground-img {
   background-image: url("../image/ia/pre_new.png");
-  width: 50%;
+  width: 542px;
 }
 .container .slider {
   position: absolute;
@@ -42,13 +42,13 @@
 .container .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 12px;
+  width: 6px;
   height: 589.6px;
-  background: white;
+  background: linear-gradient(to top, #fff 0%, #fff 45%, transparent 45%, transparent 55%, #fff 55%, #fff 100%);
   cursor: pointer;
 }
 .container .slider::-moz-range-thumb {
-  width: 12px;
+  width: 6px;
   height: 589.6px;
   background: white;
   cursor: pointer;
@@ -56,29 +56,30 @@
 .container .slider-button {
   pointer-events: none;
   position: absolute;
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  background-color: white;
-  left: calc(50% - 20px);
-  top: calc(50% - 18px);
+  border: 6px solid rgb(255, 255, 255);
+  left: calc(50% - 36px);
+  top: calc(50% - 30px);
   display: flex;
   justify-content: center;
   align-items: center;
+  mask: radial-gradient(transparent 50px, #000 50px);
 }
 .container .slider-button:after {
   content: "";
-  padding: 3px;
+  padding: 4px;
   display: inline-block;
-  border: solid #5D5D5D;
+  border: solid #ffffff;
   border-width: 0 2px 2px 0;
   transform: rotate(-45deg);
 }
 .container .slider-button:before {
   content: "";
-  padding: 3px;
+  padding: 4px;
   display: inline-block;
-  border: solid #5D5D5D;
+  border: solid #ffffff;
   border-width: 0 2px 2px 0;
   transform: rotate(135deg);
 }

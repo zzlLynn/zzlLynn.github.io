@@ -146,6 +146,10 @@
                     style="position: absolute;width: 81.2px;height: 47.6px;margin: 271.2px 0 0 980.8px;background-color: #3B3B3B;border-radius: 2px;color: #FFFFFF;font-family: 'Helvetica Neue', sans-serif;font-size: 16.8px;text-align:center;line-height: 47.6px;opacity: 0.8;display: none;">
                     After</div>
             </div>
+            <div style="position: absolute;width:20px;height: 80px;background-color:white;margin: 441.2px 0 0 185px;display: none;"
+                id="blc1"></div>
+            <div style="position: absolute;width:20px;height: 80px;background-color:white;margin: 441.2px 0 0 1288px;display: none;"
+                id="blc2"></div>
             <a href="#" id="pre_res">
                 <img alt="pic" id="pre_res1" src="./static/image/ia/pre_res.png"
                     style="height:27.6px;margin:803.2px 0 0 200.0px;opacity:1">
@@ -732,20 +736,30 @@
     <script>
         $("#slider").on("input change", (e) => {
             const sliderPos = e.target.value;
-            if (sliderPos < 13) {
+            if (sliderPos === "1") {
+                document.getElementById("blc1").style.display = "block";
+            } else {
+                document.getElementById("blc1").style.display = "none";
+            }
+            if (sliderPos === "100") {
+                document.getElementById("blc2").style.display = "block";
+            } else {
+                document.getElementById("blc2").style.display = "none";
+            }
+            if (sliderPos < 14) {
                 document.getElementById("be").style.display = "none";
             } else {
                 document.getElementById("be").style.display = "block";
             }
-            if (sliderPos > 88) {
+            if (sliderPos > 87) {
                 document.getElementById("af").style.display = "none";
             } else {
                 document.getElementById("af").style.display = "block";
             }
             // Update the width of the foreground image
-            $('.foreground-img').css('width', `${sliderPos}%`)
+            $('.foreground-img').css('width', `calc(${sliderPos}% - 5px)`)
             // Update the position of the slider button
-            $('.slider-button').css('left', `calc(${sliderPos}% - 20px)`)
+            $('.slider-button').css('left', `calc(${sliderPos}% - 36px)`)
         });
     </script>
     <script>
@@ -1123,10 +1137,10 @@
             $(con).on({
                 mouseover: function () {
                     const s = Number($("#slider")[0].value)
-                    if (s < 13) {
+                    if (s < 14) {
                         document.getElementById("be").style.display = "none";
                         document.getElementById("af").style.display = "block";
-                    } else if (s > 88) {
+                    } else if (s > 87) {
                         document.getElementById("be").style.display = "block";
                         document.getElementById("af").style.display = "none";
                     } else {
