@@ -734,15 +734,15 @@
     </div>
     <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="100">
         <div id="page11">
-            <p class="title" style="margin:225.6px 0 0 198.4px;">Auxiliary Graphic</p>
-            <div class="font1" style="margin:312.4px 0 0 200.0px;line-height: 20.2px;">The rounded and soft shapes in
+            <p class="title" style="margin:125.6px 0 0 198.4px;">Auxiliary Graphic</p>
+            <div class="font1" style="margin:212.4px 0 0 200.0px;line-height: 20.2px;">The rounded and soft shapes in
                 the logo are extracted
                 to
                 show the comfort and fun that reading brings. The combination of lines and circles helps visual focus,
                 emphasizing that Iwen brings the improvement of focused reading.
             </div>
             <div id="indicators" class="carousel slide" data-ride="carousel"
-                style="width:722.8px;height:406.4px;margin:128.4px 0 0 571.2px;position: absolute;">
+                style="width:722.8px;height:406.4px;margin:28.4px 0 0 571.2px;position: absolute;">
                 <ol class="carousel-indicators">
                     <li data-target="#indicators" data-slide-to="0" class="active"></li>
                     <li data-target="#indicators" data-slide-to="1"></li>
@@ -795,6 +795,8 @@
                 style="height:589.2px;margin:64.0px 0 0 1021.6px;position: absolute;">
             <img alt="pic" src="./static/image/iwen/page21_3.png"
                 style="height:589.2px;margin:64.0px 0 0 1366.0px;position: absolute;">
+            <img alt="pic" src="./static/image/iwen/page21_3_1.png" id="back000"
+                style="height:589.2px;margin:64.0px 0 0 1366.0px;position: absolute;display: none;">
         </div>
     </div>
     <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="100">
@@ -930,8 +932,13 @@
         new WOW().init();
     </script>
     <script>
+        if (window.innerWidth > 1789) {
+            document.getElementById("back000").style.display = "block";
+        } else {
+            document.getElementById("back000").style.display = "none";
+        }
         var flag123 = 1
-        var logo = document.getElementById("logo").offsetTop - 200;
+        var logo = document.getElementById("logo").offsetTop - 500;
 
         $(document).ready(function () {
             $(window).scroll(function () {
@@ -960,6 +967,12 @@
         }
 
         window.addEventListener('resize', () => {
+            if (window.innerWidth > 1789) {
+                document.getElementById("back000").style.display = "block";
+            } else {
+                document.getElementById("back000").style.display = "none";
+            }
+
             let end = getPosition(document.getElementById("end")) - getPosition(document.getElementById("top"))
             let height = $(window).scrollTop() + document.documentElement.clientHeight - 22;
             if (document.body.clientWidth > 1422.4 && height < end) {
