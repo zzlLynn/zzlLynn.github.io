@@ -45,6 +45,40 @@
   position: absolute;
 }
 
+#page_ini {
+  background: url("../image/ia/initial.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 390.0px;
+  background-size: cover;
+}
+
+#page_ini .font0 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28.8px;
+  color: #F49024;
+  position: absolute;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  width: 1014.8px;
+  line-height: 36.8px;
+}
+
+#page_ini .font1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16.8px;
+  color: #FFB565;
+  position: absolute;
+  letter-spacing: 0.2px;
+}
+
+#page_ini .content {
+  width: 1494px;
+  height: 390.0px;
+  margin: 0 auto;
+  position: relative;
+}
+
 #page3 {
   background: url("../image/ia/page3.png") no-repeat;
   width: 100%;
