@@ -139,6 +139,17 @@
   position: absolute;
 }
 
+#page_pp {
+  width: 1494px;
+  height: 616.4px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page_pp img {
+  position: absolute;
+}
+
 #page41 {
   background: url("../image/ia/page4_3.png") no-repeat;
   width: 100%;
