@@ -128,6 +128,17 @@
   position: absolute;
 }
 
+#page_re {
+  width: 1494px;
+  height: 585.2px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page_re img {
+  position: absolute;
+}
+
 #page41 {
   background: url("../image/ia/page4_3.png") no-repeat;
   width: 100%;
