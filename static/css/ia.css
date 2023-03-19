@@ -72,6 +72,25 @@
   letter-spacing: 0.2px;
 }
 
+#page5 .font0 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28.8px;
+  color: #F49024;
+  position: absolute;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  width: 1014.8px;
+  line-height: 36.8px;
+}
+
+#page5 .font1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16.8px;
+  color: #FFB565;
+  position: absolute;
+  letter-spacing: 0.2px;
+}
+
 #page_ini .content {
   width: 1494px;
   height: 390.0px;
@@ -125,7 +144,7 @@
 }
 
 #page5 {
-  background: url("../image/ia/page5.png") no-repeat;
+  background: url("../image/ia/initial.png") no-repeat;
   width: 100%;
   min-width: 1494px;
   height: 390px;
