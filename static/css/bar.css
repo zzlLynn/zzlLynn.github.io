@@ -36,7 +36,7 @@
   border-radius: 26px;
 }
 .container .slider:hover {
-  background: rgba(47, 47, 47, 0.2);
+  background: rgba(47, 47, 47, 0.7);
   border-radius: 26px;
 }
 .container .slider::-webkit-slider-thumb {
