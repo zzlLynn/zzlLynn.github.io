@@ -187,6 +187,38 @@
             <p class="font4" style="margin:253.8px 0 0 962.6px;color:#5d5d5d;">Web Design</p>
         </div>
     </div>
+    <div id="page_the">
+        <p class="title" style="margin:70px 0 0 198.2px;">There is more about service design, blog, visuals and etc…
+        </p>
+    </div>
+    <div id="container1">
+        <a href="/etc.html" onclick="p1()"><img src="./static/image/home/1.png" alt="Image 1" id="image1"
+                class="image1"></a>
+        <a href="/etc.html" onclick="p2()"><img src="./static/image/home/2.png" alt="Image 2" id="image2"
+                class="image1"></a>
+        <a href="/etc.html" onclick="p3()"><img src="./static/image/home/3.png" alt="Image 3" id="image3"
+                class="image1"></a>
+        <a href="/etc.html" onclick="p4()"><img src="./static/image/home/4.png" alt="Image 4" id="image4"
+                class="image1"></a>
+        <a href="/etc.html" onclick="p5()"><img src="./static/image/home/5.png" alt="Image 1" id="image5"
+                class="image1"></a>
+        <a href="/etc.html" onclick="p6()"><img src="./static/image/home/6.png" alt="Image 2" id="image6"
+                class="image1"></a>
+        <a href="/etc.html" onclick="p7()"><img src="./static/image/home/7.png" alt="Image 3" id="image7"
+                class="image1"></a>
+        <a href="/etc.html" onclick="p8()"><img src="./static/image/home/8.png" alt="Image 4" id="image8"
+                class="image1"></a>
+        <a href="/etc.html" onclick="p9()"><img src="./static/image/home/9.png" alt="Image 1" id="image9"
+                class="image1"></a>
+        <a href="/etc.html" onclick="p10()"><img src="./static/image/home/10.png" alt="Image 2" id="image10"
+                class="image1"></a>
+        <a href="/etc.html" onclick="p11()"><img src="./static/image/home/11.png" alt="Image 3" id="image11"
+                class="image1"></a>
+        <a href="/etc.html" onclick="p12()"><img src="./static/image/home/12.png" alt="Image 4" id="image12"
+                class="image1"></a>
+        <a href="/etc.html" onclick="p13()"><img src="./static/image/home/13.png" alt="Image 4" id="image13"
+                class="image1"></a>
+    </div>
     <div class="footer">
         <img alt="pic" src="./static/image/common/square.png"
             style="width:1094.0px;height:44.0px;margin:64.0px 0 0 200.0px">
@@ -231,6 +263,106 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         new WOW().init();
+    </script>
+    <script>
+        const container = document.getElementById('container1');
+        const images = container.getElementsByClassName('image1');
+        let isPaused = false;
+
+        for (let i = 0; i < images.length; i++) {
+            images[i].style.left = (i * (378 + 20)) + 'px';
+            console.log(images[i].offsetWidth)
+        }
+
+        function loop1() {
+            if (!isPaused) {
+                // 移动所有图片
+                for (let i = 0; i < images.length; i++) {
+                    const image = images[i];
+                    const left = parseInt(image.style.left);
+                    console.log(left)
+                    image.style.left = (left - 2) + 'px';
+                    if (left + 378 < -378 + 7) {
+                        image.style.left = (378 + 20) * 11 + 43 + 'px';
+                    }
+                }
+            }
+            requestAnimationFrame(loop1);
+        }
+
+        container.addEventListener('mouseover', function () {
+            isPaused = true;
+        });
+
+        container.addEventListener('mouseout', function () {
+            isPaused = false;
+        });
+
+        loop1();
+
+        for (let i = 1; i < 14; i++) {
+            let s = document.getElementById('image' + i);
+            s.addEventListener('mouseover', function () {
+                s.style.boxShadow = "0px 0px 20px 20px rgba(92, 92, 92, 0.05)"
+                isPaused = true;
+            });
+            s.addEventListener('mouseout', function () {
+                s.style.boxShadow = "0px 0px 0px 0px rgba(92, 92, 92, 0.05)"
+                isPaused = true;
+            });
+        }
+
+        function p1() {
+            localStorage.setItem('pre', 1);
+        }
+
+        function p2() {
+            localStorage.setItem('pre', 2);
+        }
+
+        function p3() {
+            localStorage.setItem('pre', 3);
+        }
+
+        function p4() {
+            localStorage.setItem('pre', 4);
+        }
+
+        function p5() {
+            localStorage.setItem('pre', 5);
+        }
+
+        function p6() {
+            localStorage.setItem('pre', 6);
+        }
+
+        function p7() {
+            localStorage.setItem('pre', 7);
+        }
+
+        function p8() {
+            localStorage.setItem('pre', 8);
+        }
+
+        function p9() {
+            localStorage.setItem('pre', 9);
+        }
+
+        function p10() {
+            localStorage.setItem('pre', 10);
+        }
+
+        function p11() {
+            localStorage.setItem('pre', 11);
+        }
+
+        function p12() {
+            localStorage.setItem('pre', 12);
+        }
+
+        function p13() {
+            localStorage.setItem('pre', 13);
+        }
     </script>
 </body>
 
