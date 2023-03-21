@@ -192,31 +192,31 @@
         </p>
     </div>
     <div id="container1">
-        <a href="/etc.html" onclick="p1()"><img src="./static/image/home/1.png" alt="Image 1" id="image1"
+        <a href="/etc.html" onclick="ppp1()"><img src="./static/image/home/1.png" alt="Image 1" id="image1"
                 class="image1"></a>
-        <a href="/etc.html" onclick="p2()"><img src="./static/image/home/2.png" alt="Image 2" id="image2"
+        <a href="/etc.html" onclick="ppp2()"><img src="./static/image/home/2.png" alt="Image 2" id="image2"
                 class="image1"></a>
-        <a href="/etc.html" onclick="p3()"><img src="./static/image/home/3.png" alt="Image 3" id="image3"
+        <a href="/etc.html" onclick="ppp3()"><img src="./static/image/home/3.png" alt="Image 3" id="image3"
                 class="image1"></a>
-        <a href="/etc.html" onclick="p4()"><img src="./static/image/home/4.png" alt="Image 4" id="image4"
+        <a href="/etc.html" onclick="ppp4()"><img src="./static/image/home/4.png" alt="Image 4" id="image4"
                 class="image1"></a>
-        <a href="/etc.html" onclick="p5()"><img src="./static/image/home/5.png" alt="Image 1" id="image5"
+        <a href="/etc.html" onclick="ppp5()"><img src="./static/image/home/5.png" alt="Image 1" id="image5"
                 class="image1"></a>
-        <a href="/etc.html" onclick="p6()"><img src="./static/image/home/6.png" alt="Image 2" id="image6"
+        <a href="/etc.html" onclick="ppp6()"><img src="./static/image/home/6.png" alt="Image 2" id="image6"
                 class="image1"></a>
-        <a href="/etc.html" onclick="p7()"><img src="./static/image/home/7.png" alt="Image 3" id="image7"
+        <a href="/etc.html" onclick="ppp7()"><img src="./static/image/home/7.png" alt="Image 3" id="image7"
                 class="image1"></a>
-        <a href="/etc.html" onclick="p8()"><img src="./static/image/home/8.png" alt="Image 4" id="image8"
+        <a href="/etc.html" onclick="ppp8()"><img src="./static/image/home/8.png" alt="Image 4" id="image8"
                 class="image1"></a>
-        <a href="/etc.html" onclick="p9()"><img src="./static/image/home/9.png" alt="Image 1" id="image9"
+        <a href="/etc.html" onclick="ppp9()"><img src="./static/image/home/9.png" alt="Image 1" id="image9"
                 class="image1"></a>
-        <a href="/etc.html" onclick="p10()"><img src="./static/image/home/10.png" alt="Image 2" id="image10"
+        <a href="/etc.html" onclick="ppp10()"><img src="./static/image/home/10.png" alt="Image 2" id="image10"
                 class="image1"></a>
-        <a href="/etc.html" onclick="p11()"><img src="./static/image/home/11.png" alt="Image 3" id="image11"
+        <a href="/etc.html" onclick="ppp11()"><img src="./static/image/home/11.png" alt="Image 3" id="image11"
                 class="image1"></a>
-        <a href="/etc.html" onclick="p12()"><img src="./static/image/home/12.png" alt="Image 4" id="image12"
+        <a href="/etc.html" onclick="ppp12()"><img src="./static/image/home/12.png" alt="Image 4" id="image12"
                 class="image1"></a>
-        <a href="/etc.html" onclick="p13()"><img src="./static/image/home/13.png" alt="Image 4" id="image13"
+        <a href="/etc.html" onclick="ppp13()"><img src="./static/image/home/13.png" alt="Image 4" id="image13"
                 class="image1"></a>
     </div>
     <div class="footer">
@@ -271,19 +271,16 @@
 
         for (let i = 0; i < images.length; i++) {
             images[i].style.left = (i * (378 + 20)) + 'px';
-            console.log(images[i].offsetWidth)
         }
 
         function loop1() {
             if (!isPaused) {
-                // 移动所有图片
                 for (let i = 0; i < images.length; i++) {
                     const image = images[i];
                     const left = parseInt(image.style.left);
-                    console.log(left)
-                    image.style.left = (left - 2) + 'px';
+                    image.style.left = (left - 1) + 'px';
                     if (left + 378 < -378 + 7) {
-                        image.style.left = (378 + 20) * 11 + 43 + 'px';
+                        image.style.left = (378 + 20) * 11 + 46 + 'px';
                     }
                 }
             }
@@ -304,6 +301,7 @@
             let s = document.getElementById('image' + i);
             s.addEventListener('mouseover', function () {
                 s.style.boxShadow = "0px 0px 20px 20px rgba(92, 92, 92, 0.05)"
+                s.style.borderRadius = "7px"
                 isPaused = true;
             });
             s.addEventListener('mouseout', function () {
@@ -312,55 +310,55 @@
             });
         }
 
-        function p1() {
+        function ppp1() {
             localStorage.setItem('pre', 1);
         }
 
-        function p2() {
+        function ppp2() {
             localStorage.setItem('pre', 2);
         }
 
-        function p3() {
+        function ppp3() {
             localStorage.setItem('pre', 3);
         }
 
-        function p4() {
+        function ppp4() {
             localStorage.setItem('pre', 4);
         }
 
-        function p5() {
+        function ppp5() {
             localStorage.setItem('pre', 5);
         }
 
-        function p6() {
+        function ppp6() {
             localStorage.setItem('pre', 6);
         }
 
-        function p7() {
+        function ppp7() {
             localStorage.setItem('pre', 7);
         }
 
-        function p8() {
+        function ppp8() {
             localStorage.setItem('pre', 8);
         }
 
-        function p9() {
+        function ppp9() {
             localStorage.setItem('pre', 9);
         }
 
-        function p10() {
+        function ppp10() {
             localStorage.setItem('pre', 10);
         }
 
-        function p11() {
+        function ppp11() {
             localStorage.setItem('pre', 11);
         }
 
-        function p12() {
+        function ppp12() {
             localStorage.setItem('pre', 12);
         }
 
-        function p13() {
+        function ppp13() {
             localStorage.setItem('pre', 13);
         }
     </script>
