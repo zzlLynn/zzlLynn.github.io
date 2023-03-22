@@ -191,8 +191,25 @@
         </div>
     </div>
     <div id="page_the">
-        <p class="title" style="margin:70px 0 0 198.2px;">There is more about service design, blog, visuals and etc…
-        </p>
+        <div class="title" style="margin:70px 0 0 198.2px;letter-spacing: 0.9px;">There is more about <a
+                href="/etc.html" onclick="ppp01()">
+                <p style="display: inline;color: #acacac;" id="click11">service design</p>
+            </a>, <a href="/etc.html" onclick="ppp02()">
+                <p style="display: inline;color: #acacac;" id="click12">blog</p>
+            </a>, <a href="/etc.html" onclick="ppp03()">
+                <p style="display: inline;color: #acacac;" id="click13">visuals</p>
+            </a> and <a href="/etc.html">
+                <p style="display: inline;color: #acacac;" id="click14">etc</p>
+            </a>…
+        </div>
+        <img alt="pic" src="./static/image/common/click.png" id="click1"
+            style="width:224.0px;height:4px;margin:109.0px 0 0 518.2px;opacity: 0;position: absolute;">
+        <img alt="pic" src="./static/image/common/click.png" id="click2"
+            style="width:66.0px;height:4px;margin:109.0px 0 0 768.8px;opacity: 0;position: absolute;">
+        <img alt="pic" src="./static/image/common/click.png" id="click3"
+            style="width:110.0px;height:4px;margin:109.0px 0 0 860.8px;opacity: 0;position: absolute;">
+        <img alt="pic" src="./static/image/common/click.png" id="click4"
+            style="width:48.0px;height:4px;margin:109.0px 0 0 1048.8px;opacity: 0;position: absolute;">
     </div>
     <div id="container1">
         <a href="/etc.html" onclick="ppp1()"><img src="./static/image/home/1.png" alt="Image 1" id="image1"
@@ -364,6 +381,90 @@
         function ppp13() {
             localStorage.setItem('pre', 13);
         }
+
+        function ppp01() {
+            localStorage.setItem('pre', 96);
+        }
+
+        function ppp02() {
+            localStorage.setItem('pre', 97);
+        }
+
+        function ppp03() {
+            localStorage.setItem('pre', 98);
+        }
+
+        let click11 = document.getElementById("click11")
+        $(function () {
+            $(click11).on({
+                mouseover: function () {
+                    let l1 = document.getElementById("click1")
+                    $(l1).animate({
+                        opacity: 1
+                    }, 0);
+                },
+                mouseout: function () {
+                    let l1 = document.getElementById("click1")
+                    $(l1).animate({
+                        opacity: 0
+                    }, 0);
+                }
+            });
+        });
+
+        let click12 = document.getElementById("click12")
+        $(function () {
+            $(click12).on({
+                mouseover: function () {
+                    let l1 = document.getElementById("click2")
+                    $(l1).animate({
+                        opacity: 1
+                    }, 0);
+                },
+                mouseout: function () {
+                    let l1 = document.getElementById("click2")
+                    $(l1).animate({
+                        opacity: 0
+                    }, 0);
+                }
+            });
+        });
+
+        let click13 = document.getElementById("click13")
+        $(function () {
+            $(click13).on({
+                mouseover: function () {
+                    let l1 = document.getElementById("click3")
+                    $(l1).animate({
+                        opacity: 1
+                    }, 0);
+                },
+                mouseout: function () {
+                    let l1 = document.getElementById("click3")
+                    $(l1).animate({
+                        opacity: 0
+                    }, 0);
+                }
+            });
+        });
+
+        let click14 = document.getElementById("click14")
+        $(function () {
+            $(click14).on({
+                mouseover: function () {
+                    let l1 = document.getElementById("click4")
+                    $(l1).animate({
+                        opacity: 1
+                    }, 0);
+                },
+                mouseout: function () {
+                    let l1 = document.getElementById("click4")
+                    $(l1).animate({
+                        opacity: 0
+                    }, 0);
+                }
+            });
+        });
     </script>
 </body>
 
