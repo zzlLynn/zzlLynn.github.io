@@ -12,7 +12,7 @@ addEventListener('resize', () => {setup()});
 
 function setup() {
 	cnv = createCanvas(472.0, 472.0);
-	cnv.position(Math.max(document.documentElement.clientWidth, 1494) / 2 - 550, 135)
+	cnv.position(Math.max(document.documentElement.clientWidth, 1494) / 2 - 550, 115)
 	loadImage("static/image/icon/sketch.jpg", function (img) {
 		img.loadPixels();
 		for (var x = 0; x < imgWidth; x++) {
