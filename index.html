@@ -309,6 +309,14 @@
 
         container.addEventListener('mouseover', function () {
             isPaused = true;
+
+            document.addEventListener("mousedown", function (event) {
+                document.addEventListener("mousemove", moveHandler);
+            });
+
+            document.addEventListener("mouseup", function (event) {
+                document.removeEventListener("mousemove", moveHandler);
+            });
         });
 
         container.addEventListener('mouseout', function () {
@@ -316,6 +324,38 @@
         });
 
         loop1();
+
+        function moveHandler(event) {
+            if (isPaused) {
+                console.log("hello")
+                var deltaX = event.movementX;
+                if (deltaX <= 0) {
+                    let max_img = 0;
+                    let match = [];
+                    for (let i = 0; i < images.length; i++) {
+                        const image = images[i];
+                        const left = parseInt(image.style.left);
+                        image.style.left = (left + deltaX) + 'px';
+                        if (left + 378 <= 0) {
+                            match.push(i)
+                        }
+                    }
+                    for (let i = 0; i < images.length; i++) {
+                        const image = images[i];
+                        const left = parseInt(image.style.left);
+                        if (left > max_img) {
+                            max_img = left
+                        }
+                    }
+
+                    for (let i = 0; i < match.length; i++) {
+                        max_img = max_img + 398
+                        images[match[i]].style.left = max_img + 'px';
+                    }
+                }
+
+            }
+        }
 
         for (let i = 1; i < 14; i++) {
             let s = document.getElementById('image' + i);
