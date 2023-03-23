@@ -316,6 +316,19 @@
 
             document.addEventListener("mouseup", function (event) {
                 document.removeEventListener("mousemove", moveHandler);
+                document.getElementsByClassName("image1")[0].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1")[1].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1")[2].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1")[3].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1")[4].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1")[5].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1")[6].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1")[7].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1")[8].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1")[9].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1")[10].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1")[11].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1")[12].style.pointerEvents = "auto";
             });
         });
 
@@ -329,6 +342,21 @@
             if (isPaused) {
                 console.log("hello")
                 var deltaX = event.movementX;
+                if (deltaX !== 0) {
+                    document.getElementsByClassName("image1")[0].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1")[1].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1")[2].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1")[3].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1")[4].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1")[5].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1")[6].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1")[7].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1")[8].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1")[9].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1")[10].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1")[11].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1")[12].style.pointerEvents = "none";
+                }
                 if (deltaX <= 0) {
                     let max_img = 0;
                     let match = [];
@@ -353,7 +381,6 @@
                         images[match[i]].style.left = max_img + 'px';
                     }
                 }
-
             }
         }
 
