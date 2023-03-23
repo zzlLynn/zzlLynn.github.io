@@ -238,6 +238,34 @@
                 class="image1" ondragstart='return false;'></a>
         <a href="/etc.html" onclick="ppp13()"><img src="./static/image/home/13.png" alt="Image 4" id="image13"
                 class="image1" ondragstart='return false;'></a>
+
+
+        <a href="/etc.html" onclick="ppp1()"><img src="./static/image/home/a1.png" alt="Image 1" id="image1_h"
+                class="image1_h" ondragstart='return false;' style="opacity:0"></a>
+        <a href="/etc.html" onclick="ppp2()"><img src="./static/image/home/a2.png" alt="Image 2" id="image2_h"
+                class="image1_h" ondragstart='return false;' style="opacity:0"></a>
+        <a href="/etc.html" onclick="ppp3()"><img src="./static/image/home/a3.png" alt="Image 3" id="image3_h"
+                class="image1_h" ondragstart='return false;' style="opacity:0"></a>
+        <a href="/etc.html" onclick="ppp4()"><img src="./static/image/home/a4.png" alt="Image 4" id="image4_h"
+                class="image1_h" ondragstart='return false;' style="opacity:0"></a>
+        <a href="/etc.html" onclick="ppp5()"><img src="./static/image/home/a5.png" alt="Image 1" id="image5_h"
+                class="image1_h" ondragstart='return false;' style="opacity:0"></a>
+        <a href="/etc.html" onclick="ppp6()"><img src="./static/image/home/a6.png" alt="Image 2" id="image6_h"
+                class="image1_h" ondragstart='return false;' style="opacity:0"></a>
+        <a href="/etc.html" onclick="ppp7()"><img src="./static/image/home/a7.png" alt="Image 3" id="image7_h"
+                class="image1_h" ondragstart='return false;' style="opacity:0"></a>
+        <a href="/etc.html" onclick="ppp8()"><img src="./static/image/home/a8.png" alt="Image 4" id="image8_h"
+                class="image1_h" ondragstart='return false;' style="opacity:0"></a>
+        <a href="/etc.html" onclick="ppp9()"><img src="./static/image/home/a9.png" alt="Image 1" id="image9_h"
+                class="image1_h" ondragstart='return false;' style="opacity:0"></a>
+        <a href="/etc.html" onclick="ppp10()"><img src="./static/image/home/a10.png" alt="Image 2" id="image10_h"
+                class="image1_h" ondragstart='return false;' style="opacity:0"></a>
+        <a href="/etc.html" onclick="ppp11()"><img src="./static/image/home/a11.png" alt="Image 3" id="image11_h"
+                class="image1_h" ondragstart='return false;' style="opacity:0"></a>
+        <a href="/etc.html" onclick="ppp12()"><img src="./static/image/home/a12.png" alt="Image 4" id="image12_h"
+                class="image1_h" ondragstart='return false;' style="opacity:0"></a>
+        <a href="/etc.html" onclick="ppp13()"><img src="./static/image/home/a13.png" alt="Image 4" id="image13_h"
+                class="image1_h" ondragstart='return false;' style="opacity:0"></a>
     </div>
     <div class="footer">
         <img alt="pic" src="./static/image/common/square.png"
@@ -287,10 +315,12 @@
     <script>
         const container = document.getElementById('container1');
         const images = container.getElementsByClassName('image1');
+        const images_h = container.getElementsByClassName('image1_h');
         let isPaused = false;
 
         for (let i = 0; i < images.length; i++) {
             images[i].style.left = (i * (378 + 20)) + 'px';
+            images_h[i].style.left = (i * (378 + 20)) + 'px';
         }
 
         function loop1() {
@@ -301,6 +331,12 @@
                     image.style.left = (left - 1) + 'px';
                     if (left + 378 < -378 + 7) {
                         image.style.left = (378 + 20) * 11 + 46 + 'px';
+                    }
+                    const image_h = images_h[i];
+                    const left_h = parseInt(image_h.style.left);
+                    image_h.style.left = (left_h - 1) + 'px';
+                    if (left_h + 378 < -378 + 7) {
+                        image_h.style.left = (378 + 20) * 11 + 46 + 'px';
                     }
                 }
             }
@@ -316,19 +352,19 @@
 
             document.addEventListener("mouseup", function (event) {
                 document.removeEventListener("mousemove", moveHandler);
-                document.getElementsByClassName("image1")[0].style.pointerEvents = "auto";
-                document.getElementsByClassName("image1")[1].style.pointerEvents = "auto";
-                document.getElementsByClassName("image1")[2].style.pointerEvents = "auto";
-                document.getElementsByClassName("image1")[3].style.pointerEvents = "auto";
-                document.getElementsByClassName("image1")[4].style.pointerEvents = "auto";
-                document.getElementsByClassName("image1")[5].style.pointerEvents = "auto";
-                document.getElementsByClassName("image1")[6].style.pointerEvents = "auto";
-                document.getElementsByClassName("image1")[7].style.pointerEvents = "auto";
-                document.getElementsByClassName("image1")[8].style.pointerEvents = "auto";
-                document.getElementsByClassName("image1")[9].style.pointerEvents = "auto";
-                document.getElementsByClassName("image1")[10].style.pointerEvents = "auto";
-                document.getElementsByClassName("image1")[11].style.pointerEvents = "auto";
-                document.getElementsByClassName("image1")[12].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1_h")[0].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1_h")[1].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1_h")[2].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1_h")[3].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1_h")[4].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1_h")[5].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1_h")[6].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1_h")[7].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1_h")[8].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1_h")[9].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1_h")[10].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1_h")[11].style.pointerEvents = "auto";
+                document.getElementsByClassName("image1_h")[12].style.pointerEvents = "auto";
             });
         });
 
@@ -340,22 +376,21 @@
 
         function moveHandler(event) {
             if (isPaused) {
-                console.log("hello")
                 var deltaX = event.movementX;
                 if (deltaX !== 0) {
-                    document.getElementsByClassName("image1")[0].style.pointerEvents = "none";
-                    document.getElementsByClassName("image1")[1].style.pointerEvents = "none";
-                    document.getElementsByClassName("image1")[2].style.pointerEvents = "none";
-                    document.getElementsByClassName("image1")[3].style.pointerEvents = "none";
-                    document.getElementsByClassName("image1")[4].style.pointerEvents = "none";
-                    document.getElementsByClassName("image1")[5].style.pointerEvents = "none";
-                    document.getElementsByClassName("image1")[6].style.pointerEvents = "none";
-                    document.getElementsByClassName("image1")[7].style.pointerEvents = "none";
-                    document.getElementsByClassName("image1")[8].style.pointerEvents = "none";
-                    document.getElementsByClassName("image1")[9].style.pointerEvents = "none";
-                    document.getElementsByClassName("image1")[10].style.pointerEvents = "none";
-                    document.getElementsByClassName("image1")[11].style.pointerEvents = "none";
-                    document.getElementsByClassName("image1")[12].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1_h")[0].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1_h")[1].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1_h")[2].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1_h")[3].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1_h")[4].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1_h")[5].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1_h")[6].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1_h")[7].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1_h")[8].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1_h")[9].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1_h")[10].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1_h")[11].style.pointerEvents = "none";
+                    document.getElementsByClassName("image1_h")[12].style.pointerEvents = "none";
                 }
                 if (deltaX <= 0) {
                     let max_img = 0;
@@ -367,6 +402,9 @@
                         if (left + 378 <= 0) {
                             match.push(i)
                         }
+                        const image_h = images_h[i];
+                        const left_h = parseInt(image_h.style.left);
+                        image_h.style.left = (left_h + deltaX) + 'px';
                     }
                     for (let i = 0; i < images.length; i++) {
                         const image = images[i];
@@ -379,6 +417,7 @@
                     for (let i = 0; i < match.length; i++) {
                         max_img = max_img + 398
                         images[match[i]].style.left = max_img + 'px';
+                        images_h[match[i]].style.left = max_img + 'px';
                     }
                 }
             }
@@ -532,6 +571,26 @@
                 }
             });
         });
+
+        for (let i = 1; i <= 13; ++i) {
+            let image1_h = document.getElementById("image" + i + "_h")
+            $(function () {
+                $(image1_h).on({
+                    mouseover: function () {
+                        let l1 = document.getElementById("image" + i + "_h")
+                        $(l1).animate({
+                            opacity: 1
+                        }, 0);
+                    },
+                    mouseout: function () {
+                        let l1 = document.getElementById("image" + i + "_h")
+                        $(l1).animate({
+                            opacity: 0
+                        }, 0);
+                    }
+                });
+            });
+        }
     </script>
 </body>
 

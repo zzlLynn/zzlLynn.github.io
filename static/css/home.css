@@ -129,3 +129,11 @@ canvas {
   margin-right: 20px;
   margin-top: 50px;
 }
+
+.image1_h {
+  display: inline-block;
+  height: 336.0px;
+  position: absolute;
+  margin-right: 20px;
+  margin-top: 50px;
+}
