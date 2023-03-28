@@ -452,3 +452,24 @@ img {
   position: absolute;
   color: #acacac;
 }
+
+
+#page_pre {
+  width: 1494px;
+  height: 854.8px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page_pre img{
+  position: absolute;
+}
+
+#page_pre .font1 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3B3B3B;
+  line-height: 22.4px;
+  width: 546.8px;
+}

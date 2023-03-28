@@ -1,50 +1,50 @@
-let hive_cover = document.getElementById("hive_cover")
+let moos_cover = document.getElementById("moos_cover")
 $(function () {
-    $(hive_cover).on({
+    $(moos_cover).on({
         mouseover: function () {
             setTimeout(() => {
-                if ($(hive_cover).is(':hover')) {
-                    let l1 = document.getElementById("hive_highlight")
+                if ($(moos_cover).is(':hover')) {
+                    let l1 = document.getElementById("moos_highlight")
                     $(l1).animate({
-                        width: "175px"
+                        width: "239px"
                     }, 500);
-                    hive_cover.style.transform = "scale(1.2)";
+                    moos_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
     });
-    $(hive_cover).on({
+    $(moos_cover).on({
         mouseout: function () {
-            let l1 = document.getElementById("hive_highlight")
+            let l1 = document.getElementById("moos_highlight")
             $(l1).animate({
                 width: "0px"
             }, 500);
-            hive_cover.style.transform = "scale(1)";
+            moos_cover.style.transform = "scale(1)";
         },
     });
 });
-let hive_font = document.getElementById("hive_font")
+let moos_font = document.getElementById("moos_font")
 $(function () {
-    $(hive_font).on({
+    $(moos_font).on({
         mouseover: function () {
             setTimeout(() => {
-                if ($(hive_font).is(':hover')) {
-                    let l1 = document.getElementById("hive_highlight")
+                if ($(moos_font).is(':hover')) {
+                    let l1 = document.getElementById("moos_highlight")
                     $(l1).animate({
-                        width: "175px"
+                        width: "239px"
                     }, 500);
-                    hive_cover.style.transform = "scale(1.2)";
+                    moos_cover.style.transform = "scale(1.2)";
                 }
             }, 500);
         },
     });
-    $(hive_font).on({
+    $(moos_font).on({
         mouseout: function () {
-            let l1 = document.getElementById("hive_highlight")
+            let l1 = document.getElementById("moos_highlight")
             $(l1).animate({
                 width: "0px"
             }, 500);
-            hive_cover.style.transform = "scale(1)";
+            moos_cover.style.transform = "scale(1)";
         },
     });
 });
