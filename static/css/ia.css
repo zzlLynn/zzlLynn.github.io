@@ -61,7 +61,7 @@
 }
 
 #page_ini {
-  background: url("../image/ia/initial.png") no-repeat;
+  background: url("../image/ia/initial1.png") no-repeat;
   width: 100%;
   min-width: 1494px;
   height: 390.0px;
@@ -134,7 +134,7 @@
 
 #page4 {
   width: 1494px;
-  height: 844.0px;
+  height: 736.0px;
   margin: 0 auto;
   position: relative;
 }
@@ -145,7 +145,7 @@
 
 #page_re {
   width: 1494px;
-  height: 585.2px;
+  height: 555.2px;
   margin: 0 auto;
   position: relative;
 }
@@ -201,7 +201,7 @@
 
 #page6 {
   width: 1494px;
-  height: 542.0px;
+  height: 512.0px;
   margin: 0 auto;
   position: relative;
 }
@@ -227,7 +227,7 @@
 
 #page8 {
   width: 1494px;
-  height: 566.0px;
+  height: 536.0px;
   margin: 0 auto;
   position: relative;
 }

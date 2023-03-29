@@ -477,7 +477,7 @@
   background: url("../image/fireworks/page11_background.png") no-repeat;
   width: 100%;
   min-width: 1494px;
-  height: 2389.2px;
+  height: 1709.2px;
   background-size: cover;
 }
 
@@ -490,7 +490,7 @@
 
 #page11 .content1 {
   width: 1494px;
-  height: 1460px;
+  height: 780px;
   margin: 0 auto;
   position: relative;
 }
@@ -717,4 +717,25 @@ img {
 
 #footer1 img {
   position: absolute;
+}
+
+
+#page_pre {
+  width: 1494px;
+  height: 854.8px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page_pre img{
+  position: absolute;
+}
+
+#page_pre .font1 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16.8px;
+  position: absolute;
+  color: #3B3B3B;
+  line-height: 22.4px;
+  width: 546.8px;
 }
