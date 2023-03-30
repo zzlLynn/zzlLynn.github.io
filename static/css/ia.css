@@ -61,7 +61,7 @@
 }
 
 #page_ini {
-  background: url("../image/ia/initial1.png") no-repeat;
+  background: linear-gradient(97deg, #464646, #1F1F1F) no-repeat;
   width: 100%;
   min-width: 1494px;
   height: 390.0px;
@@ -390,6 +390,14 @@
 }
 
 .font5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16.8px;
+  color: #1f1f1f;
+  font-weight: 500;
+  position: absolute;
+}
+
+.font55 {
   font-family: "Poppins", sans-serif;
   font-size: 16.8px;
   color: #1f1f1f;
