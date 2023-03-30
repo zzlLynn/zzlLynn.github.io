@@ -174,7 +174,7 @@
             </div>
         </div>
         <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="0">
-            <div class="otherworks">
+            <div class="otherworks" id="amaww">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
                     style="width:1154.0px;height:620.0px;margin:-4px 0 0 172.4px;position: absolute;">
                     <div class="carousel-inner">
@@ -198,10 +198,10 @@
                     Amazon Music's design challenge. By broadening the social boundaries of music, it brings listeners a
                     different kind of music experience to meet friends with similar musical tastes.</div>
                 <!-- <a href="./iwen.html" id="next_iwen"> -->
-                    <img alt="pic" src="./static/image/cover/ama1.png"
-                        style="width:21.4px;margin:465.6px 0 0 1017.6px;position: absolute;opacity: 1;">
-                    <img alt="pic" src="./static/image/cover/ama2.png"
-                        style="width:153.6px;margin:465.6px 0 0 1048.4px;position: absolute;opacity: 1;">
+                <img alt="pic" src="./static/image/cover/ama1.png"
+                    style="width:21.4px;margin:465.6px 0 0 1017.6px;position: absolute;opacity: 1;">
+                <img alt="pic" src="./static/image/cover/ama2.png"
+                    style="width:153.6px;margin:465.6px 0 0 1048.4px;position: absolute;opacity: 1;">
                 <!-- </a> -->
             </div>
         </div>
@@ -220,12 +220,12 @@
                 <img alt="pic" src="./static/image/cover/kkk.png"
                     style="width:317.6px;height:456.0px;margin:73.8px 0 0 976.4px;position: absolute;opacity: 0.9;">
                 <img alt="pic" src="./static/image/cover/rt.png"
-                    style="width:32.4px;height:27.6px;margin:162.4px 0 0 1016.4px;position: absolute">
+                    style="width:38.4px;height:27.6px;margin:162.4px 0 0 1016.4px;position: absolute">
                 <img alt="pic" src="./static/image/cover/rt.png"
-                    style="width:79.2px;height:27.6px;margin:162.4px 0 0 1058.8px;position: absolute">
+                    style="width:78.2px;height:27.6px;margin:162.4px 0 0 1064.8px;position: absolute">
                 <p class="font1" style="margin:112px 0 0 1016.4px">BEKE</p>
-                <p class="font3" style="margin:166px 0 0 1025.3px;color: #5D5D5D;font-size: 16.8px;">UI</p>
-                <p class="font3" style="margin:166px 0 0 1067.8px;color: #5D5D5D;font-size: 16.8px;">Desktop</p>
+                <p class="font3" style="margin:166px 0 0 1025.3px;color: #5D5D5D;font-size: 16.8px;">UX</p>
+                <p class="font3" style="margin:166px 0 0 1072.8px;color: #5D5D5D;font-size: 16.8px;">Desktop</p>
                 <div class="font3" style="margin:222px 0 0 1016.4px;letter-spacing: 0.3px;">It's my design intern
                     project in the Agent Cooperation Network development program @BEKE. The end-to-end design of BEKE's
                     realtor info processing platform increased transactions by 12% within 3 months.</div>
@@ -388,7 +388,7 @@
             </div>
         </div>
         <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="0">
-            <div class="otherworks" id="hiveww">
+            <div class="otherworks">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
                     style="width:1154.0px;height:620.0px;margin:-4px 0 0 172.4px;position: absolute;">
                     <div class="carousel-inner">
@@ -1526,21 +1526,21 @@
         if (pre === 1) {
             uiux();
             $("html,body").animate({
-                scrollTop: $("#bekeww").eq(0).offset().top - 4
+                scrollTop: $("#amaww").eq(0).offset().top - 4
             }, 1000);
             localStorage.setItem('pre', 0);
         }
         if (pre === 2) {
             uiux();
             $("html,body").animate({
-                scrollTop: $("#airbnbww").eq(0).offset().top - 4
+                scrollTop: $("#bekeww").eq(0).offset().top - 4
             }, 1500);
             localStorage.setItem('pre', 0);
         }
         if (pre === 3) {
             uiux();
             $("html,body").animate({
-                scrollTop: $("#wbfww").eq(0).offset().top - 4
+                scrollTop: $("#airbnbww").eq(0).offset().top - 4
             }, 2000);
             localStorage.setItem('pre', 0);
         }
@@ -1566,9 +1566,9 @@
         //     localStorage.setItem('pre', 0);
         // }
         if (pre === 4) {
-            Service_Design();
+            uiux();
             $("html,body").animate({
-                scrollTop: $("#hiveww").eq(0).offset().top - 4
+                scrollTop: $("#wbfww").eq(0).offset().top - 4
             }, 1000);
             localStorage.setItem('pre', 0);
         }

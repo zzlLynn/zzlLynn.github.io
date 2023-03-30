@@ -49,53 +49,53 @@ $(function () {
     });
 });
 
-let beke_cover = document.getElementById("beke_cover")
+let hive_cover = document.getElementById("hive_cover")
 $(function () {
-    $(beke_cover).on({
+    $(hive_cover).on({
         mouseover: function () {
             setTimeout(() => {
-                if ($(beke_cover).is(':hover')) {
-                    let l1 = document.getElementById("beke_highlight")
+                if ($(hive_cover).is(':hover')) {
+                    let l1 = document.getElementById("hive_highlight")
                     $(l1).animate({
-                        width: "186.0px"
+                        width: "174.0px"
                     }, 500);
-                    beke_cover.style.transform = "scale(1.13)";
+                    hive_cover.style.transform = "scale(1.13)";
                 }
             }, 500);
         },
     });
-    $(beke_cover).on({
+    $(hive_cover).on({
         mouseout: function () {
-            let l1 = document.getElementById("beke_highlight")
+            let l1 = document.getElementById("hive_highlight")
             $(l1).animate({
                 width: "0px"
             }, 500);
-            beke_cover.style.transform = "scale(1)";
+            hive_cover.style.transform = "scale(1)";
         },
     });
 });
-let beke_font = document.getElementById("beke_font")
+let hive_font = document.getElementById("hive_font")
 $(function () {
-    $(beke_font).on({
+    $(hive_font).on({
         mouseover: function () {
             setTimeout(() => {
-                if ($(beke_font).is(':hover')) {
-                    let l1 = document.getElementById("beke_highlight")
+                if ($(hive_font).is(':hover')) {
+                    let l1 = document.getElementById("hive_highlight")
                     $(l1).animate({
-                        width: "186.0px"
+                        width: "174.0px"
                     }, 500);
-                    beke_cover.style.transform = "scale(1.13)";
+                    hive_cover.style.transform = "scale(1.13)";
                 }
             }, 500);
         },
     });
-    $(beke_font).on({
+    $(hive_font).on({
         mouseout: function () {
-            let l1 = document.getElementById("beke_highlight")
+            let l1 = document.getElementById("hive_highlight")
             $(l1).animate({
                 width: "0px"
             }, 500);
-            beke_cover.style.transform = "scale(1)";
+            hive_cover.style.transform = "scale(1)";
         },
     });
 });
