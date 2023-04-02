@@ -1,5 +1,11 @@
 #page0 {
-  background: url("../image/ia/page0_background.png") no-repeat;
+  background: linear-gradient(
+      301deg,
+      rgba(244, 144, 36, 0.6),
+      rgba(247, 199, 152, 0.6),
+      rgba(255, 239, 155, 0.6)
+    )
+    no-repeat;
   width: 100%;
   min-width: 1494px;
   height: 700px;
