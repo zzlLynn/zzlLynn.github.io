@@ -1,5 +1,10 @@
 #page0 {
-  background: url("../image/hive/page0_background.png") no-repeat;
+  background: linear-gradient(
+      127deg,
+      rgba(254, 159, 108, 0.6),
+      rgba(255, 198, 69, 0.6)
+    )
+    no-repeat;
   width: 100%;
   min-width: 1494px;
   height: 700px;
