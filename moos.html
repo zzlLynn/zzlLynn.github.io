@@ -100,7 +100,8 @@
             <p class="font3z" style="margin:106.4px 0 0 640.0px;">Overview</p>
             <p class="font3z" style="margin:304.8px 0 0 640.0px;">Problem</p>
             <p class="font3z" style="margin:436.0px 0 0 640.0px;">Goals</p>
-            <p class="font4z" style="margin:133.2px 0 0 640.0px;">MOOS was conceived in 2021 during the prevalence of the
+            <p class="font4z" style="margin:133.2px 0 0 640.0px;">MOOS was conceived in 2021 during the prevalence of
+                the
                 Covid19 outbreak. The demand for masks has soared, but the disposal of discarded masks has not captured
                 the
                 attention and follow-up. This project stimulates public awareness of sustainability through the offline
@@ -125,31 +126,41 @@
             <p class="title" style="margin:118.8px 0 0 198.4px">Solution Preview</p>
             <img alt="pic" src="./static/image/moos/pre.png"
                 style="width:1094.0px;margin:197.6px 0 0 200px;position: absolute;">
-            <a href="#" id="pre_res">
+            <img alt="pic" src="./static/image/moos/Concept.png" id="pc1"
+                style="width:1094.0px;margin:197.6px 0 0 200px;position: absolute;">
+            <img alt="pic" src="./static/image/moos/OfflineDevice.png" id="pc2"
+                style="width:1012.4px;margin:197.6px 0 0 221.6px;position: absolute;display: none;">
+            <img alt="pic" src="./static/image/moos/OnlineApp.png" id="pc3"
+                style="width:1094.0px;margin:197.6px 0 0 200px;position: absolute;display: none;">
+            <img alt="pic" src="./static/image/moos/ServiceBlueprint.png" id="pc4"
+                style="width:974.0px;margin:197.6px 0 0 260.0px;position: absolute;display: none;">
+            <img alt="pic" src="./static/image/moos/whatnext.png" id="pc5"
+                style="width:1094.0px;margin:197.6px 0 0 200.0px;position: absolute;display: none;">
+            <a href="javascript:void(0);" id="pre_res" onclick="display1()">
                 <img alt="pic" id="pre_res1" src="./static/image/moos/pre_res.png"
                     style="height:27.6px;margin:803.2px 0 0 200.0px;opacity:1">
                 <img alt="pic" id="pre_res2" src="./static/image/moos/pre_res_h.png"
-                    style="height:27.6px;margin:803.2px 0 0 200.0px;opacity:0">
+                    style="height:27.6px;margin:803.2px 0 0 200.0px;opacity:1">
             </a>
-            <a href="#" id="pre_inf">
+            <a href="javascript:void(0);" id="pre_inf" onclick="display2()">
                 <img alt="pic" id="pre_inf1" src="./static/image/moos/pre_inf.png"
                     style="height:27.6px;margin:803.2px 0 0 422.0px;opacity:1">
                 <img alt="pic" id="pre_inf2" src="./static/image/moos/pre_inf_h.png"
                     style="height:27.6px;margin:803.2px 0 0 422.0px;opacity:0">
             </a>
-            <a href="#" id="pre_bra">
+            <a href="javascript:void(0);" id="pre_bra" onclick="display3()">
                 <img alt="pic" id="pre_bra1" src="./static/image/moos/pre_bra.png"
                     style="height:27.6px;margin:803.2px 0 0 644.0px;opacity:1">
                 <img alt="pic" id="pre_bra2" src="./static/image/moos/pre_bra_h.png"
                     style="height:27.6px;margin:803.2px 0 0 644.0px;opacity:0">
             </a>
-            <a href="#" id="pre_hi">
+            <a href="javascript:void(0);" id="pre_hi" onclick="display4()">
                 <img alt="pic" id="pre_hi1" src="./static/image/moos/pre_hi.png"
                     style="height:27.6px;margin:803.2px 0 0 866.0px;opacity:1">
                 <img alt="pic" id="pre_hi2" src="./static/image/moos/pre_hi_h.png"
                     style="height:27.6px;margin:803.2px 0 0 866.0px;opacity:0">
             </a>
-            <a href="#" id="pre_des">
+            <a href="javascript:void(0);" id="pre_des" onclick="display5()">
                 <img alt="pic" id="pre_des1" src="./static/image/moos/pre_des.png"
                     style="height:27.6px;margin:803.2px 0 0 1088.0px;opacity:1">
                 <img alt="pic" id="pre_des2" src="./static/image/moos/pre_des_h.png"
@@ -1125,13 +1136,13 @@
     <script>
         new WOW().init();
     </script>
-        <script>
-            lightbox.option({
-              'maxWidth': 600,
-              'wrapAround': false,
-              'positionFromTop': 180,
-            })
-        </script>
+    <script>
+        lightbox.option({
+            'maxWidth': 600,
+            'wrapAround': false,
+            'positionFromTop': 180,
+        })
+    </script>
     <script>
         function getPosition(element) {
             var xPosition = 0;
@@ -1423,25 +1434,25 @@
             toPage(17);
         }
 
-        document.getElementById("pre_res").onmousedown = function () {
-            toPage(1);
-        }
+        // document.getElementById("pre_res").onmousedown = function () {
+        //     toPage(1);
+        // }
 
-        document.getElementById("pre_inf").onmousedown = function () {
-            toPage(7);
-        }
+        // document.getElementById("pre_inf").onmousedown = function () {
+        //     toPage(7);
+        // }
 
-        document.getElementById("pre_bra").onmousedown = function () {
-            toPage(9);
-        }
+        // document.getElementById("pre_bra").onmousedown = function () {
+        //     toPage(9);
+        // }
 
-        document.getElementById("pre_hi").onmousedown = function () {
-            toPage("12_1");
-        }
+        // document.getElementById("pre_hi").onmousedown = function () {
+        //     toPage("12_1");
+        // }
 
-        document.getElementById("pre_des").onmousedown = function () {
-            toPage(11);
-        }
+        // document.getElementById("pre_des").onmousedown = function () {
+        //     toPage(11);
+        // }
 
 
         function discover() {
@@ -1503,95 +1514,126 @@
             });
         });
 
+        var current = 1;
+        
+        function display1() {
+            $('#pc1').css('display', 'block');
+            $('#pc2').css('display', 'none');
+            $('#pc3').css('display', 'none');
+            $('#pc4').css('display', 'none');
+            $('#pc5').css('display', 'none');
+            $('#pre_res2').css('opacity', 1);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 0); current = 1;
+        }
 
-        let p111 = document.getElementById("pre_res")
-        $(function () {
-            $(p111).on({
-                mouseover: function () {
-                    let l2 = document.getElementById("pre_res2")
-                    $(l2).animate({
-                        opacity: 1
-                    }, 200);
-                },
-                mouseout: function () {
-                    let l2 = document.getElementById("pre_res2")
-                    $(l2).animate({
-                        opacity: 0
-                    }, 100);
-                }
-            });
+        function display2() {
+            $('#pc1').css('display', 'none');
+            $('#pc2').css('display', 'block');
+            $('#pc3').css('display', 'none');
+            $('#pc4').css('display', 'none');
+            $('#pc5').css('display', 'none');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 1);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 0); current = 2;
+        }
+
+        function display3() {
+            $('#pc1').css('display', 'none');
+            $('#pc2').css('display', 'none');
+            $('#pc3').css('display', 'block');
+            $('#pc4').css('display', 'none');
+            $('#pc5').css('display', 'none');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 1);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 0); current = 3;
+        }
+
+        function display4() {
+            $('#pc1').css('display', 'none');
+            $('#pc2').css('display', 'none');
+            $('#pc3').css('display', 'none');
+            $('#pc4').css('display', 'block');
+            $('#pc5').css('display', 'none');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 1);
+            $('#pre_des2').css('opacity', 0); current = 4;
+        }
+
+        function display5() {
+            $('#pc1').css('display', 'none');
+            $('#pc2').css('display', 'none');
+            $('#pc3').css('display', 'none');
+            $('#pc4').css('display', 'none');
+            $('#pc5').css('display', 'block');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 1); current = 5;
+        }
+
+        var ee1 = document.getElementById('pre_res2');
+
+        ee1.addEventListener('mouseover', function (event) {
+            $('#pre_res2').css('opacity', 1);
+        });
+        ee1.addEventListener('mouseout', function (event) {
+            if (current != 1) {
+                $('#pre_res2').css('opacity', 0);
+            }
         });
 
-        let p222 = document.getElementById("pre_inf")
-        $(function () {
-            $(p222).on({
-                mouseover: function () {
-                    let l2 = document.getElementById("pre_inf2")
-                    $(l2).animate({
-                        opacity: 1
-                    }, 200);
-                },
-                mouseout: function () {
-                    let l2 = document.getElementById("pre_inf2")
-                    $(l2).animate({
-                        opacity: 0
-                    }, 100);
-                }
-            });
+        var ee2 = document.getElementById('pre_inf2');
+
+        ee2.addEventListener('mouseover', function (event) {
+            $('#pre_inf2').css('opacity', 1);
+        });
+        ee2.addEventListener('mouseout', function (event) {
+            if (current != 2) {
+                $('#pre_inf2').css('opacity', 0);
+            }
         });
 
-        let p333 = document.getElementById("pre_bra")
-        $(function () {
-            $(p333).on({
-                mouseover: function () {
-                    let l2 = document.getElementById("pre_bra2")
-                    $(l2).animate({
-                        opacity: 1
-                    }, 200);
-                },
-                mouseout: function () {
-                    let l2 = document.getElementById("pre_bra2")
-                    $(l2).animate({
-                        opacity: 0
-                    }, 100);
-                }
-            });
+        var ee3 = document.getElementById('pre_bra2');
+
+        ee3.addEventListener('mouseover', function (event) {
+            $('#pre_bra2').css('opacity', 1);
+        });
+        ee3.addEventListener('mouseout', function (event) {
+            if (current != 3) {
+                $('#pre_bra2').css('opacity', 0);
+            }
         });
 
-        let p444 = document.getElementById("pre_hi")
-        $(function () {
-            $(p444).on({
-                mouseover: function () {
-                    let l2 = document.getElementById("pre_hi2")
-                    $(l2).animate({
-                        opacity: 1
-                    }, 200);
-                },
-                mouseout: function () {
-                    let l2 = document.getElementById("pre_hi2")
-                    $(l2).animate({
-                        opacity: 0
-                    }, 100);
-                }
-            });
+        var ee4 = document.getElementById('pre_hi2');
+
+        ee4.addEventListener('mouseover', function (event) {
+            $('#pre_hi2').css('opacity', 1);
+        });
+        ee4.addEventListener('mouseout', function (event) {
+            if (current != 4) {
+                $('#pre_hi2').css('opacity', 0);
+            }
         });
 
-        let p555 = document.getElementById("pre_des")
-        $(function () {
-            $(p555).on({
-                mouseover: function () {
-                    let l2 = document.getElementById("pre_des2")
-                    $(l2).animate({
-                        opacity: 1
-                    }, 200);
-                },
-                mouseout: function () {
-                    let l2 = document.getElementById("pre_des2")
-                    $(l2).animate({
-                        opacity: 0
-                    }, 100);
-                }
-            });
+        var ee5 = document.getElementById('pre_des2');
+
+        ee5.addEventListener('mouseover', function (event) {
+            $('#pre_des2').css('opacity', 1);
+        });
+        ee5.addEventListener('mouseout', function (event) {
+            if (current != 5) {
+                $('#pre_des2').css('opacity', 0);
+            }
         });
     </script>
 </body>

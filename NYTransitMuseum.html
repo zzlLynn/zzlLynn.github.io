@@ -1506,7 +1506,6 @@
     </script>
 
     <script>
-
         var element = document.getElementById('con');
         var isInside = false;
 
@@ -1531,7 +1530,6 @@
         document.addEventListener('mousemove', function (event) {
             var element = document.getElementById('page_pre');
             var distanceFromTop = event.clientY - element.getBoundingClientRect().top;
-            //   console.log('鼠标距离元素顶部的距离：', distanceFromTop);
 
             var distanceFromLeft = event.clientX - document.body.getBoundingClientRect().left;
 
@@ -1547,12 +1545,6 @@
             }
 
         });
-
-        // var element = document.getElementById('con');
-
-        // element.addEventListener('mouseleave', function (event) {
-        //     $('.slider').css('background', 'rgba(242, 242, 242, 0)');
-        // });
     </script>
 </body>
 
