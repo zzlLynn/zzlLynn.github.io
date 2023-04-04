@@ -149,7 +149,9 @@
             <img alt="pic" src="./static/image/iwen/arch.png" id="pc1"
                 style="width:974.0px;margin:233.6px 0 0 260.0px;position: absolute;display: none;">
             <img alt="pic" src="./static/image/iwen/pre_logo.png" id="pc2"
-                style="width:976.3px;margin:333.2px 0 0 258.8px;position: absolute;display: none;">
+                style="width:976.3px;margin:333.2px 0 0 258.8px;position: absolute;display: none;opacity: 0;">
+            <img alt="pic" src="./static/image/iwen/pre_logo2.png" id="pc22"
+                style="width:714.8px;margin:372.4px 0 0 389.6px;position: absolute;display: none;opacity: 1;">
             <img alt="pic" src="./static/image/iwen/brand.png" id="pc3"
                 style="width:1094.0px;margin:197.6px 0 0 200px;position: absolute;display: none;">
             <img alt="pic" src="./static/image/iwen/hi.png" id="pc4"
@@ -1320,6 +1322,9 @@
         function display1() {
             $('#pc1').css('display', 'block');
             $('#pc2').css('display', 'none');
+            $('#pc22').css('display', 'none');
+            $('#pc2').css('opacity', 0);
+            $('#pc22').css('opacity', 1);
             $('#pc3').css('display', 'none');
             $('#pc4').css('display', 'none');
             $('#pc5').css('display', 'none');
@@ -1333,6 +1338,7 @@
         function display2() {
             $('#pc1').css('display', 'none');
             $('#pc2').css('display', 'block');
+            $('#pc22').css('display', 'block');
             $('#pc3').css('display', 'none');
             $('#pc4').css('display', 'none');
             $('#pc5').css('display', 'none');
@@ -1341,11 +1347,20 @@
             $('#pre_bra2').css('opacity', 0);
             $('#pre_hi2').css('opacity', 0);
             $('#pre_des2').css('opacity', 0); current = 2;
+            $("#pc22").animate({
+                opacity: 0
+            }, 1600);
+            $("#pc2").animate({
+                opacity: 1
+            }, 2400);
         }
 
         function display3() {
             $('#pc1').css('display', 'none');
             $('#pc2').css('display', 'none');
+            $('#pc22').css('display', 'none');
+            $('#pc2').css('opacity', 0);
+            $('#pc22').css('opacity', 1);
             $('#pc3').css('display', 'block');
             $('#pc4').css('display', 'none');
             $('#pc5').css('display', 'none');
@@ -1359,6 +1374,9 @@
         function display4() {
             $('#pc1').css('display', 'none');
             $('#pc2').css('display', 'none');
+            $('#pc22').css('display', 'none');
+            $('#pc2').css('opacity', 0);
+            $('#pc22').css('opacity', 1);
             $('#pc3').css('display', 'none');
             $('#pc4').css('display', 'block');
             $('#pc5').css('display', 'none');
@@ -1372,6 +1390,9 @@
         function display5() {
             $('#pc1').css('display', 'none');
             $('#pc2').css('display', 'none');
+            $('#pc22').css('display', 'none');
+            $('#pc2').css('opacity', 0);
+            $('#pc22').css('opacity', 1);
             $('#pc3').css('display', 'none');
             $('#pc4').css('display', 'none');
             $('#pc5').css('display', 'block');
