@@ -1504,6 +1504,56 @@
         });
 
     </script>
+
+    <script>
+
+        var element = document.getElementById('con');
+        var isInside = false;
+
+        element.addEventListener('mouseover', function (event) {
+            isInside = true;
+        });
+
+        element.addEventListener('mouseout', function (event) {
+            isInside = false;
+        });
+
+        var isMouseDown = false;
+
+        document.addEventListener('mousedown', function (event) {
+            isMouseDown = true;
+        });
+
+        document.addEventListener('mouseup', function (event) {
+            isMouseDown = false;
+        });
+
+        document.addEventListener('mousemove', function (event) {
+            var element = document.getElementById('page_pre');
+            var distanceFromTop = event.clientY - element.getBoundingClientRect().top;
+            //   console.log('鼠标距离元素顶部的距离：', distanceFromTop);
+
+            var distanceFromLeft = event.clientX - document.body.getBoundingClientRect().left;
+
+            var element1 = document.getElementsByClassName('slider-button')[0];
+            var distanceFromLeft1 = element1.getBoundingClientRect().left - document.body.getBoundingClientRect().left;
+
+            if (distanceFromLeft > distanceFromLeft1 + 5 && distanceFromLeft < distanceFromLeft1 + 55 && distanceFromTop > 470 && distanceFromTop < 510) {
+                $('.slider').css('background', 'rgba(242, 242, 242, 0)');
+            } else if (isInside && !isMouseDown) {
+                $('.slider').css('background', 'rgba(47, 47, 47, 0.7)');
+            } else {
+                $('.slider').css('background', 'rgba(242, 242, 242, 0)');
+            }
+
+        });
+
+        // var element = document.getElementById('con');
+
+        // element.addEventListener('mouseleave', function (event) {
+        //     $('.slider').css('background', 'rgba(242, 242, 242, 0)');
+        // });
+    </script>
 </body>
 
 </html>
