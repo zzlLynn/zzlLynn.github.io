@@ -128,37 +128,47 @@
     <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="100">
         <div id="page_pre" style="margin-top:0px">
             <p class="title" style="margin:118.8px 0 0 198.4px">Solution Preview</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/uBntKQ-6lJg"
+            <img alt="pic" src="./static/image/fireworks/pre.png"
+                style="width:1094.0px;margin:197.6px 0 0 200px;position: absolute;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uBntKQ-6lJg" id="pc1"
                 title="YouTube video player"
                 style="height:589.6px;width:1094.0px;margin:197.6px 0 0 200px;position:absolute;border: 0px;border-radius: 25px;"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <a href="#" id="pre_res">
-                <img alt="pic" id="pre_res1" src="./static/image/fireworks/pre_res_h.png"
+            <img alt="pic" src="./static/image/fireworks/Concept.png" id="pc2"
+                style="width:1034.0px;margin:252.4px 0 0 260.0px;position: absolute;display: none;">
+            <img alt="pic" src="./static/image/fireworks/UserFlow.png" id="pc3"
+                style="width:974.0px;margin:288.8px 0 0 260.0px;position: absolute;display: none;">
+            <img alt="pic" src="./static/image/fireworks/Service.png" id="pc4"
+                style="width:974.0px;margin:237.2px 0 0 260.0px;position: absolute;display: none;">
+            <img alt="pic" src="./static/image/fireworks/usage.png" id="pc5"
+                style="width:974.4px;margin:266.4px 0 0 259.6px;position: absolute;display: none;">
+            <a href="javascript:void(0);" id="pre_res" onclick="display1()">
+                <img alt="pic" id="pre_res1" src="./static/image/fireworks/pre_res.png"
                     style="height:27.6px;margin:803.2px 0 0 200.0px;opacity:1">
                 <img alt="pic" id="pre_res2" src="./static/image/fireworks/pre_res_h.png"
-                    style="height:27.6px;margin:803.2px 0 0 200.0px;opacity:0">
+                    style="height:27.6px;margin:803.2px 0 0 200.0px;opacity:1">
             </a>
-            <a href="#" id="pre_inf">
-                <img alt="pic" id="pre_inf1" src="./static/image/fireworks/pre_inf_h.png"
+            <a href="javascript:void(0);" id="pre_inf" onclick="display2()">
+                <img alt="pic" id="pre_inf1" src="./static/image/fireworks/pre_inf.png"
                     style="height:27.6px;margin:803.2px 0 0 422.0px;opacity:1">
                 <img alt="pic" id="pre_inf2" src="./static/image/fireworks/pre_inf_h.png"
                     style="height:27.6px;margin:803.2px 0 0 422.0px;opacity:0">
             </a>
-            <a href="#" id="pre_bra">
-                <img alt="pic" id="pre_bra1" src="./static/image/fireworks/pre_bra_h.png"
+            <a href="javascript:void(0);" id="pre_bra" onclick="display3()">
+                <img alt="pic" id="pre_bra1" src="./static/image/fireworks/pre_bra.png"
                     style="height:27.6px;margin:803.2px 0 0 644.0px;opacity:1">
                 <img alt="pic" id="pre_bra2" src="./static/image/fireworks/pre_bra_h.png"
                     style="height:27.6px;margin:803.2px 0 0 644.0px;opacity:0">
             </a>
-            <a href="#" id="pre_hi">
-                <img alt="pic" id="pre_hi1" src="./static/image/fireworks/pre_hi_h.png"
+            <a href="javascript:void(0);" id="pre_hi" onclick="display4()">
+                <img alt="pic" id="pre_hi1" src="./static/image/fireworks/pre_hi.png"
                     style="height:27.6px;margin:803.2px 0 0 866.0px;opacity:1">
                 <img alt="pic" id="pre_hi2" src="./static/image/fireworks/pre_hi_h.png"
                     style="height:27.6px;margin:803.2px 0 0 866.0px;opacity:0">
             </a>
-            <a href="#" id="pre_des">
-                <img alt="pic" id="pre_des1" src="./static/image/fireworks/pre_des_h.png"
+            <a href="javascript:void(0);" id="pre_des" onclick="display5()">
+                <img alt="pic" id="pre_des1" src="./static/image/fireworks/pre_des.png"
                     style="height:27.6px;margin:803.2px 0 0 1088.0px;opacity:1">
                 <img alt="pic" id="pre_des2" src="./static/image/fireworks/pre_des_h.png"
                     style="height:27.6px;margin:803.2px 0 0 1088.0px;opacity:0">
@@ -1449,115 +1459,126 @@
         });
 
 
-        document.getElementById("pre_res").onmousedown = function () {
-            toPage(1);
+        var current = 1;
+
+        function display1() {
+            $('#pc1').css('display', 'block');
+            $('#pc2').css('display', 'none');
+            $('#pc3').css('display', 'none');
+            $('#pc4').css('display', 'none');
+            $('#pc5').css('display', 'none');
+            $('#pre_res2').css('opacity', 1);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 0); current = 1;
         }
 
-        document.getElementById("pre_inf").onmousedown = function () {
-            toPage(3);
+        function display2() {
+            $('#pc1').css('display', 'none');
+            $('#pc2').css('display', 'block');
+            $('#pc3').css('display', 'none');
+            $('#pc4').css('display', 'none');
+            $('#pc5').css('display', 'none');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 1);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 0); current = 2;
         }
 
-        document.getElementById("pre_bra").onmousedown = function () {
-            toPage(5);
+        function display3() {
+            $('#pc1').css('display', 'none');
+            $('#pc2').css('display', 'none');
+            $('#pc3').css('display', 'block');
+            $('#pc4').css('display', 'none');
+            $('#pc5').css('display', 'none');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 1);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 0); current = 3;
         }
 
-        document.getElementById("pre_hi").onmousedown = function () {
-            toPage(6);
+        function display4() {
+            $('#pc1').css('display', 'none');
+            $('#pc2').css('display', 'none');
+            $('#pc3').css('display', 'none');
+            $('#pc4').css('display', 'block');
+            $('#pc5').css('display', 'none');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 1);
+            $('#pre_des2').css('opacity', 0); current = 4;
         }
 
-        document.getElementById("pre_des").onmousedown = function () {
-            toPage(10);
+        function display5() {
+            $('#pc1').css('display', 'none');
+            $('#pc2').css('display', 'none');
+            $('#pc3').css('display', 'none');
+            $('#pc4').css('display', 'none');
+            $('#pc5').css('display', 'block');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 1); current = 5;
         }
 
+        var ee1 = document.getElementById('pre_res2');
 
-        let p111 = document.getElementById("pre_res")
-        $(function () {
-            $(p111).on({
-                mouseover: function () {
-                    let l2 = document.getElementById("pre_res2")
-                    $(l2).animate({
-                        opacity: 1
-                    }, 200);
-                },
-                mouseout: function () {
-                    let l2 = document.getElementById("pre_res2")
-                    $(l2).animate({
-                        opacity: 0
-                    }, 100);
-                }
-            });
+        ee1.addEventListener('mouseover', function (event) {
+            $('#pre_res2').css('opacity', 1);
+        });
+        ee1.addEventListener('mouseout', function (event) {
+            if (current != 1) {
+                $('#pre_res2').css('opacity', 0);
+            }
         });
 
-        let p222 = document.getElementById("pre_inf")
-        $(function () {
-            $(p222).on({
-                mouseover: function () {
-                    let l2 = document.getElementById("pre_inf2")
-                    $(l2).animate({
-                        opacity: 1
-                    }, 200);
-                },
-                mouseout: function () {
-                    let l2 = document.getElementById("pre_inf2")
-                    $(l2).animate({
-                        opacity: 0
-                    }, 100);
-                }
-            });
+        var ee2 = document.getElementById('pre_inf2');
+
+        ee2.addEventListener('mouseover', function (event) {
+            $('#pre_inf2').css('opacity', 1);
+        });
+        ee2.addEventListener('mouseout', function (event) {
+            if (current != 2) {
+                $('#pre_inf2').css('opacity', 0);
+            }
         });
 
-        let p333 = document.getElementById("pre_bra")
-        $(function () {
-            $(p333).on({
-                mouseover: function () {
-                    let l2 = document.getElementById("pre_bra2")
-                    $(l2).animate({
-                        opacity: 1
-                    }, 200);
-                },
-                mouseout: function () {
-                    let l2 = document.getElementById("pre_bra2")
-                    $(l2).animate({
-                        opacity: 0
-                    }, 100);
-                }
-            });
+        var ee3 = document.getElementById('pre_bra2');
+
+        ee3.addEventListener('mouseover', function (event) {
+            $('#pre_bra2').css('opacity', 1);
+        });
+        ee3.addEventListener('mouseout', function (event) {
+            if (current != 3) {
+                $('#pre_bra2').css('opacity', 0);
+            }
         });
 
-        let p444 = document.getElementById("pre_hi")
-        $(function () {
-            $(p444).on({
-                mouseover: function () {
-                    let l2 = document.getElementById("pre_hi2")
-                    $(l2).animate({
-                        opacity: 1
-                    }, 200);
-                },
-                mouseout: function () {
-                    let l2 = document.getElementById("pre_hi2")
-                    $(l2).animate({
-                        opacity: 0
-                    }, 100);
-                }
-            });
+        var ee4 = document.getElementById('pre_hi2');
+
+        ee4.addEventListener('mouseover', function (event) {
+            $('#pre_hi2').css('opacity', 1);
+        });
+        ee4.addEventListener('mouseout', function (event) {
+            if (current != 4) {
+                $('#pre_hi2').css('opacity', 0);
+            }
         });
 
-        let p555 = document.getElementById("pre_des")
-        $(function () {
-            $(p555).on({
-                mouseover: function () {
-                    let l2 = document.getElementById("pre_des2")
-                    $(l2).animate({
-                        opacity: 1
-                    }, 200);
-                },
-                mouseout: function () {
-                    let l2 = document.getElementById("pre_des2")
-                    $(l2).animate({
-                        opacity: 0
-                    }, 100);
-                }
-            });
+        var ee5 = document.getElementById('pre_des2');
+
+        ee5.addEventListener('mouseover', function (event) {
+            $('#pre_des2').css('opacity', 1);
+        });
+        ee5.addEventListener('mouseout', function (event) {
+            if (current != 5) {
+                $('#pre_des2').css('opacity', 0);
+            }
         });
     </script>
 </body>
