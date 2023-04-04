@@ -84,7 +84,7 @@
         </div>
     </div>
     <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="100">
-        <div class="brief" style="margin-top: 50px;height: 507.2px;">
+        <div class="brief" style="margin-top: 50px;height: 437.2px;">
             <p class="title" style="margin:53.6px 0 0 198px;">Project Brief</p>
             <img alt="pic" src="./static/image/common/dot.png"
                 style="width:7.6px;margin:377.6px 0 0 640.0px;position: absolute;">
@@ -111,6 +111,53 @@
                 attention to self-needs</p>
             <p class="font4z" style="margin:401.2px 0 0 655.6px;width: 638.4px;">Build social connections among Lao Piao
                 themselves without being affected by the scope and timing of their activities</p>
+        </div>
+    </div>
+    <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="100">
+        <div id="page_pre" style="margin-top:0px">
+            <p class="title" style="margin:118.8px 0 0 198.4px">Solution Preview</p>
+            <img alt="pic" src="./static/image/hive/pre.png"
+                style="width:1094.0px;margin:197.6px 0 0 200px;position: absolute;">
+            <img alt="pic" src="./static/image/hive/Concept.png" id="pc1"
+                style="width:1094.0px;margin:197.6px 0 0 200px;position: absolute;">
+            <img alt="pic" src="./static/image/hive/Watch.png" id="pc2"
+                style="width:1094.0px;margin:197.6px 0 0 200px;position: absolute;display: none;">
+            <img alt="pic" src="./static/image/hive/Cabinet.png" id="pc3"
+                style="width:1094.0px;margin:197.6px 0 0 200px;position: absolute;display: none;">
+            <img alt="pic" src="./static/image/hive/Interaction.png" id="pc4"
+                style="width:767.2px;margin:221.2px 0 0 363.6px;position: absolute;display: none;">
+            <img alt="pic" src="./static/image/hive/storyboard.png" id="pc5"
+                style="width:974.0px;margin:273.6px 0 0 260.0px;position: absolute;display: none;">
+            <a href="javascript:void(0);" id="pre_res" onclick="display1()">
+                <img alt="pic" id="pre_res1" src="./static/image/hive/pre_res.png"
+                    style="height:27.6px;margin:803.2px 0 0 200.0px;opacity:1">
+                <img alt="pic" id="pre_res2" src="./static/image/hive/pre_res_h.png"
+                    style="height:27.6px;margin:803.2px 0 0 200.0px;opacity:1">
+            </a>
+            <a href="javascript:void(0);" id="pre_inf" onclick="display2()">
+                <img alt="pic" id="pre_inf1" src="./static/image/hive/pre_inf.png"
+                    style="height:27.6px;margin:803.2px 0 0 422.0px;opacity:1">
+                <img alt="pic" id="pre_inf2" src="./static/image/hive/pre_inf_h.png"
+                    style="height:27.6px;margin:803.2px 0 0 422.0px;opacity:0">
+            </a>
+            <a href="javascript:void(0);" id="pre_bra" onclick="display3()">
+                <img alt="pic" id="pre_bra1" src="./static/image/hive/pre_bra.png"
+                    style="height:27.6px;margin:803.2px 0 0 644.0px;opacity:1">
+                <img alt="pic" id="pre_bra2" src="./static/image/hive/pre_bra_h.png"
+                    style="height:27.6px;margin:803.2px 0 0 644.0px;opacity:0">
+            </a>
+            <a href="javascript:void(0);" id="pre_hi" onclick="display4()">
+                <img alt="pic" id="pre_hi1" src="./static/image/hive/pre_hi.png"
+                    style="height:27.6px;margin:803.2px 0 0 866.0px;opacity:1">
+                <img alt="pic" id="pre_hi2" src="./static/image/hive/pre_hi_h.png"
+                    style="height:27.6px;margin:803.2px 0 0 866.0px;opacity:0">
+            </a>
+            <a href="javascript:void(0);" id="pre_des" onclick="display5()">
+                <img alt="pic" id="pre_des1" src="./static/image/hive/pre_des.png"
+                    style="height:27.6px;margin:803.2px 0 0 1088.0px;opacity:1">
+                <img alt="pic" id="pre_des2" src="./static/image/hive/pre_des_h.png"
+                    style="height:27.6px;margin:803.2px 0 0 1088.0px;opacity:0">
+            </a>
         </div>
     </div>
     <div class="ps" style="display: none;" id="nnn2">
@@ -1376,7 +1423,7 @@
             toPage(12);
         }
 
-        var process1 = document.getElementById("process").offsetTop + 110;
+        var process1 = document.getElementById("process").offsetTop + 130;
         var page5 = document.getElementById("page10").offsetTop - 133;
         var page10 = document.getElementById("page12").offsetTop - 153;
 
@@ -1421,6 +1468,129 @@
                     document.getElementById("nnn2").style.display = "none";
                 }
             });
+        });
+
+
+        var current = 1;
+
+        function display1() {
+            $('#pc1').css('display', 'block');
+            $('#pc2').css('display', 'none');
+            $('#pc3').css('display', 'none');
+            $('#pc4').css('display', 'none');
+            $('#pc5').css('display', 'none');
+            $('#pre_res2').css('opacity', 1);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 0); current = 1;
+        }
+
+        function display2() {
+            $('#pc1').css('display', 'none');
+            $('#pc2').css('display', 'block');
+            $('#pc3').css('display', 'none');
+            $('#pc4').css('display', 'none');
+            $('#pc5').css('display', 'none');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 1);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 0); current = 2;
+        }
+
+        function display3() {
+            $('#pc1').css('display', 'none');
+            $('#pc2').css('display', 'none');
+            $('#pc3').css('display', 'block');
+            $('#pc4').css('display', 'none');
+            $('#pc5').css('display', 'none');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 1);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 0); current = 3;
+        }
+
+        function display4() {
+            $('#pc1').css('display', 'none');
+            $('#pc2').css('display', 'none');
+            $('#pc3').css('display', 'none');
+            $('#pc4').css('display', 'block');
+            $('#pc5').css('display', 'none');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 1);
+            $('#pre_des2').css('opacity', 0); current = 4;
+        }
+
+        function display5() {
+            $('#pc1').css('display', 'none');
+            $('#pc2').css('display', 'none');
+            $('#pc3').css('display', 'none');
+            $('#pc4').css('display', 'none');
+            $('#pc5').css('display', 'block');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 1); current = 5;
+        }
+
+        var ee1 = document.getElementById('pre_res2');
+
+        ee1.addEventListener('mouseover', function (event) {
+            $('#pre_res2').css('opacity', 1);
+        });
+        ee1.addEventListener('mouseout', function (event) {
+            if (current != 1) {
+                $('#pre_res2').css('opacity', 0);
+            }
+        });
+
+        var ee2 = document.getElementById('pre_inf2');
+
+        ee2.addEventListener('mouseover', function (event) {
+            $('#pre_inf2').css('opacity', 1);
+        });
+        ee2.addEventListener('mouseout', function (event) {
+            if (current != 2) {
+                $('#pre_inf2').css('opacity', 0);
+            }
+        });
+
+        var ee3 = document.getElementById('pre_bra2');
+
+        ee3.addEventListener('mouseover', function (event) {
+            $('#pre_bra2').css('opacity', 1);
+        });
+        ee3.addEventListener('mouseout', function (event) {
+            if (current != 3) {
+                $('#pre_bra2').css('opacity', 0);
+            }
+        });
+
+        var ee4 = document.getElementById('pre_hi2');
+
+        ee4.addEventListener('mouseover', function (event) {
+            $('#pre_hi2').css('opacity', 1);
+        });
+        ee4.addEventListener('mouseout', function (event) {
+            if (current != 4) {
+                $('#pre_hi2').css('opacity', 0);
+            }
+        });
+
+        var ee5 = document.getElementById('pre_des2');
+
+        ee5.addEventListener('mouseover', function (event) {
+            $('#pre_des2').css('opacity', 1);
+        });
+        ee5.addEventListener('mouseout', function (event) {
+            if (current != 5) {
+                $('#pre_des2').css('opacity', 0);
+            }
         });
     </script>
 </body>
