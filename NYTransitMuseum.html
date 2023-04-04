@@ -231,31 +231,32 @@
                 id="blc1"></div>
             <div style="position: absolute;width:20px;height: 80px;background-color:white;margin: 441.2px 0 0 1288px;display: none;"
                 id="blc2"></div>
-            <a href="#" id="pre_res">
+
+            <a href="javascript:void(0);" id="pre_res" onclick="display1()">
                 <img alt="pic" id="pre_res1" src="./static/image/ia/pre_res.png"
                     style="height:27.6px;margin:803.2px 0 0 200.0px;opacity:1">
                 <img alt="pic" id="pre_res2" src="./static/image/ia/pre_res_h.png"
                     style="height:27.6px;margin:803.2px 0 0 200.0px;opacity:0">
             </a>
-            <a href="#" id="pre_inf">
+            <a href="javascript:void(0);" id="pre_inf" onclick="display2()">
                 <img alt="pic" id="pre_inf1" src="./static/image/ia/pre_inf.png"
                     style="height:27.6px;margin:803.2px 0 0 422.0px;opacity:1">
                 <img alt="pic" id="pre_inf2" src="./static/image/ia/pre_inf_h.png"
                     style="height:27.6px;margin:803.2px 0 0 422.0px;opacity:0">
             </a>
-            <a href="#" id="pre_bra">
+            <a href="javascript:void(0);" id="pre_bra" onclick="display3()">
                 <img alt="pic" id="pre_bra1" src="./static/image/ia/pre_bra.png"
                     style="height:27.6px;margin:803.2px 0 0 644.0px;opacity:1">
                 <img alt="pic" id="pre_bra2" src="./static/image/ia/pre_bra_h.png"
-                    style="height:27.6px;margin:803.2px 0 0 644.0px;opacity:0">
+                    style="height:27.6px;margin:803.2px 0 0 644.0px;opacity:1">
             </a>
-            <a href="#" id="pre_hi">
+            <a href="javascript:void(0);" id="pre_hi" onclick="display4()">
                 <img alt="pic" id="pre_hi1" src="./static/image/ia/pre_hi.png"
                     style="height:27.6px;margin:803.2px 0 0 866.0px;opacity:1">
                 <img alt="pic" id="pre_hi2" src="./static/image/ia/pre_hi_h.png"
                     style="height:27.6px;margin:803.2px 0 0 866.0px;opacity:0">
             </a>
-            <a href="#" id="pre_des">
+            <a href="javascript:void(0);" id="pre_des" onclick="display5()">
                 <img alt="pic" id="pre_des1" src="./static/image/ia/pre_des.png"
                     style="height:27.6px;margin:803.2px 0 0 1088.0px;opacity:1">
                 <img alt="pic" id="pre_des2" src="./static/image/ia/pre_des_h.png"
@@ -1361,117 +1362,6 @@
             });
         });
 
-        document.getElementById("pre_res").onmousedown = function () {
-            toPage(3);
-        }
-
-        document.getElementById("pre_inf").onmousedown = function () {
-            toPage(5);
-        }
-
-        document.getElementById("pre_bra").onmousedown = function () {
-            toPage(7);
-        }
-
-        document.getElementById("pre_hi").onmousedown = function () {
-            toPage(9);
-        }
-
-        document.getElementById("pre_des").onmousedown = function () {
-            toPage(12);
-        }
-
-
-        let p111 = document.getElementById("pre_res")
-        $(function () {
-            $(p111).on({
-                mouseover: function () {
-                    let l2 = document.getElementById("pre_res2")
-                    $(l2).animate({
-                        opacity: 1
-                    }, 200);
-                },
-                mouseout: function () {
-                    let l2 = document.getElementById("pre_res2")
-                    $(l2).animate({
-                        opacity: 0
-                    }, 100);
-                }
-            });
-        });
-
-        let p222 = document.getElementById("pre_inf")
-        $(function () {
-            $(p222).on({
-                mouseover: function () {
-                    let l2 = document.getElementById("pre_inf2")
-                    $(l2).animate({
-                        opacity: 1
-                    }, 200);
-                },
-                mouseout: function () {
-                    let l2 = document.getElementById("pre_inf2")
-                    $(l2).animate({
-                        opacity: 0
-                    }, 100);
-                }
-            });
-        });
-
-        let p333 = document.getElementById("pre_bra")
-        $(function () {
-            $(p333).on({
-                mouseover: function () {
-                    let l2 = document.getElementById("pre_bra2")
-                    $(l2).animate({
-                        opacity: 1
-                    }, 200);
-                },
-                mouseout: function () {
-                    let l2 = document.getElementById("pre_bra2")
-                    $(l2).animate({
-                        opacity: 0
-                    }, 100);
-                }
-            });
-        });
-
-        let p444 = document.getElementById("pre_hi")
-        $(function () {
-            $(p444).on({
-                mouseover: function () {
-                    let l2 = document.getElementById("pre_hi2")
-                    $(l2).animate({
-                        opacity: 1
-                    }, 200);
-                },
-                mouseout: function () {
-                    let l2 = document.getElementById("pre_hi2")
-                    $(l2).animate({
-                        opacity: 0
-                    }, 100);
-                }
-            });
-        });
-
-        let p555 = document.getElementById("pre_des")
-        $(function () {
-            $(p555).on({
-                mouseover: function () {
-                    let l2 = document.getElementById("pre_des2")
-                    $(l2).animate({
-                        opacity: 1
-                    }, 200);
-                },
-                mouseout: function () {
-                    let l2 = document.getElementById("pre_des2")
-                    $(l2).animate({
-                        opacity: 0
-                    }, 100);
-                }
-            });
-        });
-
         $(function () {
             $(ppo11).on({
                 mouseover: function () {
@@ -1544,6 +1434,114 @@
                 $('.slider').css('background', 'rgba(242, 242, 242, 0)');
             }
 
+        });
+
+
+        var current = 3;
+
+        function display1() {
+            $('.background-img').css('background-image', 'url("./static/image/ia/tp_after.png")');
+            $('.foreground-img').css('background-image', 'url("./static/image/ia/tp_before.png")');
+            $('#pre_res2').css('opacity', 1);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 0); current = 1;
+        }
+
+        function display2() {
+            $('.background-img').css('background-image', 'url("./static/image/ia/gt-after.png")');
+            $('.foreground-img').css('background-image', 'url("./static/image/ia/gt-before.png")');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 1);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 0); current = 2;
+        }
+
+        function display3() {
+            $('.background-img').css('background-image', 'url("./static/image/ia/pre_old.png")');
+            $('.foreground-img').css('background-image', 'url("./static/image/ia/pre_new.png")');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 1);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 0); current = 3;
+        }
+
+        function display4() {
+            $('.background-img').css('background-image', 'url("./static/image/ia/mp-after.png")');
+            $('.foreground-img').css('background-image', 'url("./static/image/ia/mp-before.png")');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 1);
+            $('#pre_des2').css('opacity', 0); current = 4;
+        }
+
+        function display5() {
+            $('.background-img').css('background-image', 'url("./static/image/ia/gm-after.png")');
+            $('.foreground-img').css('background-image', 'url("./static/image/ia/gm-before.png")');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 1); current = 5;
+        }
+
+        var ee1 = document.getElementById('pre_res2');
+
+        ee1.addEventListener('mouseover', function (event) {
+            $('#pre_res2').css('opacity', 1);
+        });
+        ee1.addEventListener('mouseout', function (event) {
+            if (current != 1) {
+                $('#pre_res2').css('opacity', 0);
+            }
+        });
+
+        var ee2 = document.getElementById('pre_inf2');
+
+        ee2.addEventListener('mouseover', function (event) {
+            $('#pre_inf2').css('opacity', 1);
+        });
+        ee2.addEventListener('mouseout', function (event) {
+            if (current != 2) {
+                $('#pre_inf2').css('opacity', 0);
+            }
+        });
+
+        var ee3 = document.getElementById('pre_bra2');
+
+        ee3.addEventListener('mouseover', function (event) {
+            $('#pre_bra2').css('opacity', 1);
+        });
+        ee3.addEventListener('mouseout', function (event) {
+            if (current != 3) {
+                $('#pre_bra2').css('opacity', 0);
+            }
+        });
+
+        var ee4 = document.getElementById('pre_hi2');
+
+        ee4.addEventListener('mouseover', function (event) {
+            $('#pre_hi2').css('opacity', 1);
+        });
+        ee4.addEventListener('mouseout', function (event) {
+            if (current != 4) {
+                $('#pre_hi2').css('opacity', 0);
+            }
+        });
+
+        var ee5 = document.getElementById('pre_des2');
+
+        ee5.addEventListener('mouseover', function (event) {
+            $('#pre_des2').css('opacity', 1);
+        });
+        ee5.addEventListener('mouseout', function (event) {
+            if (current != 5) {
+                $('#pre_des2').css('opacity', 0);
+            }
         });
     </script>
 </body>
