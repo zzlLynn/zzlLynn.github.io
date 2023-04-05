@@ -33,7 +33,7 @@
 <body>
     <div class="nav_work" id="nnn1">
         <div class="content">
-            <a href="/" id="sy0">
+            <a href="#" id="sy0">
                 <img alt="pic" src="./static/image/common/logo.png" id="sy1"
                     style="width:44.0px;height:44.0px;margin:27.0px 0 0 116.0px;z-index:9999;opacity:1;">
                 <img alt="pic" src="./static/image/hive/logo.png" id="sy2"
@@ -182,7 +182,7 @@
                 <img alt="pic" src="./static/image/common/deliver1.png" id="del"
                     style="width:72.8px;margin:27.0px 0 0 1075.2px;position: absolute;display: none;">
             </a>
-            <a href="/" id="sl0">
+            <a href="#" id="sl0">
                 <img alt="pic" src="./static/image/common/logo.png" id="sl1"
                     style="width:44.0px;height:44.0px;margin:27.0px 0 0 116.0px;position: absolute;z-index:9999;opacity:1;">
                 <img alt="pic" src="./static/image/hive/logo.png" id="sl2"
@@ -1590,6 +1590,12 @@
         ee5.addEventListener('mouseout', function (event) {
             if (current != 5) {
                 $('#pre_des2').css('opacity', 0);
+            }
+        });
+
+        document.getElementById('sy0').addEventListener('click', function () {
+            if (window.scrollY === 0) {
+                location.href = '/';
             }
         });
     </script>

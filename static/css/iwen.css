@@ -827,10 +827,18 @@
 }
 
 #role {
-    width: 1494px;
-    height: 372.8px;
-    margin: 0 auto;
-    position: relative;
+  background: url("../image/iwen/bbback.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 594.0px;
+  background-size: cover;
+}
+
+#role .content {
+  width: 1494px;
+  height: 594.0px;
+  margin: 0 auto;
+  position: relative;
 }
 
 #role .font1 {

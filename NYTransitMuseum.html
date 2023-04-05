@@ -37,7 +37,7 @@
 <body>
     <div class="nav_work" id="nnn1">
         <div class="content">
-            <a href="/" id="sy0">
+            <a href="#" id="sy0">
                 <img alt="pic" src="./static/image/common/logo.png" id="sy1"
                     style="width:44.0px;height:44.0px;margin:27.0px 0 0 116.0px;z-index:9999;opacity:1;">
                 <img alt="pic" src="./static/image/ia/logo.png" id="sy2"
@@ -169,34 +169,38 @@
     <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="100">
         <div id="page231" style="margin-top:20px">
             <div class="content">
-                <p class="title" style="margin:43.6px 0 0 198.4px;color: #FFB565;">Project Overview</p>
-                <p class="font3" style="margin:144.0px 0 0 200px;color: #FFB565;">Context</p>
-                <p class="font3" style="margin:252.8px 0 0 200px;color: #FFB565;">Problem</p>
-                <p class="font3" style="margin:418.4px 0 0 200px;color: #FFB565;">Solution</p>
-                <p class="font0001" style="margin:170.8px 0 0 200px;"><a href="https://www.nytransitmuseum.org/"
-                        target="_blank" id="amm1"
-                        style="text-decoration:underline;text-decoration-color: white;color:white">New
+                <p class="title" style="margin:43.6px 0 0 198.4px;">Project Overview</p>
+                <p class="font3" style="margin:144.0px 0 0 200px;">Context</p>
+                <p class="font3" style="margin:252.8px 0 0 200px;">Problem</p>
+                <p class="font3" style="margin:418.4px 0 0 200px;">Solution</p>
+                <p class="font0001" style="margin:170.8px 0 0 200px;font-family: 'Helvetica Neue', sans-serif;color: #1F1F1F;"><a
+                        href="https://www.nytransitmuseum.org/" target="_blank" id="amm1"
+                        style="text-decoration:underline;text-decoration-color: #1F1F1F;color: #1F1F1F;">New
                         York Transit Museum (NYTM)</a> is dedicated to
                     telling and preserving the stories of mass transportation. NYTM is looking to redesign its website
                     to better enhance the visitors' experience and achieve business goals.</p>
-                <p class="font0001" style="margin:445.2px 0 0 200px;">Insights were leveraged to improve the navigation
+                <p class="font0001" style="margin:445.2px 0 0 200px;font-family: 'Helvetica Neue', sans-serif;color: #1F1F1F;">Insights
+                    were leveraged to improve the navigation
                     and organization of the existing website thus making the site more intuitive. We constructed a new
                     information architecture and hi-fi prototypes for the homepage, ticketing and membership page.</p>
-                <div class="font0001" style="margin:286px 0 0 236.0px;">Visitors get lost in the lengthy ticketing pages
+                <div class="font0001" style="margin:286px 0 0 236.0px;font-family: 'Helvetica Neue', sans-serif;color: #1F1F1F;">
+                    Visitors get lost in the lengthy ticketing pages
                     with <p style="display: inline;font-family: 'Helvetica Neue Bold', sans-serif;color: #F49024;">
                         unclear
                         hierarchies</p>
                 </div>
-                <div class="font0001" style="margin:321.2px 0 0 236.0px;">Users experience a broken journey due to
+                <div class="font0001" style="margin:321.2px 0 0 236.0px;font-family: 'Helvetica Neue', sans-serif;color: #1F1F1F;">
+                    Users experience a broken journey due to
                     inconsistent components within <p
                         style="display: inline;font-family: 'Helvetica Neue Bold', sans-serif;color: #F49024;">unfixed
                         design
                         principles</p>
                 </div>
-                <div class="font0001" style="margin:356.4px 0 0 236.0px;">Users have trouble accessing information via
+                <div class="font0001" style="margin:356.4px 0 0 236.0px;font-family: 'Helvetica Neue', sans-serif;color: #1F1F1F;">
+                    Users have trouble accessing information via
                     mobile pages <p
                         style="display: inline;font-family: 'Helvetica Neue Bold', sans-serif;color: #F49024;">
-                        lacking responsiveness </p>when visiting NYTM.
+                        lacking responsiveness </p>when visiting NYTM
                 </div>
                 <img alt="pic" src="./static/image/ia/222.png"
                     style="width:24.0px;margin:286.8px 0 0 200px;position: absolute;">
@@ -286,7 +290,7 @@
                 <img alt="pic" src="./static/image/common/deliver1.png" id="del"
                     style="width:72.8px;margin:27.0px 0 0 1075.2px;position: absolute;display: none;">
             </a>
-            <a href="/" id="sl0">
+            <a href="#" id="sl0">
                 <img alt="pic" src="./static/image/common/logo.png" id="sl1"
                     style="width:44.0px;height:44.0px;margin:27.0px 0 0 116.0px;position: absolute;z-index:9999;opacity:1;">
                 <img alt="pic" src="./static/image/ia/logo.png" id="sl2"
@@ -1354,10 +1358,10 @@
         $(function () {
             $(amm1).on({
                 mouseover: function () {
-                    amm1.setAttribute("style", "color:white;text-decoration:underline;text-decoration-color: white;")
+                    amm1.setAttribute("style", "color:#1F1F1F;text-decoration:underline;text-decoration-color: #1F1F1F;")
                 },
                 mouseout: function () {
-                    amm1.setAttribute("style", "color:white;text-decoration:underline;text-decoration-color: white;")
+                    amm1.setAttribute("style", "color:#1F1F1F;text-decoration:underline;text-decoration-color: #1F1F1F;")
                 }
             });
         });
@@ -1541,6 +1545,12 @@
         ee5.addEventListener('mouseout', function (event) {
             if (current != 5) {
                 $('#pre_des2').css('opacity', 0);
+            }
+        });
+
+        document.getElementById('sy0').addEventListener('click', function () {
+            if (window.scrollY === 0) {
+                location.href = '/';
             }
         });
     </script>

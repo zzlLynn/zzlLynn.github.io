@@ -32,7 +32,7 @@
 
 <body>
     <div class="nav">
-        <a href="/">
+        <a href="#" id="sy0">
             <img alt="pic" src="./static/image/common/logo.png"
                 style="width:44.0px;height:44.0px;margin:27.0px 0 0 116.0px;position: fixed;z-index:9999;">
         </a>
@@ -232,6 +232,12 @@
                     }, 0);
                 }
             });
+        });
+
+        document.getElementById('sy0').addEventListener('click', function () {
+            if (window.scrollY === 0) {
+                location.href = '/';
+            }
         });
     </script>
 </body>

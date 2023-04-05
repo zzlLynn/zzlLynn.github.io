@@ -33,7 +33,7 @@
 <body>
     <div class="nav_work" id="nnn1">
         <div class="content">
-            <a href="/" id="sy0">
+            <a href="#" id="sy0">
                 <img alt="pic" src="./static/image/common/logo.png" id="sy1"
                     style="width:44.0px;height:44.0px;margin:27.0px 0 0 116.0px;z-index:9999;opacity:1;">
                 <img alt="pic" src="./static/image/fireworks/logo.png" id="sy2"
@@ -71,8 +71,7 @@
                 Fireworks</p>
             <p class="font2" style="margin:347.6px 0 0 198.4px">A Better Viewing Experience at SSTM</p>
             <p class="font3" style="margin:470.0px 0 0 200px">Group Work</p>
-            <p class="font3" style="margin:493.2px 0 0 200px">User Experience & User Interface Designer & Model Designer
-            </p>
+            <p class="font3" style="margin:493.2px 0 0 200px">User Experience & Service Design</p>
             <p class="font3" style="margin:516.4px 0 0 200px">2021.08 — Ongoing</p>
             <img alt="pic" src="./static/image/fireworks/page0_software.png"
                 style="width:165.2px;height:39.2px;margin:557.6px 0 0 196.4px">
@@ -197,7 +196,7 @@
                 <img alt="pic" src="./static/image/common/deliver1.png" id="del"
                     style="width:72.8px;margin:27.0px 0 0 1075.2px;position: absolute;display: none;">
             </a>
-            <a href="/" id="sl0">
+            <a href="#" id="sl0">
                 <img alt="pic" src="./static/image/common/logo.png" id="sl1"
                     style="width:44.0px;height:44.0px;margin:27.0px 0 0 116.0px;position: absolute;z-index:9999;opacity:1;">
                 <img alt="pic" src="./static/image/fireworks/logo.png" id="sl2"
@@ -1578,6 +1577,12 @@
         ee5.addEventListener('mouseout', function (event) {
             if (current != 5) {
                 $('#pre_des2').css('opacity', 0);
+            }
+        });
+
+        document.getElementById('sy0').addEventListener('click', function () {
+            if (window.scrollY === 0) {
+                location.href = '/';
             }
         });
     </script>

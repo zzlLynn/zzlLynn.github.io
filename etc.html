@@ -1626,7 +1626,12 @@
             Visuals();
             localStorage.setItem('pre', 0);
         }
-        //
+        
+        document.getElementById('sy0').addEventListener('click', function () {
+            if (window.scrollY === 0) {
+                location.href = '/';
+            }
+        });
     </script>
 </body>
 
