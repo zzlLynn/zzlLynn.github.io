@@ -744,3 +744,37 @@ img {
   line-height: 22.4px;
   width: 546.8px;
 }
+
+
+#role {
+  background: url("../image/fireworks/pre_back.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 594.0px;
+  background-size: cover;
+}
+
+#role .content {
+  width: 1494px;
+  height: 594.0px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#role .font1 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16.8px;
+  position: absolute;
+  color: #1F1F1F;
+  line-height: 22.4px;
+  width: 912.8px;
+  letter-spacing: 0.4px;
+}
+
+#role .fontx {
+  font-family: 'Helvetica Neue Bold', sans-serif;
+  font-size: 16.8px;
+  position: absolute;
+  color: #1F1F1F;
+  letter-spacing: 0.3px;
+}

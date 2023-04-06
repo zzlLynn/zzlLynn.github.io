@@ -101,7 +101,7 @@
 
 #page4 {
   width: 1494px;
-  height: 1178.4px;
+  height: 1108.4px;
   margin: 0 auto;
   position: relative;
 }
@@ -348,6 +348,14 @@
   text-align: justify !important;
 }
 
+.font4aa {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14.4px;
+  color: #5d5d5d;
+  position: absolute;
+  line-height: 16.4px;
+}
+
 .font5 {
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 16.8px;
@@ -379,6 +387,14 @@
   position: absolute;
   line-height: 20px;
   text-align: justify !important;
+}
+
+.font8aa {
+  font-family: 'Helvetica Neue Light', sans-serif;;
+  font-size: 16.8px;
+  color: #1f1f1f;
+  position: absolute;
+  line-height: 20px;
 }
 
 .font9 {
@@ -478,4 +494,37 @@ img {
   color: #3B3B3B;
   line-height: 22.4px;
   width: 546.8px;
+}
+
+#role {
+  background: url("../image/moos/pre_back.png") no-repeat;
+  width: 100%;
+  min-width: 1494px;
+  height: 594.0px;
+  background-size: cover;
+}
+
+#role .content {
+  width: 1494px;
+  height: 594.0px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#role .font1 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16.8px;
+  position: absolute;
+  color: #1F1F1F;
+  line-height: 22.4px;
+  width: 912.8px;
+  letter-spacing: 0.4px;
+}
+
+#role .fontx {
+  font-family: 'Helvetica Neue Bold', sans-serif;
+  font-size: 16.8px;
+  position: absolute;
+  color: #1F1F1F;
+  letter-spacing: 0.3px;
 }
