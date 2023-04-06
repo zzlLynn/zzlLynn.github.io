@@ -29,14 +29,14 @@
 }
 
 #page0 .font2 {
-  font-family: 'Helvetica Neue Bold', sans-serif;
+  font-family: "Helvetica Neue Bold", sans-serif;
   font-size: 28.8px;
   color: #1f1f1f;
   position: absolute;
 }
 
 #page0 .font3 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 16.8px;
   color: #1f1f1f;
   position: absolute;
@@ -149,7 +149,14 @@
 }
 
 #page11 {
-  background: url("../image/moos/page11_background.png") no-repeat;
+  background: linear-gradient(
+      180deg,
+      rgba(242, 253, 251),
+      rgba(220, 248, 242),
+      rgba(220, 248, 242),
+      rgba(167, 235, 224, 0.8)
+    )
+    no-repeat;
   width: 100%;
   min-width: 1494px;
   height: 1590px;
@@ -214,7 +221,7 @@
 
 #page12_y {
   width: 1494px;
-  height:900px;
+  height: 900px;
   margin: 0 auto;
   position: relative;
 }
@@ -284,7 +291,7 @@
 }
 
 .font1 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 14.4px;
   color: #1f1f1f;
   position: absolute;
@@ -292,7 +299,7 @@
 }
 
 .font23 {
-  font-family: 'Helvetica Neue Bold', sans-serif;
+  font-family: "Helvetica Neue Bold", sans-serif;
   font-size: 21.6px;
   color: #ffba00;
   position: absolute;
@@ -309,21 +316,21 @@
 }
 
 .font25 {
-  font-family: 'Helvetica Neue Bold', sans-serif;
+  font-family: "Helvetica Neue Bold", sans-serif;
   font-size: 16.8px;
   color: #ffdb21;
   position: absolute;
 }
 
 .font2 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 16.8px;
   color: #1f1f1f;
   position: absolute;
 }
 
 .font3 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 16.8px;
   color: #3b3b3b;
   position: absolute;
@@ -332,7 +339,7 @@
 }
 
 .font399 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 16.8px;
   color: #3b3b3b;
   position: absolute;
@@ -340,7 +347,7 @@
 }
 
 .font4 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 14.4px;
   color: #5d5d5d;
   position: absolute;
@@ -349,7 +356,7 @@
 }
 
 .font4aa {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 14.4px;
   color: #5d5d5d;
   position: absolute;
@@ -357,7 +364,7 @@
 }
 
 .font5 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 16.8px;
   color: #05ceb8;
   position: absolute;
@@ -365,14 +372,14 @@
 }
 
 .font6 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 14.4px;
   color: #3b3b3b;
   position: absolute;
 }
 
 .font7 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 14.4px;
   color: #3b3b3b;
   position: absolute;
@@ -381,7 +388,7 @@
 }
 
 .font8 {
-  font-family: 'Helvetica Neue Light', sans-serif;;
+  font-family: "Helvetica Neue Light", sans-serif;
   font-size: 16.8px;
   color: #1f1f1f;
   position: absolute;
@@ -390,7 +397,7 @@
 }
 
 .font8aa {
-  font-family: 'Helvetica Neue Light', sans-serif;;
+  font-family: "Helvetica Neue Light", sans-serif;
   font-size: 16.8px;
   color: #1f1f1f;
   position: absolute;
@@ -398,7 +405,7 @@
 }
 
 .font9 {
-  font-family: 'Helvetica Neue Light', sans-serif;;
+  font-family: "Helvetica Neue Light", sans-serif;
   font-size: 14.4px;
   color: #3b3b3b;
   position: absolute;
@@ -407,7 +414,7 @@
 }
 
 .font10 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 14.4px;
   color: #5d5d5d;
   position: absolute;
@@ -415,7 +422,7 @@
 }
 
 .font11 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 16.8px;
   color: #5d5d5d;
   position: absolute;
@@ -443,14 +450,14 @@ img {
 }
 
 #process .font1 {
-  font-family: 'Helvetica Neue Bold', sans-serif;
+  font-family: "Helvetica Neue Bold", sans-serif;
   font-size: 16.8px;
   position: absolute;
   color: #3b3b3b;
 }
 
 #process .font30 {
-  font-family: 'Helvetica Neue Bold', sans-serif;
+  font-family: "Helvetica Neue Bold", sans-serif;
   font-size: 9.6px;
   position: absolute;
   color: #5fe5d6;
@@ -475,7 +482,6 @@ img {
   color: #acacac;
 }
 
-
 #page_pre {
   width: 1494px;
   height: 854.8px;
@@ -483,15 +489,15 @@ img {
   position: relative;
 }
 
-#page_pre img{
+#page_pre img {
   position: absolute;
 }
 
 #page_pre .font1 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 16.8px;
   position: absolute;
-  color: #3B3B3B;
+  color: #3b3b3b;
   line-height: 22.4px;
   width: 546.8px;
 }
@@ -500,31 +506,31 @@ img {
   background: url("../image/moos/pre_back.png") no-repeat;
   width: 100%;
   min-width: 1494px;
-  height: 594.0px;
+  height: 594px;
   background-size: cover;
 }
 
 #role .content {
   width: 1494px;
-  height: 594.0px;
+  height: 594px;
   margin: 0 auto;
   position: relative;
 }
 
 #role .font1 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 16.8px;
   position: absolute;
-  color: #1F1F1F;
+  color: #1f1f1f;
   line-height: 22.4px;
   width: 912.8px;
   letter-spacing: 0.4px;
 }
 
 #role .fontx {
-  font-family: 'Helvetica Neue Bold', sans-serif;
+  font-family: "Helvetica Neue Bold", sans-serif;
   font-size: 16.8px;
   position: absolute;
-  color: #1F1F1F;
+  color: #1f1f1f;
   letter-spacing: 0.3px;
 }
