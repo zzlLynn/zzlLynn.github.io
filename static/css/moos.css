@@ -107,6 +107,13 @@
 }
 
 #page5 {
+  width: 100%;
+  min-width: 1494px;
+  height: 908.8px;
+  background-size: cover;
+}
+
+#page5 .content {
   width: 1494px;
   height: 908.8px;
   margin: 0 auto;
@@ -114,6 +121,13 @@
 }
 
 #page6 {
+  width: 100%;
+  min-width: 1494px;
+  height: 908.8px;
+  background-size: cover;
+}
+
+#page6 .content {
   width: 1494px;
   height: 908.8px;
   margin: 0 auto;
