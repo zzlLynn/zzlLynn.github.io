@@ -129,17 +129,25 @@
         <p class="font1" style="margin:1259.2px 0 0 745.2px;color: #3B3B3B;">92%</p>
         <p class="font1" style="margin:1315.6px 0 0 745.2px;color: #3B3B3B;">79%</p>
         <p class="font1" style="margin:1372.0px 0 0 745.2px;color: #3B3B3B;">86%</p>
-        <div
-            style="position:absolute;margin: 1237.0px 0 0 224.4px;width: 557.2px;height: 3.2px;background: linear-gradient(to right, #FFD84E 0%, #FFD84E 95%, #e4e4e4 95%, #e4e4e4 100%);">
+        <div style="position:absolute;margin: 1237.0px 0 0 224.4px;width: 557.2px;height: 3.2px;background: #e4e4e4;">
         </div>
-        <div
-            style="position:absolute;margin: 1293.4px 0 0 224.4px;width: 557.2px;height: 3.2px;background: linear-gradient(to right, #FFD84E 0%, #FFD84E 92%, #e4e4e4 92%, #e4e4e4 100%);">
+        <div id="lll1"
+            style="position:absolute;margin: 1237.0px 0 0 224.4px;width: 0;height: 3.2px;background: #FFD84E;">
         </div>
-        <div
-            style="position:absolute;margin: 1349.8px 0 0 224.4px;width: 557.2px;height: 3.2px;background: linear-gradient(to right, #FFD84E 0%, #FFD84E 79%, #e4e4e4 79%, #e4e4e4 100%);">
+        <div style="position:absolute;margin: 1293.4px 0 0 224.4px;width: 557.2px;height: 3.2px;background: #e4e4e4;">
         </div>
-        <div
-            style="position:absolute;margin: 1406.2px 0 0 224.4px;width: 557.2px;height: 3.2px;background: linear-gradient(to right, #FFD84E 0%, #FFD84E 86%, #e4e4e4 86%, #e4e4e4 100%);">
+        <div id="lll2"
+            style="position:absolute;margin: 1293.4px 0 0 224.4px;width: 0;height: 3.2px;background: #FFD84E;">
+        </div>
+        <div style="position:absolute;margin: 1349.8px 0 0 224.4px;width: 557.2px;height: 3.2px;background: #e4e4e4;">
+        </div>
+        <div id="lll3"
+            style="position:absolute;margin: 1349.8px 0 0 224.4px;width: 0;height: 3.2px;background: #FFD84E;">
+        </div>
+        <div style="position:absolute;margin: 1406.2px 0 0 224.4px;width: 557.2px;height: 3.2px;background: #e4e4e4;">
+        </div>
+        <div id="lll4"
+            style="position:absolute;margin: 1406.2px 0 0 224.4px;width: 0;height: 3.2px;background: #FFD84E;">
         </div>
         <p class="title" style="margin:1074.2px 0 0 909.6px;letter-spacing: -0.1px;font-style: italic">The Glass is Half
             Full</p>
@@ -240,6 +248,41 @@
                 location.href = '/';
             }
         });
+
+        var fflag = false;
+
+        window.addEventListener("scroll", function () {
+            var distanceFromTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+            if (distanceFromTop > 600 && !fflag) {
+                fflag = true
+                let l1 = document.getElementById("lll1")
+                $(l1).animate({
+                    width: "529.34px"
+                }, 1000);
+
+                setTimeout(() => {
+                    let l2 = document.getElementById("lll2")
+                    $(l2).animate({
+                        width: "512.624px"
+                    }, 1000);
+                }, 200);
+
+                setTimeout(() => {
+                    let l3 = document.getElementById("lll3")
+                    $(l3).animate({
+                        width: "440.188px"
+                    }, 1000)
+                }, 400);
+
+                setTimeout(() => {
+                    let l4 = document.getElementById("lll4")
+                    $(l4).animate({
+                        width: "479.192px"
+                    }, 1000)
+                }, 600);
+            }
+        });
+
     </script>
 </body>
 
