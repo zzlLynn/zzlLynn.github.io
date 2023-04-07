@@ -173,30 +173,35 @@
                 <p class="font3" style="margin:144.0px 0 0 200px;">Context</p>
                 <p class="font3" style="margin:252.8px 0 0 200px;">Problem</p>
                 <p class="font3" style="margin:418.4px 0 0 200px;">Solution</p>
-                <p class="font0001" style="margin:170.8px 0 0 200px;font-family: 'Helvetica Neue', sans-serif;color: #1F1F1F;"><a
+                <p class="font0001"
+                    style="margin:170.8px 0 0 200px;font-family: 'Helvetica Neue', sans-serif;color: #1F1F1F;"><a
                         href="https://www.nytransitmuseum.org/" target="_blank" id="amm1"
                         style="text-decoration:underline;text-decoration-color: #1F1F1F;color: #1F1F1F;">New
                         York Transit Museum (NYTM)</a> is dedicated to
                     telling and preserving the stories of mass transportation. NYTM is looking to redesign its website
                     to better enhance the visitors' experience and achieve business goals.</p>
-                <p class="font0001" style="margin:445.2px 0 0 200px;font-family: 'Helvetica Neue', sans-serif;color: #1F1F1F;">Insights
+                <p class="font0001"
+                    style="margin:445.2px 0 0 200px;font-family: 'Helvetica Neue', sans-serif;color: #1F1F1F;">Insights
                     were leveraged to improve the navigation
                     and organization of the existing website thus making the site more intuitive. We constructed a new
                     information architecture and hi-fi prototypes for the homepage, ticketing and membership page.</p>
-                <div class="font0001" style="margin:286px 0 0 236.0px;font-family: 'Helvetica Neue', sans-serif;color: #1F1F1F;">
+                <div class="font0001"
+                    style="margin:286px 0 0 236.0px;font-family: 'Helvetica Neue', sans-serif;color: #1F1F1F;">
                     Visitors get lost in the lengthy ticketing pages
                     with <p style="display: inline;font-family: 'Helvetica Neue Bold', sans-serif;color: #F49024;">
                         unclear
                         hierarchies</p>
                 </div>
-                <div class="font0001" style="margin:321.2px 0 0 236.0px;font-family: 'Helvetica Neue', sans-serif;color: #1F1F1F;">
+                <div class="font0001"
+                    style="margin:321.2px 0 0 236.0px;font-family: 'Helvetica Neue', sans-serif;color: #1F1F1F;">
                     Users experience a broken journey due to
                     inconsistent components within <p
                         style="display: inline;font-family: 'Helvetica Neue Bold', sans-serif;color: #F49024;">unfixed
                         design
                         principles</p>
                 </div>
-                <div class="font0001" style="margin:356.4px 0 0 236.0px;font-family: 'Helvetica Neue', sans-serif;color: #1F1F1F;">
+                <div class="font0001"
+                    style="margin:356.4px 0 0 236.0px;font-family: 'Helvetica Neue', sans-serif;color: #1F1F1F;">
                     Users have trouble accessing information via
                     mobile pages <p
                         style="display: inline;font-family: 'Helvetica Neue Bold', sans-serif;color: #F49024;">
@@ -407,7 +412,8 @@
                 during any of the past cases</div>
             <div class="font4" style="margin:390.8px 0 0 215.6px;width:538.4px;letter-spacing: 0.4px;">Process and
                 considerations they currently follow for ticketing and membership</div>
-            <iframe width="458.14" height="461.6" src="https://www.youtube.com/embed/T8ziD10rOoQ?controls=1&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=T8ziD10rOoQ"
+            <iframe width="458.14" height="461.6"
+                src="https://www.youtube.com/embed/T8ziD10rOoQ?controls=1&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=T8ziD10rOoQ"
                 style="margin:64.0px 0 0 834.0px;border-radius: 20px;box-shadow:3px 3px 3px rgb(243, 243, 243);border-radius: 12px;position: absolute;"
                 frameborder="0" allowfullscreen></iframe>
             <!-- <img alt="pic" src="./static/image/ia/video.gif"
@@ -1440,57 +1446,166 @@
 
         });
 
+        var iii = 2;
+        var vflag = false;
+        var hflag = false;
+        window.addEventListener("scroll", function () {
+            var distanceFromTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+            if (distanceFromTop > 1800 && !vflag) {
+                vflag = true;
+                setInterval(function () {
+                    if (!hflag) {
+                        if (!isInside) {
+                            iii = (iii + 1) % 5;
+                            if (iii == 0) {
+                                display11()
+                            }
+                            if (iii == 1) {
+                                display21()
+                            }
+                            if (iii == 2) {
+                                display31()
+                            }
+                            if (iii == 3) {
+                                display41()
+                            }
+                            if (iii == 4) {
+                                display51()
+                            }
+                        }
+                    }
+                    else {
+                        hflag = false;
+                    }
+                }, 4000);
+            }
+        });
 
         var current = 3;
 
         function display1() {
+            hflag = true;
             $('.background-img').css('background-image', 'url("./static/image/ia/tp_after.png")');
             $('.foreground-img').css('background-image', 'url("./static/image/ia/tp_before.png")');
             $('#pre_res2').css('opacity', 1);
             $('#pre_inf2').css('opacity', 0);
             $('#pre_bra2').css('opacity', 0);
             $('#pre_hi2').css('opacity', 0);
-            $('#pre_des2').css('opacity', 0); current = 1;
+            $('#pre_des2').css('opacity', 0);
+            current = 1;
+            iii = 0;
         }
 
         function display2() {
+            hflag = true;
             $('.background-img').css('background-image', 'url("./static/image/ia/gt-after.png")');
             $('.foreground-img').css('background-image', 'url("./static/image/ia/gt-before.png")');
             $('#pre_res2').css('opacity', 0);
             $('#pre_inf2').css('opacity', 1);
             $('#pre_bra2').css('opacity', 0);
             $('#pre_hi2').css('opacity', 0);
-            $('#pre_des2').css('opacity', 0); current = 2;
+            $('#pre_des2').css('opacity', 0);
+            current = 2;
+            iii = 1;
         }
 
         function display3() {
+            hflag = true;
             $('.background-img').css('background-image', 'url("./static/image/ia/pre_old.png")');
             $('.foreground-img').css('background-image', 'url("./static/image/ia/pre_new.png")');
             $('#pre_res2').css('opacity', 0);
             $('#pre_inf2').css('opacity', 0);
             $('#pre_bra2').css('opacity', 1);
             $('#pre_hi2').css('opacity', 0);
-            $('#pre_des2').css('opacity', 0); current = 3;
+            $('#pre_des2').css('opacity', 0);
+            current = 3;
+            iii = 2;
         }
 
         function display4() {
+            hflag = true;
             $('.background-img').css('background-image', 'url("./static/image/ia/mp-after.png")');
             $('.foreground-img').css('background-image', 'url("./static/image/ia/mp-before.png")');
             $('#pre_res2').css('opacity', 0);
             $('#pre_inf2').css('opacity', 0);
             $('#pre_bra2').css('opacity', 0);
             $('#pre_hi2').css('opacity', 1);
-            $('#pre_des2').css('opacity', 0); current = 4;
+            $('#pre_des2').css('opacity', 0);
+            current = 4;
+            iii = 3;
         }
 
         function display5() {
+            hflag = true;
             $('.background-img').css('background-image', 'url("./static/image/ia/gm-after.png")');
             $('.foreground-img').css('background-image', 'url("./static/image/ia/gm-before.png")');
             $('#pre_res2').css('opacity', 0);
             $('#pre_inf2').css('opacity', 0);
             $('#pre_bra2').css('opacity', 0);
             $('#pre_hi2').css('opacity', 0);
-            $('#pre_des2').css('opacity', 1); current = 5;
+            $('#pre_des2').css('opacity', 1);
+            current = 5;
+            iii = 4;
+        }
+
+        function display11() {
+            $('.background-img').css('background-image', 'url("./static/image/ia/tp_after.png")');
+            $('.foreground-img').css('background-image', 'url("./static/image/ia/tp_before.png")');
+            $('#pre_res2').css('opacity', 1);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 0);
+            current = 1;
+            iii = 0;
+        }
+
+        function display21() {
+            $('.background-img').css('background-image', 'url("./static/image/ia/gt-after.png")');
+            $('.foreground-img').css('background-image', 'url("./static/image/ia/gt-before.png")');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 1);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 0);
+            current = 2;
+            iii = 1;
+        }
+
+        function display31() {
+            $('.background-img').css('background-image', 'url("./static/image/ia/pre_old.png")');
+            $('.foreground-img').css('background-image', 'url("./static/image/ia/pre_new.png")');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 1);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 0);
+            current = 3;
+            iii = 2;
+        }
+
+        function display41() {
+            $('.background-img').css('background-image', 'url("./static/image/ia/mp-after.png")');
+            $('.foreground-img').css('background-image', 'url("./static/image/ia/mp-before.png")');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 1);
+            $('#pre_des2').css('opacity', 0);
+            current = 4;
+            iii = 3;
+        }
+
+        function display51() {
+            $('.background-img').css('background-image', 'url("./static/image/ia/gm-after.png")');
+            $('.foreground-img').css('background-image', 'url("./static/image/ia/gm-before.png")');
+            $('#pre_res2').css('opacity', 0);
+            $('#pre_inf2').css('opacity', 0);
+            $('#pre_bra2').css('opacity', 0);
+            $('#pre_hi2').css('opacity', 0);
+            $('#pre_des2').css('opacity', 1);
+            current = 5;
+            iii = 4;
         }
 
         var ee1 = document.getElementById('pre_res2');
