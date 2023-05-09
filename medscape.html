@@ -30,6 +30,30 @@
     <link href="./static/css/style.css" rel="stylesheet">
     <link href="./static/css/medscape.css" rel="stylesheet">
     <link rel="stylesheet" href="./static/css/animate.css" />
+    <style>
+        .collapse-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .collapse-panel {
+            /* border: 1px solid #ccc;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 10px; */
+        }
+
+        .collapse-header {
+            /* background-color: #f2f2f2; */
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .collapse-content {
+            padding: 10px;
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -69,8 +93,7 @@
     </div>
     <div id="page0">
         <div class="content">
-            <img alt="pic" src="./static/image/ia/page0_back.png" style="height:634.4px;margin:72.4px 0 0 575.2px;">
-            <img alt="pic" src="./static/image/ia/nytm_logo.png" style="width:256.0px;margin:58.4px 0 0 791.2px;">
+            <img alt="pic" src="./static/image/medscape/logo.png" style="width:137.8px;margin:58.4px 0 0 791.2px;">
             <p class="font1" style="margin:246.0px 0 0 195.2px;width:256.4px;letter-spacing: -0.3px;">Medscape</p>
             <p class="font2" style="margin:347.6px 0 0 198.4px">Redesign for the Search Experience</p>
             <p class="font3" style="margin:470.0px 0 0 200px">Team Project</p>
@@ -86,6 +109,9 @@
             </a>
             <img alt="pic" src="./static/image/ia/page0_software.png" style="height:39.2px;margin:557.6px 0 0 196.4px">
             <img alt="pic" src="./static/image/medscape/rec.png" style="height:670.5px;margin:29.6px 0 0 483.2px">
+            <img alt="pic" src="./static/image/medscape/recommendation.png"
+                style="height:586.4px;margin:113.6px 0 0 791.2px;">
+
         </div>
     </div>
 
@@ -257,6 +283,40 @@
                         style="display: inline;font-family: 'Helvetica Neue Bold', sans-serif;color: #254370;letter-spacing: -0.8px;">
                         pre- & post-test questionnaires</p>, to better analyze the search experience.</div>
                 <img alt="pic" src="./static/image/medscape/typ.png" style="height: 500.0px;margin:64.0px 0 0 834.0px;">
+                <div class="collapse-container" style="position: absolute;margin: 289.6px 0 0 200px;width:554.0px">
+                    <div class="collapse-panel">
+                        <div class="collapse-header"
+                            style="font-family: 'Poppins';font-size: 21.6px;color: #254370;letter-spacing:0.5px;font-weight: 500;margin: 0px 0 0 50.0px;user-select:none;">
+                            for Global Search</div>
+                        <div class="collapse-content"
+                            style="font-family: 'Helvetica Neue';font-size: 16.8px;color: #4A4A4A;letter-spacing:0.4px;line-height: 22.4px;width: 530.0px;margin-top: 0px;margin-left: 50px;height: 86.8px;">
+                            You are attending a medical conference next week and want to
+                            prepare by reviewing the latest news or research on a specific topic. Find recent articles
+                            or studies on “Immunotherapy in Cancer Treatment.”</div>
+                    </div>
+                    <div class="collapse-panel">
+                        <div class="collapse-header"
+                            style="font-family: 'Poppins';font-size: 21.6px;color: #254370;letter-spacing:0.5px;font-weight: 500;margin: 20.0px 0 0 50.0px;user-select:none;">
+                            for Autocomplete Search</div>
+                        <div class="collapse-content"
+                            style="font-family: 'Helvetica Neue';font-size: 16.8px;color: #4A4A4A;letter-spacing:0.4px;line-height: 22.4px;width: 530.0px;margin-top: 0px;margin-left: 50px;height: 86.8px;">
+                            You have a patient with a complex drug regimen, and you want to review potential drug
+                            interactions to ensure their safety. Search for potential interactions between
+                            “Warfarin” and “Aspirin.”</div>
+                    </div>
+                    <div class="collapse-panel">
+                        <div class="collapse-header"
+                            style="font-family: 'Poppins';font-size: 21.6px;color: #254370;letter-spacing:0.5px;font-weight: 500;margin: 20.0px 0 0 50.0px;user-select:none;">
+                            for Content Search</div>
+                        <div class="collapse-content"
+                            style="font-family: 'Helvetica Neue';font-size: 16.8px;color: #4A4A4A;letter-spacing:0.4px;line-height: 22.4px;width: 530.0px;margin-top: 0px;margin-left: 50px;height: 86.8px;">
+                            You are interested in finding a relevant CME activity for gaining credits, and you need
+                            to ensure that you are up to date with the most recent information in your field in the
+                            form of classes, articles, and other helpful content. Find a related CME activity that
+                            would help you meet the yearly credit requirements.</div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -271,7 +331,8 @@
                     Ten participants were researched, of which I moderated two user tests. Combining the pre- and
                     post-test questionnaires, a <p
                         style="display: inline;font-family: 'Helvetica Neue Bold', sans-serif;color: #254370;letter-spacing: -0.8px;">
-                        rainbow sheet</p> was utilized to synthesize our findings. Observations that were seen across
+                        rainbow sheet</p> was utilized to synthesize our findings. Observations that were seen
+                    across
                     three or more participants were prioritized as follows:</div>
                 <img alt="pic" src="./static/image/medscape/b1.png"
                     style="width: 202.8px;margin:268.8px 0 0 200px;height: 340.0px;">
@@ -285,7 +346,8 @@
                     style="width: 202.8px;margin:268.8px 0 0 1091.2px;height: 340.0px">
                 <p class="font3"
                     style="margin:422.8px 0 0 216.0px;letter-spacing: 0.4px;width: 170.8px;line-height: 22.4px;text-align: center;">
-                    Even if users have already logged in to the site, the site will still prompt them to log in again
+                    Even if users have already logged in to the site, the site will still prompt them to log in
+                    again
                     after clicking the the needed information</p>
                 <p class="font3"
                     style="margin:422.8px 0 0 438.8px;letter-spacing: 0.4px;width: 170.8px;line-height: 22.4px;text-align: center;">
@@ -293,14 +355,16 @@
                     specific health problems.</p>
                 <p class="font3"
                     style="margin:422.8px 0 0 661.6px;letter-spacing: 0.4px;width: 170.8px;line-height: 22.4px;text-align: center;">
-                    The way search results are listed is confusing. There is a filter, named “Refine”, many users can't
+                    The way search results are listed is confusing. There is a filter, named “Refine”, many users
+                    can't
                     find it.</p>
                 <p class="font3"
                     style="margin:422.8px 0 0 884.4px;letter-spacing: 0.4px;width: 170.8px;line-height: 22.4px;text-align: center;">
                     There is no place for users to add another drug at the Drugs Interaction Checker bar.</p>
                 <p class="font3"
                     style="margin:422.8px 0 0 1107.2px;letter-spacing: 0.4px;width: 170.8px;line-height: 22.4px;text-align: center;">
-                    Too much content is above the fold on arrival to the CME page. Too congested and close-quartered.
+                    Too much content is above the fold on arrival to the CME page. Too congested and
+                    close-quartered.
                 </p>
 
             </div>
@@ -325,7 +389,8 @@
                     style="margin:230.8px 0 0 200px;width: 543.0px;letter-spacing: 0.4px;line-height: 22.4px;">After
                     prioritizing the issues once again, we chose to follow up <p
                         style="display: inline;font-family: 'Helvetica Neue Bold', sans-serif;color: #254370;letter-spacing: 0px;">
-                        three </p> of them. Also, as the site's desktop end presented more information, we decided to <p
+                        three </p> of them. Also, as the site's desktop end presented more information, we decided
+                    to <p
                         style="display: inline;font-family: 'Helvetica Neue Bold', sans-serif;color: #254370;letter-spacing: 0px;">
                         prioritize redesigning the desktop end and then the responsive design</p>.</div>
                 <img alt="pic" src="./static/image/medscape/111.png"
@@ -340,7 +405,8 @@
                     style="width:554.0px;margin:1120.0px 0 0 200px;position: absolute;">
                 <img alt="pic" src="./static/image/medscape/line.png"
                     style="width:554.0px;margin:1664.0px 0 0 200px;position: absolute;">
-                <div class="font3" style="margin:342.8px 0 0 236.0px;letter-spacing: 0.4px;">The global search with no
+                <div class="font3" style="margin:342.8px 0 0 236.0px;letter-spacing: 0.4px;">The global search with
+                    no
                     <p style="display: inline;font-family: 'Helvetica Neue Bold', sans-serif;color: #254370;">
                         specificity</p>
                 </div>
@@ -364,17 +430,21 @@
                 <p class="font3"
                     style="margin:829.6px 0 0 200px;letter-spacing: 0.4px;width: 554.0px;line-height: 22.4px;color: #4a4a4a;">
                     Rather than entering a search, going to the search results page, evaluating results, and then
-                    applying filters as necessary, several of our participants had filters in mind for their searches
+                    applying filters as necessary, several of our participants had filters in mind for their
+                    searches
                     from the beginning.</p>
                 <p class="font3"
                     style="margin:1384.8px 0 0 200px;letter-spacing: 0.4px;width: 554.0px;line-height: 22.4px;color: #4a4a4a;">
                     While our participants were able to narrow down their search results to find their desired
-                    information, some participants hoped for a more intuitive filter function and streamlined design on
+                    information, some participants hoped for a more intuitive filter function and streamlined design
+                    on
                     the page.</p>
                 <p class="font3"
                     style="margin:1917.6px 0 0 200px;letter-spacing: 0.4px;width: 554.0px;line-height: 22.4px;color: #4a4a4a;">
-                    Our participants expressed some frustration with the search inputs on the page and were confused by
-                    the mechanics of the search that required the user to delete the first input prior to inputting the
+                    Our participants expressed some frustration with the search inputs on the page and were confused
+                    by
+                    the mechanics of the search that required the user to delete the first input prior to inputting
+                    the
                     subsequent inputs.</p>
             </div>
         </div>
@@ -405,9 +475,11 @@
                     style="height:394.0px;margin:1216.4px 0 0 648.0px;width: 506.0px;">
                 <p class="font6" style="margin:396.4px 0 0 232.0px;color:#929292;">Goal 01 | Get Global Search More
                     Specific</p>
-                <p class="font6" style="margin:822.4px 0 0 232.0px;color:#929292;">Goal 02 | Make Search Results Page
+                <p class="font6" style="margin:822.4px 0 0 232.0px;color:#929292;">Goal 02 | Make Search Results
+                    Page
                     More Organized</p>
-                <p class="font6" style="margin:1248.4px 0 0 232.0px;color:#929292;">Goal 03 | Clarify Drug Interaction
+                <p class="font6" style="margin:1248.4px 0 0 232.0px;color:#929292;">Goal 03 | Clarify Drug
+                    Interaction
                     Search Mechanics</p>
                 <p class="title"
                     style="margin:461.2px 0 0 232.0px;font-size: 21.6px;color: #254370;letter-spacing: 0.1px;font-weight: 500;">
@@ -423,13 +495,15 @@
                     More Specific, More Discoverable. Better Organization.</p>
                 <p class="font3"
                     style="margin:511.2px 0 0 232.0px;letter-spacing: 0.4px;width: 372.0px;line-height: 22.4px;color: #4a4a4a;">
-                    An expandable filter option are created to allow users to immediately narrow down their search. The
+                    An expandable filter option are created to allow users to immediately narrow down their search.
+                    The
                     subcategories take the current search result page as the reference.</p>
                 <p class="font3"
                     style="margin:937.2px 0 0 232.0px;letter-spacing: 0.4px;width: 372.0px;line-height: 22.4px;color: #4a4a4a;">
                     Remove duplicate titles from the search results page and include them in the filtering options
                     instead, as most are already represented within the existing filters. Move the filter options so
-                    that they are immediately visible to users, with their individual options available in a drop-down
+                    that they are immediately visible to users, with their individual options available in a
+                    drop-down
                     menu.</p>
                 <p class="font3"
                     style="margin:1363.2px 0 0 232.0px;letter-spacing: 0.4px;width: 372.0px;line-height: 22.4px;color: #4a4a4a;">
@@ -451,7 +525,6 @@
                     View Mobile Version</p>
             </div>
         </div>
-
         <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="100">
             <div id="page17">
                 <img alt="pic" src="./static/image/medscape/recb.png"
@@ -465,23 +538,27 @@
                     <img alt="pic" src="./static/image/medscape/up2.png"
                         style="height:186.4px;margin:297.2px 0 0 585.6px">
                     <p class="font3"
-                        style="margin:274.8px 0 0 218.0px;letter-spacing: 0.4px;width: 409.2px;line-height: 23.5px;">The
+                        style="margin:274.8px 0 0 218.0px;letter-spacing: 0.4px;width: 409.2px;line-height: 23.5px;">
+                        The
                         team found it really interesting, and is excited to use your report and recommendations as a
                         jumping
                         off point for our work on improving the search experience across the site.
                     </p>
                     <p class="font3"
                         style="margin:274.8px 0 0 786.0px;letter-spacing: 0.7px;width: 508.0px;line-height: 23.5px;color: #4a4a4a;">
-                        The team experience was great! What impressed me the most was the final presentation, where we
+                        The team experience was great! What impressed me the most was the final presentation, where
+                        we
                         presented not only to the UX Leader, but also to the Director of Development, the Director
                         Product
-                        Management, and the Product Manager. During the Q&A session, I learned about the different views
+                        Management, and the Product Manager. During the Q&A session, I learned about the different
+                        views
                         of
                         professionals with different backgrounds on the same issue. It was very beneficial and
                         interesting
                         for me.
                     </p>
-                    <p class="title" style="margin:227.2px 0 0 786.0px;font-size: 16.8px;color: #254370;">my takeaways
+                    <p class="title" style="margin:227.2px 0 0 786.0px;font-size: 16.8px;color: #254370;">my
+                        takeaways
                     </p>
 
                 </div>
@@ -493,7 +570,8 @@
                 style="width:1094.0px;height:44.0px;margin:64.0px 0 0 200.0px;background-color: #9c9c9c;position: absolute;">
             </div>
             <p class="font1" style="margin:176.0px 0 0 198.2px">Hi there!</p>
-            <p class="font2" style="margin:234.4px 0 0 200px;width:435.0px;">Thanks for reaching the end of the page. If
+            <p class="font2" style="margin:234.4px 0 0 200px;width:435.0px;">Thanks for reaching the end of the
+                page. If
                 you
                 want to learn more about me or what I'm working on, feel free to contact me!</p>
             <p class="font2" style="margin:234.4px 0 0 794.8px;">Contact Me</p>
@@ -611,6 +689,22 @@
                         $(l1).animate({
                             opacity: 0
                         }, 0);
+                    }
+                });
+            });
+
+        </script>
+        <script>
+            const panels = document.querySelectorAll('.collapse-panel');
+            panels.forEach(panel => {
+                const header = panel.querySelector('.collapse-header');
+                const content = panel.querySelector('.collapse-content');
+                header.addEventListener('click', () => {
+                    if (content.style.display === 'none') {
+                        panels.forEach(p => p.querySelector('.collapse-content').style.display = 'none');
+                        content.style.display = 'block';
+                    } else {
+                        content.style.display = 'none';
                     }
                 });
             });
