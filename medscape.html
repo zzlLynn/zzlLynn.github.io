@@ -30,6 +30,7 @@
     <link href="./static/css/style.css" rel="stylesheet">
     <link href="./static/css/medscape.css" rel="stylesheet">
     <link rel="stylesheet" href="./static/css/animate.css" />
+    <link rel="stylesheet" href="./static/css/lightbox.min.css" />
     <style>
         .collapse-container {
             display: flex;
@@ -462,10 +463,15 @@
                     style="height:394.0px;margin:790.4px 0 0 648.0px;width: 506.0px;">
                 <img alt="pic" src="./static/image/medscape/rectt.png"
                     style="height:394.0px;margin:1216.4px 0 0 648.0px;width: 506.0px;">
-                <img alt="pic" src="./static/image/medscape/pp1.png" style="height:394.0px;margin:364.4px 0 0 1162.0px">
-                <img alt="pic" src="./static/image/medscape/pp2.png" style="height:394.0px;margin:790.4px 0 0 1162.0px">
-                <img alt="pic" src="./static/image/medscape/pp3.png"
-                    style="height:394.0px;margin:1216.4px 0 0 1162.0px">
+                <a href="./static/image/medscape/m1.gif" data-lightbox="image-2" data-title="Mobile Version"><img
+                        alt="pic" src="./static/image/medscape/pp1.png"
+                        style="height:394.0px;margin:364.4px 0 0 1162.0px"></a>
+                <a href="./static/image/medscape/m2.gif" data-lightbox="image-2" data-title="Mobile Version"><img
+                        alt="pic" src="./static/image/medscape/pp2.png"
+                        style="height:394.0px;margin:790.4px 0 0 1162.0px"></a>
+                <a href="./static/image/medscape/m3.gif" data-lightbox="image-2" data-title="Mobile Version"><img
+                        alt="pic" src="./static/image/medscape/pp3.png"
+                        style="height:394.0px;margin:1216.4px 0 0 1162.0px"></a>
                 <img alt="pic" src="./static/image/medscape/cir.png" style="height:58.3px;margin:194.2px 0 0 692.3px">
                 <img alt="pic" src="./static/image/medscape/flow1.gif"
                     style="height:394.0px;margin:364.4px 0 0 648.0px;width: 506.0px;">
@@ -609,11 +615,19 @@
         <script src="static/js/jquery.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="static/js/common.js"></script>
+        <script src="static/js/lightbox.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
             integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
             new WOW().init();
+        </script>
+        <script>
+            lightbox.option({
+                'maxWidth': 1400,
+                'wrapAround': false,
+                'positionFromTop': 100,
+            })
         </script>
         <script>
             function getPosition(element) {
