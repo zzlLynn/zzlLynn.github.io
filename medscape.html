@@ -30,31 +30,6 @@
     <link href="./static/css/style.css" rel="stylesheet">
     <link href="./static/css/medscape.css" rel="stylesheet">
     <link rel="stylesheet" href="./static/css/animate.css" />
-    <link rel="stylesheet" href="./static/css/lightbox.min.css" />
-    <style>
-        .collapse-container {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .collapse-panel {
-            /* border: 1px solid #ccc;
-            border-radius: 4px;
-            overflow: hidden;
-            margin-bottom: 10px; */
-        }
-
-        .collapse-header {
-            /* background-color: #f2f2f2; */
-            padding: 10px;
-            cursor: pointer;
-        }
-
-        .collapse-content {
-            padding: 10px;
-            display: none;
-        }
-    </style>
 </head>
 
 <body>
@@ -78,14 +53,14 @@
                 <p class="font111" style="margin:28.6px 0 0 198.2px">Lynn Z</p>
             </a>
             <a href="/">
-                <p class="font112" style="margin:33.0px 0 0 906.8px" id="lig11">Work</p>
+                <p class="font113" style="margin:33.0px 0 0 906.8px" id="lig11">Work</p>
             </a>
             <a target="_blank"
                 href="https://drive.google.com/file/d/1eeoDKhsKmg8YkVFyIA7W3o3oVtH36PYP/view?usp=share_link">
                 <p class="font113" style="margin:33.0px 0 0 1012.4px" id="lig22">Resume</p>
             </a>
             <a href="./etc.html">
-                <p class="font113" style="margin:33.0px 0 0 1145.6px" id="lig33">Etc.</p>
+                <p class="font112" style="margin:33.0px 0 0 1145.6px" id="lig33">Etc.</p>
             </a>
             <a href="./about.html">
                 <p class="font113" style="margin:33.0px 0 0 1226.4px" id="lig44">About</p>
@@ -110,10 +85,14 @@
             </a>
             <img alt="pic" src="./static/image/medscape/soft.png" style="height:39.2px;margin:557.6px 0 0 196.4px">
             <img alt="pic" src="./static/image/medscape/rec.png" style="height:670.5px;margin:29.6px 0 0 483.2px">
-            <img alt="pic" src="./static/image/medscape/recommendation.png"
-                style="height:586.4px;margin:113.6px 0 0 791.2px;">
+            <!-- <img alt="pic" src="./static/image/medscape/recommendation.png"
+                style="height:586.4px;margin:113.6px 0 0 791.2px;"> -->
 
         </div>
+        <div
+            style="background: url('./static/image/medscape/recommendation.png') no-repeat;position: absolute;height:586.4px;margin-top:-586.6px;margin-left: max(791.2px,calc(50% - 747px + 791.2px));width: max(702.8px, calc(50% - 747px + 702.8px));background-size: cover;">
+        </div>
+
     </div>
 
     <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="70">
@@ -284,40 +263,60 @@
                         style="display: inline;font-family: 'Helvetica Neue Bold', sans-serif;color: #254370;letter-spacing: -0.8px;">
                         pre- & post-test questionnaires</p>, to better analyze the search experience.</div>
                 <img alt="pic" src="./static/image/medscape/typ.png" style="height: 500.0px;margin:64.0px 0 0 834.0px;">
-                <div class="collapse-container" style="position: absolute;margin: 289.6px 0 0 200px;width:554.0px">
-                    <div class="collapse-panel">
-                        <div class="collapse-header"
-                            style="font-family: 'Poppins';font-size: 21.6px;color: #254370;letter-spacing:0.5px;font-weight: 500;margin: 0px 0 0 50.0px;user-select:none;">
-                            for Global Search</div>
-                        <div class="collapse-content"
-                            style="font-family: 'Helvetica Neue';font-size: 16.8px;color: #4A4A4A;letter-spacing:0.4px;line-height: 22.4px;width: 530.0px;margin-top: 0px;margin-left: 50px;height: 86.8px;">
-                            You are attending a medical conference next week and want to
-                            prepare by reviewing the latest news or research on a specific topic. Find recent articles
-                            or studies on “Immunotherapy in Cancer Treatment.”</div>
-                    </div>
-                    <div class="collapse-panel">
-                        <div class="collapse-header"
-                            style="font-family: 'Poppins';font-size: 21.6px;color: #254370;letter-spacing:0.5px;font-weight: 500;margin: 20.0px 0 0 50.0px;user-select:none;">
-                            for Autocomplete Search</div>
-                        <div class="collapse-content"
-                            style="font-family: 'Helvetica Neue';font-size: 16.8px;color: #4A4A4A;letter-spacing:0.4px;line-height: 22.4px;width: 530.0px;margin-top: 0px;margin-left: 50px;height: 86.8px;">
-                            You have a patient with a complex drug regimen, and you want to review potential drug
-                            interactions to ensure their safety. Search for potential interactions between
-                            “Warfarin” and “Aspirin.”</div>
-                    </div>
-                    <div class="collapse-panel">
-                        <div class="collapse-header"
-                            style="font-family: 'Poppins';font-size: 21.6px;color: #254370;letter-spacing:0.5px;font-weight: 500;margin: 20.0px 0 0 50.0px;user-select:none;">
-                            for Content Search</div>
-                        <div class="collapse-content"
-                            style="font-family: 'Helvetica Neue';font-size: 16.8px;color: #4A4A4A;letter-spacing:0.4px;line-height: 22.4px;width: 530.0px;margin-top: 0px;margin-left: 50px;height: 86.8px;">
-                            You are interested in finding a relevant CME activity for gaining credits, and you need
-                            to ensure that you are up to date with the most recent information in your field in the
-                            form of classes, articles, and other helpful content. Find a related CME activity that
-                            would help you meet the yearly credit requirements.</div>
-                    </div>
+                <p class="font3" id="c1"
+                    style="margin:339.6px 0 0 250.0px;color: #4A4A4A;letter-spacing: 0.4px;line-height: 22.4px;width: 504.0px;opacity: 0;">
+                    You are attending a medical conference next week and want to prepare by reviewing the latest news or
+                    research on a specific topic. Find recent articles or studies on “Immunotherapy in Cancer
+                    Treatment.”</p>
+                <p class="font3" id="c2"
+                    style="margin:420.0px 0 0 250.0px;color: #4A4A4A;letter-spacing: 0.4px;line-height: 22.4px;width: 504.0px;opacity: 0;">
+                    You have a patient with a complex drug regimen, and you want to review potential drug interactions
+                    to ensure their safety. Search for potential interactions between “Warfarin” and “Aspirin.”</p>
+                <p class="font3" id="c3"
+                    style="margin:498.4px 0 0 250.0px;color: #4A4A4A;letter-spacing: 0.4px;line-height: 22.4px;width: 504.0px;opacity: 0;">
+                    You are interested in finding a relevant CME activity for gaining credits, and you need to ensure
+                    that you are up to date with the most recent information in your field in the form of classes,
+                    articles, and other helpful content. Find a related CME activity that would help you meet the yearly
+                    credit requirements.</p>
+                <img alt="pic" id="p1" src="./static/image/medscape/line1.png"
+                    style="width: 554.0px;margin:344.0px 0 0 200px;">
+                <img alt="pic" id="p2" src="./static/image/medscape/line1.png"
+                    style="width: 554.0px;margin:422.4px 0 0 200px;">
+                <img alt="pic" id="p3" src="./static/image/medscape/line1.png"
+                    style="width: 554.0px;margin:500.8px 0 0 200px;">
+                <div id="pp1"
+                    style="margin: 304.6px 0 0 200px;width: 26.0px;height: 2px;background-color: #254370;position: absolute;">
                 </div>
-
+                <div id="pp2"
+                    style="margin: 383px 0 0 200px;width: 26.0px;height: 2px;background-color: #254370;position: absolute;">
+                </div>
+                <div id="pp3"
+                    style="margin: 461.4px 0 0 200px;width: 26.0px;height: 2px;background-color: #254370;position: absolute;">
+                </div>
+                <div id="pp11"
+                    style="margin: 291.6px 0 0 213.0px;width: 2px;height: 26.0px;background-color: #254370;position: absolute;">
+                </div>
+                <div id="pp22"
+                    style="margin: 370.0px 0 0 213.0px;width: 2px;height: 26.0px;background-color: #254370;position: absolute;">
+                </div>
+                <div id="pp33"
+                    style="margin: 448.8px 0 0 213.0px;width: 2px;height: 26.0px;background-color: #254370;position: absolute;">
+                </div>
+                <a href="javascript:void(0);" onclick="choose1()">
+                    <p class="title" id="t1"
+                        style="user-select:none;margin:289.6px 0 0 250.0px;font-size: 21.6px;color: #254370;letter-spacing: 0.1px;font-weight: 500;">
+                        for Global Search</p>
+                </a>
+                <a href="javascript:void(0);" onclick="choose2()">
+                    <p class="title" id="t2"
+                        style="user-select:none;margin:368.0px 0 0 250.0px;font-size: 21.6px;color: #254370;letter-spacing: 0.1px;font-weight: 500;">
+                        for Autocomplete Search</p>
+                </a>
+                <a href="javascript:void(0);" onclick="choose3()">
+                    <p class="title" id="t3"
+                        style="user-select:none;margin:446.4px 0 0 250.0px;font-size: 21.6px;color: #254370;letter-spacing: 0.1px;font-weight: 500;">
+                        for Content Search</p>
+                </a>
             </div>
         </div>
     </div>
@@ -375,17 +374,17 @@
     <div class="wow animate__fadeInUp" data-wow-duration="1.2s" data-wow-delay="0s" data-wow-offset="70">
         <div id="page11">
             <img alt="pic" src="./static/image/medscape/back.png"
-                style="width:660.0px;margin-top:0;position: absolute;left: max(calc(1492px - 660px),calc(100% - 660px));">
-            <video alt="pic" src="./static/image/medscape/current.mov" autoplay="autoplay" loop
-                style="height: 480.0px;width:660.0px;margin-top:64.0px;position: absolute;left: max(calc(1492px - 660px),calc(100% - 660px));"></video>
-            <img alt="pic" src="./static/image/medscape/p1.png"
-                style="height: 480.0px;width:660.0px;margin-top:608.0px;position: absolute;left: max(calc(1492px - 660px),calc(100% - 660px));">
-            <img alt="pic" src="./static/image/medscape/p2.png"
-                style="height: 480.0px;width:660.0px;margin-top:1152.0px;position: absolute;left: max(calc(1492px - 660px),calc(100% - 660px));">
-            <img alt="pic" src="./static/image/medscape/p3.png"
-                style="height: 480.0px;width:660.0px;margin-top:1696.0px;position: absolute;left: max(calc(1492px - 660px),calc(100% - 660px));">
+                style="margin-top:0;position: absolute;left: max(834.0px,calc(50% - 747px + 834.0px));width: max(660.0px,calc(50% - 747px + 660.0px));height: 2240.0px;">
             <div class="content">
                 <p class="title" style="margin:174.4px 0 0 198.6px;">Further Identification of Problems</p>
+                <video alt="pic" src="./static/image/medscape/current.mov" autoplay="autoplay" loop
+                    style="height: 480.0px;width:660.0px;margin-top:64.0px;position: absolute;margin-left: 834.0px;"></video>
+                <img alt="pic" src="./static/image/medscape/p1.png"
+                    style="height: 480.0px;width:660.0px;margin-top:608.0px;position: absolute;margin-left: 834.0px;">
+                <img alt="pic" src="./static/image/medscape/p2.png"
+                    style="height: 480.0px;width:660.0px;margin-top:1152.0px;position: absolute;margin-left: 834.0px;">
+                <img alt="pic" src="./static/image/medscape/p3.png"
+                    style="height: 480.0px;width:660.0px;margin-top:1696.0px;position: absolute;margin-left: 834.0px;">
                 <div class="font3"
                     style="margin:230.8px 0 0 200px;width: 543.0px;letter-spacing: 0.4px;line-height: 22.4px;">After
                     prioritizing the issues once again, we chose to follow up <p
@@ -447,6 +446,12 @@
                     the mechanics of the search that required the user to delete the first input prior to inputting
                     the
                     subsequent inputs.</p>
+                <img alt="pic" src="./static/image/medscape/aaa.png"
+                    style="width:23.0px;margin:784.4px 0 0 160.0px;position: absolute;">
+                <img alt="pic" src="./static/image/medscape/bbb.png"
+                    style="width:25.1px;margin:1339.6px 0 0 159.0px;position: absolute;">
+                <img alt="pic" src="./static/image/medscape/ccc.png"
+                    style="width:25.1px;margin:1872.2px 0 0 159.0px;position: absolute;">
             </div>
         </div>
     </div>
@@ -463,15 +468,10 @@
                     style="height:394.0px;margin:790.4px 0 0 648.0px;width: 506.0px;">
                 <img alt="pic" src="./static/image/medscape/rectt.png"
                     style="height:394.0px;margin:1216.4px 0 0 648.0px;width: 506.0px;">
-                <a href="./static/image/medscape/m1.gif" data-lightbox="image-2" data-title="Mobile Version"><img
-                        alt="pic" src="./static/image/medscape/pp1.png"
-                        style="height:394.0px;margin:364.4px 0 0 1162.0px"></a>
-                <a href="./static/image/medscape/m2.gif" data-lightbox="image-2" data-title="Mobile Version"><img
-                        alt="pic" src="./static/image/medscape/pp2.png"
-                        style="height:394.0px;margin:790.4px 0 0 1162.0px"></a>
-                <a href="./static/image/medscape/m3.gif" data-lightbox="image-2" data-title="Mobile Version"><img
-                        alt="pic" src="./static/image/medscape/pp3.png"
-                        style="height:394.0px;margin:1216.4px 0 0 1162.0px"></a>
+                <img alt="pic" src="./static/image/medscape/pp1.png" style="height:394.0px;margin:364.4px 0 0 1162.0px">
+                <img alt="pic" src="./static/image/medscape/pp2.png" style="height:394.0px;margin:790.4px 0 0 1162.0px">
+                <img alt="pic" src="./static/image/medscape/pp3.png"
+                    style="height:394.0px;margin:1216.4px 0 0 1162.0px">
                 <img alt="pic" src="./static/image/medscape/cir.png" style="height:58.3px;margin:194.2px 0 0 692.3px">
                 <img alt="pic" src="./static/image/medscape/flow1.gif"
                     style="height:394.0px;margin:364.4px 0 0 648.0px;width: 506.0px;">
@@ -615,19 +615,11 @@
         <script src="static/js/jquery.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="static/js/common.js"></script>
-        <script src="static/js/lightbox.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
             integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
             new WOW().init();
-        </script>
-        <script>
-            lightbox.option({
-                'maxWidth': 1400,
-                'wrapAround': false,
-                'positionFromTop': 100,
-            })
         </script>
         <script>
             function getPosition(element) {
@@ -709,19 +701,420 @@
 
         </script>
         <script>
-            const panels = document.querySelectorAll('.collapse-panel');
-            panels.forEach(panel => {
-                const header = panel.querySelector('.collapse-header');
-                const content = panel.querySelector('.collapse-content');
-                header.addEventListener('click', () => {
-                    if (content.style.display === 'none') {
-                        panels.forEach(p => p.querySelector('.collapse-content').style.display = 'none');
-                        content.style.display = 'block';
-                    } else {
-                        content.style.display = 'none';
-                    }
-                });
-            });
+            var cur = 0;
+            function choose1() {
+                if (cur === 0) {
+                    cur = 1
+                    $(document).ready(function () {
+                        $("#p1").animate({
+                            marginTop: "+=104.4px"
+                        }, 200);
+                        $("#p2").animate({
+                            marginTop: "+=104.4px"
+                        }, 200);
+                        $("#p3").animate({
+                            marginTop: "+=104.4px"
+                        }, 200);
+                        $("#t2").animate({
+                            marginTop: "+=104.4px"
+                        }, 200);
+                        $("#t3").animate({
+                            marginTop: "+=104.4px"
+                        }, 200);
+                        $("#pp2").animate({
+                            marginTop: "+=104.4px"
+                        }, 200);
+                        $("#pp3").animate({
+                            marginTop: "+=104.4px"
+                        }, 200);
+                        $("#pp22").animate({
+                            marginTop: "+=104.4px"
+                        }, 200);
+                        $("#pp33").animate({
+                            marginTop: "+=104.4px"
+                        }, 200);
+                        setTimeout(() => {
+                            $("#c1").animate({
+                                opacity: 1
+                            }, 200);
+                        }, 200);
+
+                    });
+                }
+                else if (cur === 1) {
+                    cur = 0
+                    $(document).ready(function () {
+                        setTimeout(() => {
+                            $("#p1").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#p2").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#p3").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#t2").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#t3").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#pp2").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#pp3").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#pp22").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#pp33").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                        }, 200);
+                        $("#c1").animate({
+                            opacity: 0
+                        }, 200);
+                    });
+                }
+                else if (cur === 2) {
+                    cur = 1
+                    $(document).ready(function () {
+                        setTimeout(() => {
+                            $("#p1").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                            $("#p2").animate({
+                                marginTop: "-=0px"
+                            }, 200);
+                            $("#p3").animate({
+                                marginTop: "-=0px"
+                            }, 200);
+                            $("#t2").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                            $("#t3").animate({
+                                marginTop: "-=0px"
+                            }, 200);
+                            $("#pp2").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                            $("#pp3").animate({
+                                marginTop: "-=0px"
+                            }, 200);
+                            $("#pp22").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                            $("#pp33").animate({
+                                marginTop: "-=0px"
+                            }, 200);
+                        }, 200);
+                        setTimeout(() => {
+                            $("#c1").animate({
+                                opacity: 1
+                            }, 200);
+                        }, 400)
+                        $("#c2").animate({
+                            opacity: 0
+                        }, 200);
+                    });
+                }
+                else if (cur === 3) {
+                    cur = 1
+                    $(document).ready(function () {
+                        setTimeout(() => {
+                            $("#p1").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                            $("#p2").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                            $("#p3").animate({
+                                marginTop: "-=26.4px"
+                            }, 200);
+                            $("#t2").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                            $("#t3").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                            $("#pp2").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                            $("#pp3").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                            $("#pp22").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                            $("#pp33").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                        }, 200);
+                        setTimeout(() => {
+                            $("#c1").animate({
+                                opacity: 1
+                            }, 200);
+                        }, 400)
+                        $("#c3").animate({
+                            opacity: 0
+                        }, 200);
+                    });
+                }
+            }
+
+            function choose2() {
+                if (cur === 0) {
+                    cur = 2
+                    $(document).ready(function () {
+                        $("#p2").animate({
+                            marginTop: "+=104.4px"
+                        }, 200);
+                        $("#p3").animate({
+                            marginTop: "+=104.4px"
+                        }, 200);
+                        $("#t3").animate({
+                            marginTop: "+=104.4px"
+                        }, 200);
+                        $("#pp3").animate({
+                            marginTop: "+=104.4px"
+                        }, 200);
+                        $("#pp33").animate({
+                            marginTop: "+=104.4px"
+                        }, 200);
+                        setTimeout(() => {
+                            $("#c2").animate({
+                                opacity: 1
+                            }, 200);
+                        }, 200);
+
+                    });
+                }
+                else if (cur === 2) {
+                    cur = 0
+                    $(document).ready(function () {
+                        setTimeout(() => {
+                            $("#p2").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#p3").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#t3").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#pp3").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#pp33").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                        }, 200);
+                        $("#c2").animate({
+                            opacity: 0
+                        }, 200);
+                    });
+                }
+                else if (cur === 1) {
+                    cur = 2
+                    $(document).ready(function () {
+                        setTimeout(() => {
+                            $("#p1").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#p2").animate({
+                                marginTop: "+=0px"
+                            }, 200);
+                            $("#p3").animate({
+                                marginTop: "+=0px"
+                            }, 200);
+                            $("#t2").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#t3").animate({
+                                marginTop: "+=0px"
+                            }, 200);
+                            $("#pp2").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#pp3").animate({
+                                marginTop: "+=0px"
+                            }, 200);
+                            $("#pp22").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#pp33").animate({
+                                marginTop: "+=0px"
+                            }, 200);
+                        }, 200);
+                        setTimeout(() => {
+                            $("#c2").animate({
+                                opacity: 1
+                            }, 200);
+                        }, 400)
+                        $("#c1").animate({
+                            opacity: 0
+                        }, 200);
+                    });
+                }
+                else if (cur === 3) {
+                    cur = 2
+                    $(document).ready(function () {
+                        setTimeout(() => {
+                            $("#p1").animate({
+                                marginTop: "-=0px"
+                            }, 200);
+                            $("#p2").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                            $("#p3").animate({
+                                marginTop: "-=26.4px"
+                            }, 200);
+                            $("#t2").animate({
+                                marginTop: "-=0px"
+                            }, 200);
+                            $("#t3").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                            $("#pp2").animate({
+                                marginTop: "-=0px"
+                            }, 200);
+                            $("#pp3").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                            $("#pp22").animate({
+                                marginTop: "-=0px"
+                            }, 200);
+                            $("#pp33").animate({
+                                marginTop: "+=104.4px"
+                            }, 200);
+                        }, 200);
+                        setTimeout(() => {
+                            $("#c2").animate({
+                                opacity: 1
+                            }, 200);
+                        }, 400)
+                        $("#c3").animate({
+                            opacity: 0
+                        }, 200);
+                    });
+                }
+            }
+
+            function choose3() {
+                if (cur === 0) {
+                    cur = 3
+                    $(document).ready(function () {
+                        $("#p3").animate({
+                            marginTop: "+=130.8px"
+                        }, 200);
+                        setTimeout(() => {
+                            $("#c3").animate({
+                                opacity: 1
+                            }, 200);
+                        }, 200);
+
+                    });
+                }
+                else if (cur === 3) {
+                    cur = 0
+                    $(document).ready(function () {
+                        setTimeout(() => {
+                            $("#p3").animate({
+                                marginTop: "-=130.8px"
+                            }, 200);
+                        }, 200);
+                        $("#c3").animate({
+                            opacity: 0
+                        }, 200);
+                    });
+                }
+                else if (cur === 1) {
+                    cur = 3
+                    $(document).ready(function () {
+                        setTimeout(() => {
+                            $("#p1").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#p2").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#p3").animate({
+                                marginTop: "+=26.4px"
+                            }, 200);
+                            $("#t2").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#t3").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#pp2").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#pp3").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#pp22").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#pp33").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                        }, 200);
+                        setTimeout(() => {
+                            $("#c3").animate({
+                                opacity: 1
+                            }, 200);
+                        }, 400)
+                        $("#c1").animate({
+                            opacity: 0
+                        }, 200);
+                    });
+                }
+                else if (cur === 2) {
+                    cur = 3
+                    $(document).ready(function () {
+                        setTimeout(() => {
+                            $("#p1").animate({
+                                marginTop: "-=0px"
+                            }, 200);
+                            $("#p2").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#p3").animate({
+                                marginTop: "+=26.4px"
+                            }, 200);
+                            $("#t2").animate({
+                                marginTop: "-=0px"
+                            }, 200);
+                            $("#t3").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#pp2").animate({
+                                marginTop: "-=0px"
+                            }, 200);
+                            $("#pp3").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                            $("#pp22").animate({
+                                marginTop: "-=0px"
+                            }, 200);
+                            $("#pp33").animate({
+                                marginTop: "-=104.4px"
+                            }, 200);
+                        }, 200);
+                        setTimeout(() => {
+                            $("#c3").animate({
+                                opacity: 1
+                            }, 200);
+                        }, 400)
+                        $("#c2").animate({
+                            opacity: 0
+                        }, 200);
+                    });
+                }
+            }
 
         </script>
 </body>
