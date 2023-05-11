@@ -49,6 +49,57 @@ $(function () {
     });
 });
 
+let med_cover = document.getElementById("med_cover")
+$(function () {
+    $(med_cover).on({
+        mouseover: function () {
+            setTimeout(() => {
+                if ($(med_cover).is(':hover')) {
+                    let l1 = document.getElementById("med_highlight")
+                    $(l1).animate({
+                        width: "418px"
+                    }, 500);
+                    med_cover.style.transform = "scale(1.2)";
+                }
+            }, 500);
+        },
+    });
+    $(med_cover).on({
+        mouseout: function () {
+            let l1 = document.getElementById("med_highlight")
+            $(l1).animate({
+                width: "0px"
+            }, 500);
+            med_cover.style.transform = "scale(1)";
+        },
+    });
+});
+let med_font = document.getElementById("med_font")
+$(function () {
+    $(med_font).on({
+        mouseover: function () {
+            setTimeout(() => {
+                if ($(med_font).is(':hover')) {
+                    let l1 = document.getElementById("med_highlight")
+                    $(l1).animate({
+                        width: "418px"
+                    }, 500);
+                    med_cover.style.transform = "scale(1.2)";
+                }
+            }, 500);
+        },
+    });
+    $(med_font).on({
+        mouseout: function () {
+            let l1 = document.getElementById("med_highlight")
+            $(l1).animate({
+                width: "0px"
+            }, 500);
+            med_cover.style.transform = "scale(1)";
+        },
+    });
+});
+
 let hive_cover = document.getElementById("hive_cover")
 $(function () {
     $(hive_cover).on({
