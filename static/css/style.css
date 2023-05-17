@@ -59,7 +59,7 @@ body {
 }
 
 .footer .font2 {
-  font-family: 'Helvetica Neue Bold', sans-serif;
+  font-family: "Helvetica Neue Bold", sans-serif;
   font-size: 16.8px;
   position: absolute;
   color: #5d5d5d;
@@ -67,18 +67,18 @@ body {
 }
 
 .footer .font3 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 14.4px;
   position: absolute;
-  color: #ACACAC;
+  color: #acacac;
 }
 
 .footer .font4 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 14.4px;
   position: absolute;
-  color: #5D5D5D;
-  line-height:20px;
+  color: #5d5d5d;
+  line-height: 20px;
 }
 
 .footer img {
@@ -117,36 +117,36 @@ p {
 }
 
 .brief .font1z {
-  font-family: 'Helvetica Neue Bold', sans-serif;
+  font-family: "Helvetica Neue Bold", sans-serif;
   font-size: 14.4px;
   position: absolute;
-  color: #1F1F1F;
+  color: #1f1f1f;
   letter-spacing: 0.2px;
 }
 
 .brief .font2z {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 14.4px;
   position: absolute;
-  color: #3B3B3B;
+  color: #3b3b3b;
   letter-spacing: 0.3px;
 }
 
 .brief .font3z {
-  font-family: 'Helvetica Neue Bold', sans-serif;
+  font-family: "Helvetica Neue Bold", sans-serif;
   font-size: 16.8px;
   position: absolute;
-  color: #1F1F1F;
+  color: #1f1f1f;
   letter-spacing: 0.3px;
 }
 
 .brief .font4z {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 16.8px;
   position: absolute;
-  color: #3B3B3B;
+  color: #3b3b3b;
   line-height: 22.4px;
-  width: 654.0px;
+  width: 654px;
   letter-spacing: 0.4px;
 }
 
@@ -221,9 +221,67 @@ p {
 }
 
 .ps .font1 {
-  font-family: 'Helvetica Neue Bold', sans-serif;
+  font-family: "Helvetica Neue Bold", sans-serif;
   font-size: 22.4px;
   position: absolute;
-  color: #ACACAC;
+  color: #acacac;
   letter-spacing: -0.1px;
 }
+
+/* .lock {
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000000;
+  min-width: 1494px;
+} */
+
+.lock {
+  background: white;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000000;
+  min-width: 260px;
+}
+
+.lock .content {
+  width: 260px;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.lock .content .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: #1f1f1f;
+  font-weight: Bold;
+  position: absolute;
+  min-width: 1494px;
+}
+
+.lock .content .font1 {
+  font-family: "Helvetica Neue Light", sans-serif;
+  font-size: 16.8px;
+  color: #1f1f1f;
+  position: absolute;
+  letter-spacing: 0.4px;
+}
+
+.password-input {
+  width: 270px;
+  margin: 360px 0 0 6px;
+  position: absolute;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #4fd733;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
