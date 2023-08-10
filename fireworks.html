@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <div class="lock" id="lock1">
+    <!-- <div class="lock" id="lock1">
         <a href="javascript:void(0);" onclick="back_main()"><img src="static/image/photo/close.png"
                 style="width: 35px;margin-top: 50px;position: absolute;right: 100px;"></a>
         <div class="content">
@@ -43,7 +43,7 @@
             <button onclick="checkPassword()"
                 style="width:270px;margin: 450px 0 0 6px;background-color:#4fd733;border: none;height: 50px;color: white;font-size: 16.8px;border-radius: 5px;">Go</button>
         </div>
-    </div>
+    </div> -->
     <div class="nav_work" id="nnn1">
         <div class="content">
             <a href="#" id="sy0">
@@ -1846,27 +1846,27 @@
         };
 
 
-        function checkPassword() {
-            var password = '5d54b4b1fb044094448b137eed0ba502ad1214b53c89c5eb90fe50d08043f85a';
-            var enteredPassword = sha256(document.getElementById("password").value.toLowerCase());
+        // function checkPassword() {
+        //     var password = '5d54b4b1fb044094448b137eed0ba502ad1214b53c89c5eb90fe50d08043f85a';
+        //     var enteredPassword = sha256(document.getElementById("password").value.toLowerCase());
 
-            if (enteredPassword === password) {
-                document.getElementById("lock1").remove();
-            } else {
-                document.getElementById("pwd_error").style.display = "block";
-                document.getElementsByClassName("password-input")[0].style.borderBottomColor = "#fc232f";
-            }
-        }
+        //     if (enteredPassword === password) {
+        //         document.getElementById("lock1").remove();
+        //     } else {
+        //         document.getElementById("pwd_error").style.display = "block";
+        //         document.getElementsByClassName("password-input")[0].style.borderBottomColor = "#fc232f";
+        //     }
+        // }
 
-        var passwordInput = document.getElementById("password");
-        passwordInput.addEventListener("input", function () {
-            document.getElementById("pwd_error").style.display = "none";
-            document.getElementsByClassName("password-input")[0].style.borderBottomColor = "#4fd733";
-        });
+        // var passwordInput = document.getElementById("password");
+        // passwordInput.addEventListener("input", function () {
+        //     document.getElementById("pwd_error").style.display = "none";
+        //     document.getElementsByClassName("password-input")[0].style.borderBottomColor = "#4fd733";
+        // });
 
-        function back_main() {
-            location.href = '/';
-        }
+        // function back_main() {
+        //     location.href = '/';
+        // }
     </script>
 </body>
 
